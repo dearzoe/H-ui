@@ -1,0 +1,301 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<LINK rel="Bookmark" href="/favicon.ico" >
+<LINK rel="Shortcut Icon" href="/favicon.ico" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="lib/html5.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+<script type="text/javascript" src="lib/PIE_IE678.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/H-ui.admin.css" />
+<link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.7/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.8/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="lib/icheck/icheck.css" />
+<link rel="stylesheet" type="text/css" href="static/h-ui.admin/skin/default/skin.css" id="skin" />
+<link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/style.css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+<title>中财保管理服务平台</title>
+<meta name="keywords" content="H-ui.admin v2.5,H-ui网站后台模版,后台模版下载,后台管理系统模版,HTML后台模版下载">
+<meta name="description" content="H-ui.admin v2.5，是一款由国人开发的轻量级扁平化网站后台模板，完全免费开源的网站后台管理系统模版，适合中小型CMS后台系统。">
+</head>
+<body>
+<header class="navbar-wrapper" style="position: relative">
+	<div class="navbar navbar-fixed-top">
+		<div class="container-fluid cl"><img src="template/picture/logo.png" alt="">
+			<div style="position: absolute;top:9px;left:327px;color: #fff;font-size: 20px">中财保管理服务平台</div>
+			<nav id="Hui-userbar" class="nav navbar-nav navbar-userbar hidden-xs" style="position: absolute;top:7px;left: 1100px;">
+				<ul class="cl">
+					<li>超级管理员</li>
+					<li class="dropDown dropDown_hover"> <a href="#" class="dropDown_A">admin <i class="Hui-iconfont">&#xe6d5;</i></a>
+						<ul class="dropDown-menu menu radius box-shadow">
+							<li><a href="#">个人信息</a></li>
+							<li><a href="#">切换账户</a></li>
+							<li><a href="#">退出</a></li>
+						</ul>
+					</li>
+					<li id="Hui-msg"> <a href="#" title="消息"><span class="badge badge-danger">1</span><i class="Hui-iconfont" style="font-size:18px">&#xe68a;</i></a> </li>
+					<li id="Hui-skin" class="dropDown right dropDown_hover"> <a href="javascript:;" class="dropDown_A" title="换肤"><i class="Hui-iconfont" style="font-size:18px">&#xe62a;</i></a>
+						<ul class="dropDown-menu menu radius box-shadow">
+							<li><a href="javascript:;" data-val="default" title="默认（黑色）">默认（黑色）</a></li>
+							<li><a href="javascript:;" data-val="blue" title="蓝色">蓝色</a></li>
+							<li><a href="javascript:;" data-val="green" title="绿色">绿色</a></li>
+							<li><a href="javascript:;" data-val="red" title="红色">红色</a></li>
+							<li><a href="javascript:;" data-val="yellow" title="黄色">黄色</a></li>
+							<li><a href="javascript:;" data-val="orange" title="绿色">橙色</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>
+
+<aside class="Hui-aside" style="margin-top: 12px">
+		<input runat="server" id="divScrollValue" type="hidden" value="" />
+		<div class="menu_dropdown bk_2">
+			<dl id="menu-system">
+				<dt><i class="Hui-iconfont">&#xe67f;</i> 系统管理</dt>
+			</dl>
+			<dl id="menu-weixin">
+				<dt><a data-href="weixin.html" data-title="微信设置" style="text-decoration: none" href="javascript:void(0)"><i class="Hui-iconfont">&#xe694;</i> 微信设置<i class="Hui-iconfont menu_dropdown-arrow" style="user-select: none">&#xe6d5;</i></a></dt>
+				<dd>
+					<ul>
+						<li><a data-href="weixin-edit.html" data-title="编辑（非授权版）" href="javascript:void(0)">编辑（非授权版）</a></li>
+						<li><a data-href="weixin-editPass.html" data-title="编辑（授权版）" href="javascript:void(0)">编辑（授权版）</a></li>
+						<li><a data-href="weixin-authorize.html" data-title="授权版" href="javascript:void(0)">授权版</a></li>
+						<li><a data-href="weixin-authorize1.html" data-title="授权版1" href="javascript:void(0)">授权版1</a></li>
+						<li><a data-href="11.html" data-title="授权版1" href="javascript:void(0)">我的</a></li>
+					</ul>
+				</dd>
+			</dl>
+			<dl id="menu-basicSeting">
+				<dt><a data-href="basisSeting.html" data-title="图片管理" style="text-decoration: none" href="javascript:void(0)"><i class="Hui-iconfont">&#xe62e;</i> 基础设置<i class="Hui-iconfont menu_dropdown-arrow" style="user-select: none">&#xe6d5;</i></a></dt>
+				<dd>
+					<ul>
+						<li><a data-href="picture-list.html" data-title="图片管理" href="javascript:void(0)">关注-自动回复</a></li>
+						<li><a data-href="picture-list.html" data-title="图片管理" href="javascript:void(0)">微信-文本回复</a></li>
+						<li><a data-href="picture-list.html" data-title="图片管理" href="javascript:void(0)">微信-图文回复</a></li>
+						<li><a data-href="picture-list.html" data-title="图片管理" href="javascript:void(0)">微信-多图文回复</a></li>
+						<li><a data-href="picture-list.html" data-title="图片管理" href="javascript:void(0)" style="white-space:nowrap;overflow: hidden;text-overflow :ellipsis;">微信-文章管理（暂不开启）</a></li>
+						<li><a data-href="picture-list.html" data-title="图片管理" href="javascript:void(0)" style="white-space:nowrap;overflow: hidden;text-overflow :ellipsis;">微信-群发消息（暂不开启）</a></li>
+						<li><a data-href="picture-list.html" data-title="图片管理" href="javascript:void(0)">自定义菜单</a></li>
+						<li><a data-href="picture-list.html" data-title="图片管理" href="javascript:void(0)">多客服管理</a></li>
+						<li><a data-href="picture-list.html" data-title="图片管理" href="javascript:void(0)">信息模块</a></li>
+						<li><a data-href="picture-list.html" data-title="图片管理" href="javascript:void(0)">信息模块分配</a></li>
+						<li><a data-href="picture-list.html" data-title="图片管理" href="javascript:void(0)">短信接口设置</a></li>
+					</ul>
+				</dd>
+			</dl>
+			<dl id="menu-register">
+				<dt><i class="Hui-iconfont">&#xe607;</i> 注册管理<i class="Hui-iconfont menu_dropdown-arrow" style="user-select: none">&#xe6d5;</i></dt>
+				<dd>
+					<ul>
+						<li><a data-href="product-brand.html" data-title="品牌管理" href="javascript:void(0)">品牌管理</a></li>
+						<li><a data-href="product-category.html" data-title="分类管理" href="javascript:void(0)">分类管理</a></li>
+						<li><a data-href="product-list.html" data-title="产品管理" href="javascript:void(0)">产品管理</a></li>
+					</ul>
+				</dd>
+			</dl>
+			<dl id="menu-power">
+				<dt><i class="Hui-iconfont">&#xe62e;</i> 权限管理<i class="Hui-iconfont menu_dropdown-arrow" style="user-select: none">&#xe6d5;</i></dt>
+				<dd>
+					<ul>
+						<li><a data-href="http://h-ui.duoshuo.com/admin/" data-title="评论列表" href="javascript:;">评论列表</a></li>
+						<li><a data-href="feedback-list.html" data-title="意见反馈" href="javascript:void(0)">意见反馈</a></li>
+					</ul>
+				</dd>
+			</dl>
+			<dl id="menu-business">
+				<dt><i class="Hui-iconfont">&#xe62c;</i> 运营管理<i class="Hui-iconfont menu_dropdown-arrow" style="user-select: none">&#xe6d5;</i></dt>
+				<dd>
+					<ul>
+						<li><a data-href="member-list.html" data-title="会员列表" href="javascript:;">会员列表</a></li>
+						<li><a data-href="member-del.html" data-title="删除的会员" href="javascript:;">删除的会员</a></li>
+						<li><a data-href="member-level.html" data-title="等级管理" href="javascript:;">等级管理</a></li>
+						<li><a data-href="member-scoreoperation.html" data-title="积分管理" href="javascript:;">积分管理</a></li>
+						<li><a data-href="member-record-browse.html" data-title="浏览记录" href="javascript:void(0)">浏览记录</a></li>
+						<li><a data-href="member-record-download.html" data-title="下载记录" href="javascript:void(0)">下载记录</a></li>
+						<li><a data-href="member-record-share.html" data-title="分享记录" href="javascript:void(0)">分享记录</a></li>
+					</ul>
+				</dd>
+			</dl>
+			<dl id="menu-ad">
+				<dt><i class="Hui-iconfont">&#xe613;</i> 广告管理（no）<i class="Hui-iconfont menu_dropdown-arrow" style="user-select: none">&#xe6d5;</i></dt>
+				<dd>
+					<ul>
+						<li><a data-href="admin-role.html" data-title="角色管理" href="javascript:void(0)">角色管理</a></li>
+						<li><a data-href="admin-permission.html" data-title="权限管理" href="javascript:void(0)">权限管理</a></li>
+						<li><a data-href="admin-list.html" data-title="管理员列表" href="javascript:void(0)">管理员列表</a></li>
+					</ul>
+				</dd>
+			</dl>
+			<dl id="menu-message">
+				<dt><i class="Hui-iconfont">&#xe68a;</i> 信息管理（no）<i class="Hui-iconfont menu_dropdown-arrow" style="user-select: none">&#xe6d5;</i></dt>
+				<dd>
+					<ul>
+						<li><a data-href="charts-1.html" data-title="折线图" href="javascript:void(0)">折线图</a></li>
+						<li><a data-href="charts-2.html" data-title="时间轴折线图" href="javascript:void(0)">时间轴折线图</a></li>
+						<li><a data-href="charts-3.html" data-title="区域图" href="javascript:void(0)">区域图</a></li>
+						<li><a data-href="charts-4.html" data-title="柱状图" href="javascript:void(0)">柱状图</a></li>
+						<li><a data-href="charts-5.html" data-title="饼状图" href="javascript:void(0)">饼状图</a></li>
+						<li><a data-href="charts-6.html" data-title="3D柱状图" href="javascript:void(0)">3D柱状图</a></li>
+						<li><a data-href="charts-7.html" data-title="3D饼状图" href="javascript:void(0)">3D饼状图</a></li>
+					</ul>
+				</dd>
+			</dl>
+			<dl id="menu-mumber">
+				<dt><i class="Hui-iconfont">&#xe602;</i> 会员管理<i class="Hui-iconfont menu_dropdown-arrow" style="user-select: none">&#xe6d5;</i></dt>
+				<dd>
+					<ul>
+						<li><a data-href="system-base.html" data-title="系统设置" href="javascript:void(0)">系统设置</a></li>
+						<li><a data-href="system-category.html" data-title="栏目管理" href="javascript:void(0)">栏目管理</a></li>
+						<li><a data-href="system-data.html" data-title="数据字典" href="javascript:void(0)">数据字典</a></li>
+						<li><a data-href="system-shielding.html" data-title="屏蔽词" href="javascript:void(0)">屏蔽词</a></li>
+						<li><a data-href="system-log.html" data-title="系统日志" href="javascript:void(0)">系统日志</a></li>
+					</ul>
+				</dd>
+			</dl>
+			<dl id="menu-push">
+				<dt><i class="Hui-iconfont">&#xe634;</i> 推送管理<i class="Hui-iconfont menu_dropdown-arrow" style="user-select: none">&#xe6d5;</i></dt>
+				<dd>
+					<ul>
+						<li><a data-href="system-base.html" data-title="系统设置" href="javascript:void(0)">系统设置</a></li>
+						<li><a data-href="system-category.html" data-title="栏目管理" href="javascript:void(0)">栏目管理</a></li>
+						<li><a data-href="system-data.html" data-title="数据字典" href="javascript:void(0)">数据字典</a></li>
+						<li><a data-href="system-shielding.html" data-title="屏蔽词" href="javascript:void(0)">屏蔽词</a></li>
+						<li><a data-href="system-log.html" data-title="系统日志" href="javascript:void(0)">系统日志</a></li>
+					</ul>
+				</dd>
+			</dl>
+			<dl id="menu-activity">
+				<dt><i class="Hui-iconfont">&#xe727;</i> 活动管理（no）<i class="Hui-iconfont menu_dropdown-arrow" style="user-select: none">&#xe6d5;</i></dt>
+				<dd>
+					<ul>
+						<li><a data-href="system-base.html" data-title="系统设置" href="javascript:void(0)">系统设置</a></li>
+						<li><a data-href="system-category.html" data-title="栏目管理" href="javascript:void(0)">栏目管理</a></li>
+						<li><a data-href="system-data.html" data-title="数据字典" href="javascript:void(0)">数据字典</a></li>
+						<li><a data-href="system-shielding.html" data-title="屏蔽词" href="javascript:void(0)">屏蔽词</a></li>
+						<li><a data-href="system-log.html" data-title="系统日志" href="javascript:void(0)">系统日志</a></li>
+					</ul>
+				</dd>
+			</dl>
+			<dl id="menu-shopModule">
+				<dt><i class="Hui-iconfont">&#xe72b;</i> 分店模块配置<i class="Hui-iconfont menu_dropdown-arrow" style="user-select: none">&#xe6d5;</i></dt>
+				<dd>
+					<ul>
+						<li><a data-href="system-base.html" data-title="系统设置" href="javascript:void(0)">系统设置</a></li>
+						<li><a data-href="system-category.html" data-title="栏目管理" href="javascript:void(0)">栏目管理</a></li>
+						<li><a data-href="system-data.html" data-title="数据字典" href="javascript:void(0)">数据字典</a></li>
+						<li><a data-href="system-shielding.html" data-title="屏蔽词" href="javascript:void(0)">屏蔽词</a></li>
+						<li><a data-href="system-log.html" data-title="系统日志" href="javascript:void(0)">系统日志</a></li>
+					</ul>
+				</dd>
+			</dl>
+		</div>
+	</aside>
+	<div class="dislpayArrow hidden-xs"><a class="pngfix" href="javascript:void(0);" onClick="displaynavbar(this)"></a></div>
+	<section class="Hui-article-box" style="margin-top: 12px">
+		<div id="Hui-tabNav" class="Hui-tabNav hidden-xs">
+			<div class="Hui-tabNav-wp">
+				<ul id="min_title_list" class="acrossTab cl">
+					<li class="active"><span title="操作台" data-href="welcome.html">操作台</span><em></em></li>
+				</ul>
+			</div>
+			<div class="Hui-tabNav-more btn-group"><a id="js-tabNav-prev" class="btn radius btn-default size-S" href="javascript:;"><i class="Hui-iconfont">&#xe6d4;</i></a><a id="js-tabNav-next" class="btn radius btn-default size-S" href="javascript:;"><i class="Hui-iconfont">&#xe6d7;</i></a></div>
+		</div>
+		<div id="iframe_box" class="Hui-article">
+			<div class="show_iframe">
+				<div style="display:none" class="loading"></div>
+				<iframe scrolling="yes" frameborder="0" src="welcome.html"></iframe>
+			</div>
+		</div>
+	</section>
+<div class="contextMenu" id="myMenu1">
+	<ul>
+		<li id="open">Open </li>
+		<li id="email">email </li>
+		<li id="save">save </li>
+		<li id="delete">delete </li>
+	</ul>
+</div>
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script> 
+<script type="text/javascript" src="lib/layer/2.1/layer.js"></script> 
+<script type="text/javascript" src="lib/jquery.contextmenu/jquery.contextmenu.r2.js"></script> 
+<script type="text/javascript" src="static/h-ui/js/H-ui.js"></script> 
+<script type="text/javascript" src="static/h-ui.admin/js/H-ui.admin.js"></script> 
+<script type="text/javascript">
+$(function(){
+	$(".Hui-tabNav-wp").contextMenu('myMenu1', {
+		bindings: {
+			'open': function(t) {
+				alert('Trigger was '+t.id+'\nAction was Open');
+			},
+			'email': function(t) {
+				alert('Trigger was '+t.id+'\nAction was Email');
+			},
+			'save': function(t) {
+				alert('Trigger was '+t.id+'\nAction was Save');
+			},
+			'delete': function(t) {
+				alert('Trigger was '+t.id+'\nAction was Delete')
+			}
+		}
+	});
+});
+/*资讯-添加*/
+function article_add(title,url){
+	var index = layer.open({
+		type: 2,
+		title: title,
+		content: url
+	});
+	layer.full(index);
+}
+/*图片-添加*/
+function picture_add(title,url){
+	var index = layer.open({
+		type: 2,
+		title: title,
+		content: url
+	});
+	layer.full(index);
+}
+/*产品-添加*/
+function product_add(title,url){
+	var index = layer.open({
+		type: 2,
+		title: title,
+		content: url
+	});
+	layer.full(index);
+}
+/*用户-添加*/
+function member_add(title,url,w,h){
+	layer_show(title,url,w,h);
+}
+</script> 
+
+<!--此乃百度统计代码，请自行删除-->
+<script type="text/javascript">
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?080836300300be57b7f34f4b3e97d911";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s)})();
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F080836300300be57b7f34f4b3e97d911' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!--/此乃百度统计代码，请自行删除-->
+</body>
+</html>

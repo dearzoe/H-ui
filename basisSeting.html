@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="lib/html5.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+<script type="text/javascript" src="lib/PIE_IE678.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/H-ui.admin.css" />
+<link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.7/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="lib/icheck/icheck.css" />
+<link rel="stylesheet" type="text/css" href="static/h-ui.admin/skin/default/skin.css" id="skin" />
+<link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/style.css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+<title>折线图</title>
+</head>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 基础设置 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="page-container">
+	<div style="position: relative">
+		<img class="avatar size-XXL radius" src="http://static.h-ui.net/h-ui/images/ucnter/avatar-default.jpg" alt="响应式图片">
+        <span class="weixinName" style="font-size: 25px;position: absolute;left: 110px;">PICC服务平台</span>
+        <span style="position: absolute;top: 50px;left: 110px">微信号：<span class="weixinId">PICC</span></span>
+		<table class="table table-border table-bg table-bordered">
+			<thead>
+			<tr><th width="20%">请求数</th><th>999</th></tr>
+			</thead>
+			<tbody>
+			<tr class="warning"><th>会员卡</th><td>500</td></tr>
+			<tr class="active"><th>分店</th><td>93</td></tr>
+			</tbody>
+		</table>
+	</div>
+	<div id="container" style="min-width:700px;height:400px"></div>
+	<div>
+		<div class="col-lg-6" id="containerPie" style="max-width:500px;height:400px;float: left"></div>
+		<div class="col-lg-6" id="containerPie2" style="max-width:500px;height:400px;float: left"></div>
+	</div>
+</div>
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script> 
+<script type="text/javascript" src="lib/layer/2.1/layer.js"></script>
+<script type="text/javascript" src="static/h-ui/js/H-ui.js"></script> 
+<script type="text/javascript" src="static/h-ui.admin/js/H-ui.admin.js"></script>
+<script type="text/javascript" src="lib/Highcharts/4.1.7/js/highcharts.js"></script>
+<script type="text/javascript" src="lib/Highcharts/4.1.7/js/modules/exporting.js"></script>
+<script type="text/javascript">
+$(function () {
+    $('#container').highcharts({
+        title: {
+            text: '数据统计',
+            x: -20 //center
+        },
+        subtitle: {
+            text: '本月关注和文本请求数据统计',
+            x: -20
+        },
+        xAxis: {
+            categories: ['', '2日', '', '3日', '', '4日','', '5日', '', '6日', '', '7日']
+        },
+        yAxis: {
+            title: {
+                text: '数值'
+            },
+            plotLines: [{
+                value: 0,
+                width: 1,
+                color: '#808080'
+            }]
+        },
+        tooltip: {
+            valueSuffix: '个'
+        },
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle',
+            borderWidth: 0
+        },
+        series: [{
+            name: '文本请求',
+            data: [7.0, 6.9, 9.5, 14.5, 18.2, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6]
+        }, {
+            name: '关注数',
+            data: [2.0, 0.8, 5.7, 11.3, 17.0, 22.0, 24.8, 24.1, 20.1, 14.1, 8.6, 2.5]
+        }]
+    });
+    $('#containerPie').highcharts({
+        chart: {
+            plotBackgroundColor: null,
+            plotBorderWidth: null,
+            plotShadow: false
+        },
+        title: {
+            text: '会员7日内行为分析'
+        },
+        plotOptions: {
+            pie: {
+                allowPointSelect: true,
+                cursor: 'pointer',
+                dataLabels: {
+                    enabled: true,
+                    color: '#000000',
+                    connectorColor: '#000000',
+                    format: '<b>{point.name}</b>: {point.percentage:.1f} %'
+                }
+            }
+        },
+        series: [{
+            type: 'pie',
+            name: '占百分比',
+            data: [
+                ['收藏',   45.0],
+                ['关注',       26.8],
+                {
+                    name: '分享',
+                    y: 12.8,
+                    sliced: true,
+                    selected: true
+                },
+                ['取消',    8.5],
+                ['推荐',     6.2],
+                ['屏蔽',   0.7]
+            ]
+        }]
+    });
+    $('#containerPie2').highcharts({
+        chart: {
+            plotBackgroundColor: null,
+            plotBorderWidth: null,
+            plotShadow: false
+        },
+        title: {
+            text: '会员性别统计'
+        },
+        tooltip: {
+            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+        },
+        plotOptions: {
+            pie: {
+                allowPointSelect: true,
+                cursor: 'pointer',
+                dataLabels: {
+                    enabled: true,
+                    color: '#000000',
+                    connectorColor: '#000000',
+                    format: '<b>{point.name}</b>: {point.percentage:.1f} %'
+                }
+            }
+        },
+        series: [{
+            type: 'pie',
+            name: '占百分比',
+            data: [
+                ['女',51.0],
+                ['男',49.0]
+            ]
+        }]
+    });
+});
+</script>
+</body>
+</html>
