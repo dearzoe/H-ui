@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="6a3fc816-f8e1-4f66-86d1-326f0b8920f9" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/11.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awardRecord.html" afterPath="$PROJECT_DIR$/awardRecord.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basis-txtAdd.html" afterPath="$PROJECT_DIR$/basis-txtAdd.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basis-weixinPicReply.html" afterPath="$PROJECT_DIR$/basis-weixinPicReply.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basis-weixinTxtReply.html" afterPath="$PROJECT_DIR$/basis-weixinTxtReply.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commitRecord.html" afterPath="$PROJECT_DIR$/commitRecord.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin-edit.html" afterPath="$PROJECT_DIR$/weixin-edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin-editPass.html" afterPath="$PROJECT_DIR$/weixin-editPass.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,11 +39,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="weixin-edit.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weixin-edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="30" column="148" lean-forward="false" selection-start-line="30" selection-start-column="148" selection-end-line="30" selection-end-column="148" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="weixin-editPass.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weixin-editPass.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="31" column="146" lean-forward="false" selection-start-line="31" selection-start-column="146" selection-end-line="31" selection-end-column="146" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="basis-weixinPicReply.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basis-weixinPicReply.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="46" column="635" lean-forward="false" selection-start-line="46" selection-start-column="635" selection-end-line="46" selection-end-column="635" />
+            <state relative-caret-position="-286">
+              <caret line="53" column="110" lean-forward="false" selection-start-line="53" selection-start-column="110" selection-end-line="53" selection-end-column="110" />
               <folding />
             </state>
           </provider>
@@ -49,27 +72,32 @@
       <file leaf-file-name="commitRecord.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/commitRecord.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="38" column="37" lean-forward="false" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+            <state relative-caret-position="92">
+              <caret line="165" column="27" lean-forward="true" selection-start-line="165" selection-start-column="27" selection-end-line="165" selection-end-column="27" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#1;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#2;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1482426789078" expanded="true" signature="6857:6877" ph="..." />
-                <marker date="1482426789078" expanded="true" signature="6967:6975" ph="..." />
-                <marker date="1482426789078" expanded="true" signature="7303:7323" ph="..." />
-                <marker date="1482426789078" expanded="true" signature="7414:7422" ph="..." />
+                <element signature="n#style#0;n#a#0;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#2;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1482503209655" expanded="true" signature="7850:7870" ph="..." />
+                <marker date="1482503209655" expanded="true" signature="7960:7968" ph="..." />
+                <marker date="1482503209655" expanded="true" signature="8317:8337" ph="..." />
+                <marker date="1482503209655" expanded="true" signature="8428:8436" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="basis-weixinTxtReply.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basis-weixinTxtReply.html">
+      <file leaf-file-name="basis-txtAdd.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basis-txtAdd.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="26" column="148" lean-forward="false" selection-start-line="26" selection-start-column="148" selection-end-line="26" selection-end-column="148" />
-              <folding />
+            <state relative-caret-position="431">
+              <caret line="70" column="137" lean-forward="false" selection-start-line="70" selection-start-column="137" selection-end-line="70" selection-end-column="137" />
+              <folding>
+                <marker date="1482500096936" expanded="true" signature="6193:6201" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,7 +105,7 @@
       <file leaf-file-name="basisSeting.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basisSeting.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-154">
+            <state relative-caret-position="506">
               <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -90,7 +118,7 @@
       <file leaf-file-name="basis-followAutoReply.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basis-followAutoReply.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="704">
               <caret line="32" column="148" lean-forward="false" selection-start-line="32" selection-start-column="148" selection-end-line="32" selection-end-column="148" />
               <folding>
                 <marker date="1482420519322" expanded="true" signature="5214:5222" ph="..." />
@@ -102,21 +130,11 @@
       <file leaf-file-name="awardRecord.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/awardRecord.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="968">
               <caret line="44" column="24" lean-forward="true" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="42" />
               <folding>
                 <element signature="e#1427#1431#1" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="weixin.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weixin.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="60" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -132,6 +150,9 @@
       <find>取消精选</find>
       <find>default</find>
       <find>product_stop</find>
+      <find>product_add</find>
+      <find>product_start</find>
+      <find>product_all</find>
     </findStrings>
     <replaceStrings>
       <replace>取消精选</replace>
@@ -148,9 +169,12 @@
         <option value="$PROJECT_DIR$/11.html" />
         <option value="$PROJECT_DIR$/basis-picAdd.html" />
         <option value="$PROJECT_DIR$/basisSeting.html" />
-        <option value="$PROJECT_DIR$/basis-weixinTxtReply.html" />
         <option value="$PROJECT_DIR$/basis-followAutoReply.html" />
         <option value="$PROJECT_DIR$/awardRecord.html" />
+        <option value="$PROJECT_DIR$/weixin-edit.html" />
+        <option value="$PROJECT_DIR$/weixin-editPass.html" />
+        <option value="$PROJECT_DIR$/basis-txtAdd.html" />
+        <option value="$PROJECT_DIR$/basis-weixinTxtReply.html" />
         <option value="$PROJECT_DIR$/basis-weixinPicReply.html" />
         <option value="$PROJECT_DIR$/commitRecord.html" />
       </list>
@@ -183,8 +207,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -199,6 +221,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,32 +254,33 @@
       <updated>1482160154205</updated>
       <workItem from="1482160157129" duration="908000" />
       <workItem from="1482414888847" duration="10656000" />
+      <workItem from="1482499807459" duration="3534000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11564000" />
+    <option name="totallyTimeSpent" value="15098000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +296,88 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1672">
+          <caret line="76" column="25" lean-forward="false" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basis-weixinPicReply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="46" column="635" lean-forward="false" selection-start-line="46" selection-start-column="635" selection-end-line="46" selection-end-column="635" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commitRecord.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1482503209655" expanded="true" signature="7850:7870" ph="..." />
+            <marker date="1482503209655" expanded="true" signature="7960:7968" ph="..." />
+            <marker date="1482503209655" expanded="true" signature="8317:8337" ph="..." />
+            <marker date="1482503209655" expanded="true" signature="8428:8436" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basis-weixinTxtReply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="148" lean-forward="false" selection-start-line="26" selection-start-column="148" selection-end-line="26" selection-end-column="148" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basisSeting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basis-followAutoReply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="32" column="148" lean-forward="false" selection-start-line="32" selection-start-column="148" selection-end-line="32" selection-end-column="148" />
+          <folding>
+            <marker date="1482420519322" expanded="true" signature="5214:5222" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/awardRecord.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="44" column="24" lean-forward="true" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="42" />
+          <folding>
+            <element signature="e#1427#1431#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -280,7 +387,7 @@
     <entry file="file://$PROJECT_DIR$/11.html" />
     <entry file="file://$PROJECT_DIR$/weixin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="1012">
           <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="60" />
           <folding />
         </state>
@@ -290,8 +397,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1144">
           <caret line="156" column="137" lean-forward="false" selection-start-line="156" selection-start-column="137" selection-end-line="156" selection-end-column="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basisSeting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
           <folding>
-            <marker date="1482414993035" expanded="true" signature="10311:10319" ph="..." />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basis-followAutoReply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="32" column="148" lean-forward="false" selection-start-line="32" selection-start-column="148" selection-end-line="32" selection-end-column="148" />
+          <folding>
+            <marker date="1482420519322" expanded="true" signature="5214:5222" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/awardRecord.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="44" column="24" lean-forward="true" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="42" />
+          <folding>
+            <element signature="e#1427#1431#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -304,65 +439,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basisSeting.html">
+    <entry file="file://$PROJECT_DIR$/weixin-edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-154">
-          <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="352">
+          <caret line="30" column="148" lean-forward="false" selection-start-line="30" selection-start-column="148" selection-end-line="30" selection-end-column="148" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin-editPass.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="146" lean-forward="false" selection-start-line="31" selection-start-column="146" selection-end-line="31" selection-end-column="146" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basis-txtAdd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="70" column="137" lean-forward="false" selection-start-line="70" selection-start-column="137" selection-end-line="70" selection-end-column="137" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1482500096936" expanded="true" signature="6193:6201" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basis-weixinTxtReply.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="26" column="148" lean-forward="false" selection-start-line="26" selection-start-column="148" selection-end-line="26" selection-end-column="148" />
+        <state relative-caret-position="220">
+          <caret line="48" column="120" lean-forward="false" selection-start-line="48" selection-start-column="120" selection-end-line="48" selection-end-column="120" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basis-followAutoReply.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="32" column="148" lean-forward="false" selection-start-line="32" selection-start-column="148" selection-end-line="32" selection-end-column="148" />
-          <folding>
-            <marker date="1482420519322" expanded="true" signature="5214:5222" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basis-weixinPicReply.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="46" column="635" lean-forward="false" selection-start-line="46" selection-start-column="635" selection-end-line="46" selection-end-column="635" />
+        <state relative-caret-position="-286">
+          <caret line="53" column="110" lean-forward="false" selection-start-line="53" selection-start-column="110" selection-end-line="53" selection-end-column="110" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awardRecord.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="44" column="24" lean-forward="true" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="42" />
-          <folding>
-            <element signature="e#1427#1431#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/commitRecord.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="38" column="37" lean-forward="false" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+        <state relative-caret-position="92">
+          <caret line="165" column="27" lean-forward="true" selection-start-line="165" selection-start-column="27" selection-end-line="165" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#a#0;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#2;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1482426789078" expanded="true" signature="6857:6877" ph="..." />
-            <marker date="1482426789078" expanded="true" signature="6967:6975" ph="..." />
-            <marker date="1482426789078" expanded="true" signature="7303:7323" ph="..." />
-            <marker date="1482426789078" expanded="true" signature="7414:7422" ph="..." />
+            <element signature="n#style#0;n#a#0;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1482503209655" expanded="true" signature="7850:7870" ph="..." />
+            <marker date="1482503209655" expanded="true" signature="7960:7968" ph="..." />
+            <marker date="1482503209655" expanded="true" signature="8317:8337" ph="..." />
+            <marker date="1482503209655" expanded="true" signature="8428:8436" ph="..." />
           </folding>
         </state>
       </provider>
