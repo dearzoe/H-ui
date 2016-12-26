@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a3fc816-f8e1-4f66-86d1-326f0b8920f9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addPic.html" afterPath="$PROJECT_DIR$/addPic.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basis-weixinMorePicReply.html" afterPath="$PROJECT_DIR$/basis-weixinMorePicReply.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commitRecord.html" afterPath="$PROJECT_DIR$/commitRecord.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,17 +27,32 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1012">
-              <caret line="86" column="62" lean-forward="false" selection-start-line="86" selection-start-column="62" selection-end-line="86" selection-end-column="62" />
+            <state relative-caret-position="286">
+              <caret line="87" column="119" lean-forward="false" selection-start-line="87" selection-start-column="119" selection-end-line="87" selection-end-column="119" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="basis-weixinMorePicReply.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="basis-voiceReply.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basis-voiceReply.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="28" column="103" lean-forward="false" selection-start-line="28" selection-start-column="103" selection-end-line="28" selection-end-column="103" />
+              <folding>
+                <marker date="1482770803796" expanded="true" signature="5843:5863" ph="..." />
+                <marker date="1482770803796" expanded="true" signature="5953:5961" ph="..." />
+                <marker date="1482770803796" expanded="true" signature="6289:6309" ph="..." />
+                <marker date="1482770803796" expanded="true" signature="6398:6406" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basis-weixinMorePicReply.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basis-weixinMorePicReply.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
+            <state relative-caret-position="1654">
               <caret line="124" column="37" lean-forward="false" selection-start-line="124" selection-start-column="37" selection-end-line="124" selection-end-column="37" />
               <folding>
                 <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -61,6 +76,27 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="commitRecord.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commitRecord.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="219" column="0" lean-forward="true" selection-start-line="219" selection-start-column="0" selection-end-line="225" selection-end-column="1" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#2;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#2;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1482770546778" expanded="true" signature="8018:8038" ph="..." />
+                <marker date="1482770546778" expanded="true" signature="8128:8136" ph="..." />
+                <marker date="1482770546778" expanded="true" signature="8485:8505" ph="..." />
+                <marker date="1482770546778" expanded="true" signature="8596:8604" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -77,8 +113,6 @@
       <find>picture_del</find>
       <find>datadel</find>
       <find>product_all</find>
-      <find>delete_all</find>
-      <find>product_del</find>
       <find>form-article-add</find>
       <find>layer_close</find>
       <find>baiduMap</find>
@@ -87,6 +121,8 @@
       <find>temp/brand/2.jpg</find>
       <find>article_del</find>
       <find>table-sort</find>
+      <find>delete_all</find>
+      <find>product_del</find>
     </findStrings>
     <replaceStrings>
       <replace>取消精选</replace>
@@ -109,11 +145,12 @@
         <option value="$PROJECT_DIR$/basis-txtAdd.html" />
         <option value="$PROJECT_DIR$/basis-weixinTxtReply.html" />
         <option value="$PROJECT_DIR$/basis-weixinPicReply.html" />
-        <option value="$PROJECT_DIR$/commitRecord.html" />
         <option value="$PROJECT_DIR$/basis-MorePicReply.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/addPic.html" />
         <option value="$PROJECT_DIR$/basis-weixinMorePicReply.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/commitRecord.html" />
+        <option value="$PROJECT_DIR$/basis-voiceReply.html" />
       </list>
     </option>
   </component>
@@ -244,15 +281,15 @@
       <workItem from="1482160157129" duration="908000" />
       <workItem from="1482414888847" duration="10656000" />
       <workItem from="1482499807459" duration="4143000" />
-      <workItem from="1482754645390" duration="11051000" />
+      <workItem from="1482754645390" duration="12444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26758000" />
+    <option name="totallyTimeSpent" value="28151000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17113096" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -327,10 +364,10 @@
             <element signature="n#style#0;n#a#0;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#2;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1482755777649" expanded="true" signature="8016:8036" ph="..." />
-            <marker date="1482755777649" expanded="true" signature="8126:8134" ph="..." />
-            <marker date="1482755777649" expanded="true" signature="8483:8503" ph="..." />
-            <marker date="1482755777649" expanded="true" signature="8594:8602" ph="..." />
+            <marker date="1482770546778" expanded="true" signature="8018:8038" ph="..." />
+            <marker date="1482770546778" expanded="true" signature="8128:8136" ph="..." />
+            <marker date="1482770546778" expanded="true" signature="8485:8505" ph="..." />
+            <marker date="1482770546778" expanded="true" signature="8596:8604" ph="..." />
           </folding>
         </state>
       </provider>
@@ -403,10 +440,10 @@
             <element signature="n#style#0;n#a#0;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#2;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1482755777649" expanded="true" signature="8016:8036" ph="..." />
-            <marker date="1482755777649" expanded="true" signature="8126:8134" ph="..." />
-            <marker date="1482755777649" expanded="true" signature="8483:8503" ph="..." />
-            <marker date="1482755777649" expanded="true" signature="8594:8602" ph="..." />
+            <marker date="1482770546778" expanded="true" signature="8018:8038" ph="..." />
+            <marker date="1482770546778" expanded="true" signature="8128:8136" ph="..." />
+            <marker date="1482770546778" expanded="true" signature="8485:8505" ph="..." />
+            <marker date="1482770546778" expanded="true" signature="8596:8604" ph="..." />
           </folding>
         </state>
       </provider>
@@ -524,25 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commitRecord.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="67" column="384" lean-forward="false" selection-start-line="67" selection-start-column="384" selection-end-line="67" selection-end-column="384" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#2;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#2;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1482755777649" expanded="true" signature="8016:8036" ph="..." />
-            <marker date="1482755777649" expanded="true" signature="8126:8134" ph="..." />
-            <marker date="1482755777649" expanded="true" signature="8483:8503" ph="..." />
-            <marker date="1482755777649" expanded="true" signature="8594:8602" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basis-MorePicReply.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-66">
@@ -558,14 +576,6 @@
           <folding>
             <element signature="e#1427#1431#1" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="86" column="62" lean-forward="false" selection-start-line="86" selection-start-column="62" selection-end-line="86" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -636,15 +646,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="87" column="119" lean-forward="false" selection-start-line="87" selection-start-column="119" selection-end-line="87" selection-end-column="119" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/basis-weixinMorePicReply.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
+        <state relative-caret-position="1654">
           <caret line="124" column="37" lean-forward="false" selection-start-line="124" selection-start-column="37" selection-end-line="124" selection-end-column="37" />
           <folding>
             <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#label#0;n#div#2;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#3867#3873#0" expanded="true" />
             <element signature="e#4270#4276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commitRecord.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="219" column="0" lean-forward="true" selection-start-line="219" selection-start-column="0" selection-end-line="225" selection-end-column="1" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1482770546778" expanded="true" signature="8018:8038" ph="..." />
+            <marker date="1482770546778" expanded="true" signature="8128:8136" ph="..." />
+            <marker date="1482770546778" expanded="true" signature="8485:8505" ph="..." />
+            <marker date="1482770546778" expanded="true" signature="8596:8604" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basis-voiceReply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="28" column="103" lean-forward="false" selection-start-line="28" selection-start-column="103" selection-end-line="28" selection-end-column="103" />
+          <folding>
+            <marker date="1482770803796" expanded="true" signature="5843:5863" ph="..." />
+            <marker date="1482770803796" expanded="true" signature="5953:5961" ph="..." />
+            <marker date="1482770803796" expanded="true" signature="6289:6309" ph="..." />
+            <marker date="1482770803796" expanded="true" signature="6398:6406" ph="..." />
           </folding>
         </state>
       </provider>
