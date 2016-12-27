@@ -6,6 +6,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
 <meta http-equiv="Cache-Control" content="no-siteapp" />
+<!--播放器-->
+<link rel="stylesheet" href="bofq/css/_reset.css" />
+<link rel="stylesheet" href="bofq/css/main.css" />
+<link rel="stylesheet" href="bofq/css/css?family=Advent+Pro">
 <!--[if lt IE 9]>
 <script type="text/javascript" src="lib/html5.js"></script>
 <script type="text/javascript" src="lib/respond.min.js"></script>
@@ -26,12 +30,12 @@
 <body>
 <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 基础设置 <span class="c-gray en">&gt;</span> 微信-语音回复 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
 <div class="page-container">
-	<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="delete_all()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a class="btn btn-primary radius" data-title="添加资讯" _href="article-add.html" onclick="Hui_admin_tab(this)" href="javascript:;"><i class="Hui-iconfont">&#xe60f;</i> 新增语音回复 </a></span></div>
+	<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="delete_all()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a class="btn btn-primary radius" data-title="新增语音回复" _href="article-add.html" onclick="Hui_admin_tab(this)" href="javascript:;"><i class="Hui-iconfont">&#xe60f;</i> 新增语音回复 </a></span></div>
 	<div class="mt-20">
 		<table class="table table-border table-bordered table-bg table-hover table-sort">
 			<thead>
 				<tr class="text-c">
-					<th width="25"><input name="ping" type="checkbox" name="" value=""></th>
+					<th width="25"><input type="checkbox"  value=""></th>
 					<th width="80">关键词</th>
 					<th width="80">标题</th>
 					<th width="200">试听</th>
@@ -41,20 +45,32 @@
 			</thead>
 			<tbody>
 				<tr class="text-c">
-					<td><input name="ping" type="checkbox" value="" name=""></td>
+					<td><input name="ping" type="checkbox" value="" ></td>
 					<td>测试</td>
 					<td>行业动态</td>
-					<td></td>
+					<td>
+						<audio preload="auto" controls>
+							<source src="bofq/audio.mp3" />
+							<source src="bofq/audio.ogg" />
+							<source src="bofq/audio.wav" />
+						</audio>
+					</td>
 					<td>2014-6-11 11:11:42</td>
-					<td class="f-14 td-manage"><a style="text-decoration:none" class="ml-5" onClick="article_edit('资讯编辑','article-add.html','10001')" href="javascript:;" title="编辑"><i class="Hui-iconfont">&#xe6df;</i></a> <a style="text-decoration:none" class="ml-5" onClick="article_del(this,'10001')" href="javascript:;" title="删除"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+					<td class="f-14 td-manage"><a style="text-decoration:none" class="ml-5" onClick="article_edit('编辑语音回复内容','voiceEdit.html','10001')" href="javascript:;" title="编辑"><i class="Hui-iconfont">&#xe6df;</i></a> <a style="text-decoration:none" class="ml-5" onClick="article_del(this,'10001')" href="javascript:;" title="删除"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
 				</tr>
 				<tr class="text-c">
-					<td><input name="ping" type="checkbox" value="" name=""></td>
+					<td><input name="ping" type="checkbox" value=""></td>
 					<td>测试</td>
 					<td>行业动态</td>
-					<td></td>
+					<td>
+						<audio preload="auto" controls>
+							<source src="bofq/audio.mp3" />
+							<source src="bofq/audio.ogg" />
+							<source src="bofq/audio.wav" />
+						</audio>
+					</td>
 					<td>2014-6-11 11:11:42</td>
-					<td class="f-14 td-manage"><a style="text-decoration:none" class="ml-5" onClick="article_edit('资讯编辑','article-add.html','10001')" href="javascript:;" title="编辑"><i class="Hui-iconfont">&#xe6df;</i></a> <a style="text-decoration:none" class="ml-5" onClick="article_del(this,'10001')" href="javascript:;" title="删除"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+					<td class="f-14 td-manage"><a style="text-decoration:none" class="ml-5" onClick="article_edit('编辑语音回复内容','voiceEdit.html','10001')" href="javascript:;" title="编辑"><i class="Hui-iconfont">&#xe6df;</i></a> <a style="text-decoration:none" class="ml-5" onClick="article_del(this,'10001')" href="javascript:;" title="删除"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
 				</tr>
 			</tbody>
 		</table>
@@ -66,7 +82,16 @@
 <script type="text/javascript" src="lib/datatables/1.10.0/jquery.dataTables.min.js"></script> 
 <script type="text/javascript" src="static/h-ui/js/H-ui.js"></script> 
 <script type="text/javascript" src="static/h-ui.admin/js/H-ui.admin.js"></script>
+
+<!--播放器-->
+<script src="bofq/js/main.js"></script>
+<script src="bofq/js/audioplayer.js"></script>
 <script type="text/javascript">
+	/*播放器*/
+    $( function()
+    {
+        $(".autoPlay").find( 'audio' ).audioPlayer();
+    });
 $('.table-sort').dataTable({
 	"aaSorting": [[ 1, "desc" ]],//默认第几个排序
 	"bStateSave": true,//状态保存
@@ -78,8 +103,13 @@ $('.table-sort').dataTable({
 
 /*批量删除*/
 function delete_all(){
-    var obj=$("input[name='ping']:checked").parents("td").siblings(".td-manage").find(".td-manage-a");
-    article_del(obj,'10001')
+    var obj=$("input[name='ping']:checked");
+    if(obj["0"]!=="undefined"){
+        article_del(obj,'10001')
+	}else{
+        return
+	}
+
 }
 /*资讯-添加*/
 function article_add(title,url,w,h){
@@ -152,6 +182,8 @@ function article_shenqing(obj,id){
 	layer.msg('已提交申请，耐心等待审核!', {icon: 1,time:2000});
 }
 
-</script> 
+</script>
+
+
 </body>
 </html>
