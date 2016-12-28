@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="tableid">COPY</div>
+<script>
+    function method1(tableid) {
+        var curTbl = document.getElementById("tableid");
+        var oXL = new ActiveXObject("Excel.Application");
+        var oWB = oXL.Workbooks.Add();
+        var oSheet = oWB.ActiveSheet;
+        var sel = document.body.createTextRange();
+        con
+        sel.moveToElementText(curTbl);
+        sel.select();
+        sel.execCommand("Copy");
+        oSheet.Paste();
+        oXL.Visible = true;
+
+    }
+</script>
+</body>
+</html>
