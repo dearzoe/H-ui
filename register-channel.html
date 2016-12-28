@@ -1,0 +1,334 @@
+<!--_meta 作为公共模版分离出去-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<LINK rel="Bookmark" href="/favicon.ico" >
+<LINK rel="Shortcut Icon" href="/favicon.ico" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="lib/html5.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+<script type="text/javascript" src="lib/PIE_IE678.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/H-ui.admin.css" />
+<link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.7/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="lib/icheck/icheck.css" />
+<link rel="stylesheet" type="text/css" href="static/h-ui.admin/skin/default/skin.css" id="skin" />
+<link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/style.css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+<!--/meta 作为公共模版分离出去-->
+
+<title>文本回复编辑</title>
+<link href="lib/webuploader/0.1.5/webuploader.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 注册管理 <span class="c-gray en">&gt;</span> 注册渠道 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="page-container">
+	<form class="form form-horizontal" id="form-article-add">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">所属公司：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<span class="c-succes">中国人民财产保险股份有限公司 <img style="width:29px;height: 13px" src="temp/brand/u1602.png" alt=""></span>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">所属区域：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<div class="select-box" style="width: 600px">
+					<select class="select" size="1" name="demo1">
+						<option value="请选择" selected> 请选择 </option>
+						<option value="东北地区">东北地区</option>
+						<option value="华北地区">华北地区</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">所属城市：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<div id="province"></div>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">一级公司：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<div class="select-box" style="width: 600px">
+					<select class="select" size="1" name="demo1">
+						<option value="请选择" selected> 请选择 </option>
+						<option value="北京市分公司">北京市分公司</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">所在地址：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input style="width: 600px" type="text" class="input-text" value="" placeholder="" id="basis_pic_title" name="">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">二级公司：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<div class="select-box" style="width: 600px">
+					<select class="select" size="1" name="demo1">
+						<option value="请选择" selected> 请选择 </option>
+						<option value="北京市分公司">北京市分公司</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">所在地址：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input style="width: 600px" type="text" class="input-text" value="" placeholder="" id="basis_pic_title" name="">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">三级公司：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<div class="select-box" style="width: 600px">
+					<select class="select" size="1" name="demo1">
+						<option value="请选择" selected> 请选择 </option>
+						<option value="北京市分公司">北京市分公司</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">所在地址：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input style="width: 600px" type="text" class="input-text" value="" placeholder="" id="basis_pic_title" name="">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">所属部门：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input style="width: 600px" type="text" class="input-text" value="" placeholder="" id="basis_pic_title" name="">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">部门经理：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input style="width: 600px" type="text" class="input-text" value="" placeholder="" id="basis_pic_title" name="">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">经理电话：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input style="width: 600px" type="text" class="input-text" value="" placeholder="" id="basis_pic_title" name="">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">渠道类别：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<div class="select-box" style="width: 600px">
+					<select class="select" size="1" name="demo1">
+						<option value="请选择" selected> 请选择 </option>
+						<option value="4S店">4S店</option>
+						<option value="修理厂">修理厂</option>
+						<option value="社区">社区</option>
+						<option value="职场">职场</option>
+						<option value="第三方平台">第三方平台</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">汽车品牌：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<div class="select-box" style="width: 600px">
+					<select class="select" size="1" name="demo1">
+						<option value="请选择" selected> 请选择 </option>
+						<option value="宝马">宝马（德国）</option>
+						<option value="奔驰">奔驰（德国）</option>
+						<option value="奥迪">奥迪（德国）</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">渠道名称：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input style="width: 600px" type="text" class="input-text" value="" placeholder="" id="basis_pic_title" name="">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">渠道地址：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input style="width: 600px" type="text" class="input-text" value="" placeholder="" id="basis_pic_title" name="">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">联系电话：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input style="width: 100px" type="text" class="input-text" value="" placeholder=""  name=""> -
+				<input style="width: 200px" type="text" class="input-text" value="" placeholder=""  name=""> -
+				<input style="width: 100px" type="text" class="input-text" value="" placeholder=""  name="">
+				<span class="c-red">区号—固话—分机（没有分机可不填）</span>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">负责人：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input style="width: 600px" type="text" class="input-text" value="" placeholder="" id="basis_pic_title" name="">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">负责人电话：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input style="width: 600px" type="text" class="input-text" value="" placeholder="" id="basis_pic_title" name="">
+			</div>
+		</div>
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
+				<button onClick="article_save();" class="btn btn-secondary radius" type="button"><i class="Hui-iconfont">&#xe604;</i> 确认添加 </button>
+			</div>
+		</div>
+	</form>
+	<div class="mt-20">
+		<table class="table table-border table-bordered table-bg table-hover table-sort">
+			<thead>
+			<tr class="text-c">
+				<th>序号</th>
+				<th>区域</th>
+				<th>省</th>
+				<th>市</th>
+				<th>区</th>
+				<th>一级公司</th>
+				<th>所在地址</th>
+				<th>二级公司</th>
+				<th>所在地址</th>
+				<th>三级公司</th>
+				<th>所在地址</th>
+				<th>归属部门</th>
+				<th>部门经理</th>
+				<th>经理电话</th>
+				<th>品牌</th>
+				<th>4S店名称</th>
+				<th>4S店地址</th>
+				<th>4S店电话</th>
+				<th>负责人</th>
+				<th>负责人电话</th>
+				<th>状态</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr class="text-c">
+				<td>1</td>
+				<td class="text-c">东北地区</td>
+				<td class="text-c">北京</td>
+				<td class="text-c">北京</td>
+				<td class="text-c">东城</td>
+				<td class="text-c">北京市分公司</td>
+				<td class="text-c">北京市</td>
+				<td class="text-c">东城支公司</td>
+				<td class="text-c">东城区</td>
+				<td class="text-c">北京市分公司</td>
+				<td class="text-c">北京市</td>
+				<td class="text-c">部门</td>
+				<td class="text-c">部门经理</td>
+				<td class="text-c">13800013490</td>
+				<td class="text-c">宝马（德国）</td>
+				<td class="text-c">知春路</td>
+				<td class="text-c">知春路4S店</td>
+				<td class="text-c">13800013490</td>
+				<td class="text-c">负责人</td>
+				<td class="text-c">13800013490</td>
+				<td class="td-manage">
+					<a style="text-decoration:none" class="ml-5" onClick="picture_edit('编辑','basis-picAdd.html','10001')" href="javascript:;" title="编辑"><i class="Hui-iconfont">&#xe6df;</i></a>
+					<a style="text-decoration:none" class="ml-5" onClick="picture_del(this,'10001')" href="javascript:;" title="删除"><i class="Hui-iconfont">&#xe6e2;</i></a>
+				</td>
+			</tr>
+			<tr class="text-c">
+				<td>1</td>
+				<td class="text-c">东北地区</td>
+				<td class="text-c">北京</td>
+				<td class="text-c">北京</td>
+				<td class="text-c">东城</td>
+				<td class="text-c">北京市分公司</td>
+				<td class="text-c">北京市</td>
+				<td class="text-c">东城支公司</td>
+				<td class="text-c">东城区</td>
+				<td class="text-c">北京市分公司</td>
+				<td class="text-c">北京市</td>
+				<td class="text-c">部门</td>
+				<td class="text-c">部门经理</td>
+				<td class="text-c">13800013490</td>
+				<td class="text-c">宝马（德国）</td>
+				<td class="text-c">知春路</td>
+				<td class="text-c">知春路4S店</td>
+				<td class="text-c">13800013490</td>
+				<td class="text-c">负责人</td>
+				<td class="text-c">13800013490</td>
+				<td class="td-manage">
+					<a style="text-decoration:none" class="ml-5" onClick="picture_edit('编辑','basis-picAdd.html','10001')" href="javascript:;" title="编辑"><i class="Hui-iconfont">&#xe6df;</i></a>
+					<a style="text-decoration:none" class="ml-5" onClick="picture_del(this,'10001')" href="javascript:;" title="删除"><i class="Hui-iconfont">&#xe6e2;</i></a>
+				</td>
+			</tr>
+			</tbody>
+		</table>
+	</div>
+
+</div>
+</div>
+
+<!--_footer 作为公共模版分离出去-->
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script> 
+<script type="text/javascript" src="lib/layer/2.1/layer.js"></script> 
+<script type="text/javascript" src="lib/icheck/jquery.icheck.min.js"></script> 
+<script type="text/javascript" src="lib/jquery.validation/1.14.0/jquery.validate.min.js"></script> 
+<script type="text/javascript" src="lib/jquery.validation/1.14.0/validate-methods.js"></script> 
+<script type="text/javascript" src="lib/jquery.validation/1.14.0/messages_zh.min.js"></script>
+<script type="text/javascript" src="lib/My97DatePicker/WdatePicker.js"></script>
+<script type="text/javascript" src="lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="static/h-ui/js/H-ui.js"></script> 
+<script type="text/javascript" src="static/h-ui.admin/js/H-ui.admin.js"></script> 
+<script type="text/javascript" src="static/h-ui.admin/js/comment.js"></script>
+<!--/_footer /作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="lib/webuploader/0.1.5/webuploader.min.js"></script>
+<script type="text/javascript" src="lib/ueditor/1.4.3/ueditor.config.js"></script>
+<script type="text/javascript" src="lib/ueditor/1.4.3/ueditor.all.min.js"> </script>
+<script type="text/javascript" src="lib/ueditor/1.4.3/lang/zh-cn/zh-cn.js"></script>
+<!--城市三级联动-->
+<script type="text/javascript" src="city-three/jquery.provincesCity.js"></script>
+<script type="text/javascript" src="city-three/provincesData.js"></script>
+<script type="text/javascript">
+function article_save(){
+	window.parent.location.reload();
+}
+/*城市三级联动*/
+$(function(){
+
+    $("#province").ProvinceCity();
+    $("#province").children("select").css("width","200");
+    $("#province").children("select").attr("class","input-text");
+    $('.table-sort').dataTable({
+        "aaSorting": [[ 0, "desc" ]],//默认第几个排序
+        "bStateSave": true,//状态保存
+        "aoColumnDefs": [
+            //{"bVisible": false, "aTargets": [ 3 ]} //控制列的隐藏显示
+            {"orderable":false,"aTargets":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]}// 制定列不参与排序
+        ]
+    });
+	/*删除*/
+
+});
+function picture_del(obj,id){
+    layer.confirm('确认要删除吗？',function(index){
+        $(obj).parents("tr").remove();
+        layer.msg('已删除!',{icon:1,time:3000});
+    });
+}
+</script>
+</body>
+</html>
