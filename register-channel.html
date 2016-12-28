@@ -194,7 +194,9 @@
 		</div>
 	</form>
 	<div class="mt-20">
-		<div class="Huialert Huialert-success"><a href="" onclick="saveAsExcel('tableid')"><i class="Hui-iconfont">&#xe644</i>导出Excel</a></div>
+		<div class="Huialert Huialert-success text-r">
+			<a style="text-decoration:none" class="btn btn-primary radius" onClick="saveAsExcel('tableid')" href="javascript:;" title="导出"> 导出Excel </a>
+		</div>
 		<table id="tableid" class="table table-border table-bordered table-bg table-hover table-sort">
 			<thead>
 			<tr class="text-c">
@@ -249,7 +251,7 @@
 				</td>
 			</tr>
 			<tr class="text-c">
-				<td>1</td>
+				<td>2</td>
 				<td class="text-c">东北地区</td>
 				<td class="text-c">北京</td>
 				<td class="text-c">北京</td>
@@ -331,7 +333,7 @@ function picture_del(obj,id){
     });
 }
 /*导出表格*/
-$(function () {
+
     function saveAsExcel(tableID) {
         var tb = new TableToExcel(tableid);
         tb.setFontStyle("Courier New");
@@ -522,7 +524,7 @@ $(function () {
         myWorkbook = null;
         myWorksheet = null;
     };
-})
+
 </script>
 </body>
 </html>
