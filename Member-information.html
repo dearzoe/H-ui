@@ -1,0 +1,589 @@
+﻿<!--_meta 作为公共模版分离出去-->
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="renderer" content="webkit|ie-comp|ie-stand">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<LINK rel="Bookmark" href="/favicon.ico" >
+	<LINK rel="Shortcut Icon" href="/favicon.ico" />
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="lib/html5.js"></script>
+	<script type="text/javascript" src="lib/respond.min.js"></script>
+	<script type="text/javascript" src="lib/PIE_IE678.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css" />
+	<link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/H-ui.admin.css" />
+	<link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.7/iconfont.css" />
+	<link rel="stylesheet" type="text/css" href="lib/icheck/icheck.css" />
+	<link rel="stylesheet" type="text/css" href="static/h-ui.admin/skin/default/skin.css" id="skin" />
+	<link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/style.css" />
+	<!--[if IE 6]>
+	<script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
+	<script>DD_belatedPNG.fix('*');</script>
+	<![endif]-->
+	<!--/meta 作为公共模版分离出去-->
+	<title>运营管理</title>
+	<link href="lib/webuploader/0.1.5/webuploader.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 会员管理 <span class="c-gray en">&gt;</span> 预约管理 <span class="c-gray en">&gt;</span> 测算管理 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<marquee behavior="" direction="" class="c-red">系统将于2016年10月10日18：00一2016年10月11日6：00维护升级，如有不便敬请谅解！！</marquee>
+<div class="page-container">
+	<form class="form form-horizontal demoform" style="margin-bottom: 15px" id="form-article-add">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">所属公司：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<span class="c-succes">中国人民财产保险股份有限公司 <img style="width:29px;height: 13px" src="temp/brand/u1602.png" alt=""></span>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"> 归属选择： </label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<div class="select-box" style="width: 600px">
+					<select class="select" size="1" name="demo1">
+						<option value="请选择" selected> 请选择 </option>
+						<option value="华东区域"> 华东区域 </option>
+						<option value="华南区域"> 华南区域 </option>
+						<option value="华中区域"> 华中区域 </option>
+						<option value="华北区域"> 华北区域 </option>
+						<option value="西南区域"> 西南区域 </option>
+						<option value="东北区域"> 东北区域 </option>
+						<option value="港澳台区域"> 港澳台区域 </option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">归属省市区：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<div id="province"></div>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">归属公司：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<div class="select-box" style="width: 600px">
+					<select class="select" size="1" name="demo1">
+						<option value="公司1" selected> 公司1 </option>
+						<option value="公司2" selected> 公司2 </option>
+						<option value="公司4" selected> 公司4 </option>
+						<option value="公司5" selected> 公司5 </option>
+						<option value="公司6" selected> 公司6 </option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">归属部门：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<div class="select-box" style="width: 600px">
+					<select class="select" size="1" name="demo1">
+						<option value="车商一部" selected> 车商一部 </option>
+						<option value="车商二部" selected> 车商二部 </option>
+						<option value="车商三部" selected> 车商三部 </option>
+						<option value="中介一部" selected> 中介一部 </option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">汽车品牌：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<div class="select-box" style="width: 600px">
+					<select class="select" size="1" name="demo1">
+						<option value="品牌" selected> 品牌 </option>
+						<option value="所有" selected> 所有 </option>
+						<option value="奥迪" selected> 奥迪 </option>
+						<option value="奔驰" selected> 奔驰 </option>
+						<option value="宝马" selected> 宝马 </option>
+						<option value="大众" selected> 大众 </option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">渠道类型：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<div class="select-box" style="width: 600px">
+					<select class="select" size="1" name="demo1">
+						<option value="类型1" selected> 类型1 </option>
+						<option value="类型2" selected> 类型2 </option>
+						<option value="类型3" selected> 类型3 </option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">渠道名称：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<div class="select-box" style="width: 600px">
+					<select class="select" size="1" name="demo1">
+						<option value="渠道名称1" selected> 渠道名称1 </option>
+						<option value="渠道名称2" selected> 渠道名称2 </option>
+						<option value="渠道名称3" selected> 渠道名称3 </option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2" style="position:
+relative">
+				<button onClick="article_save();" class="btn btn-primary radius" type="button"><i class="Hui-iconfont">&#xe632;</i> 确认提交 </button>
+				<button onClick="article_updata();" class="btn btn-primary radius" type="button"><i class="Hui-iconfont">&#xe632;</i> 更新会员资料 </button>
+				<div class="progress" id="updata" style="display: none;position: absolute;top: 10px;left:263px;"><div class="progress-bar" style="width: 351px"><span class="sr-only" id="updataSpan" style="width:0"></span></div></div>
+			</div>
+		</div>
+	</form>
+	<div id="tab_demo" class="HuiTab">
+		<div class="tabBar cl">
+			<span class="btn btn-default"> 未处理任务 </span>
+			<span class="btn btn-default"> 处理中任务 </span>
+			<span class="btn btn-default"> 处理完任务 </span>
+		</div>
+		<div class="tabCon">
+			<div class="mt-20">
+				<div class="Huialert Huialert-success text-r">
+					<a style="text-decoration:none" class="btn btn-primary radius" onClick="saveAsExcel('tableid')" href="javascript:;" title="导出"> 导出Excel </a>
+				</div>
+				<table id="tableid1" class="table table-border table-bordered table-bg table-hover table-sort">
+					<thead>
+					<tr class="text-c">
+						<th>提交日期</th>
+						<th>起保日期</th>
+						<th>微信号</th>
+						<th>保险类型</th>
+						<th>保险性质</th>
+						<th>车牌号</th>
+						<th>联系人</th>
+						<th>联系电话</th>
+						<th>行驶本照片</th>
+						<th>保险公司</th>
+						<th>商业险险种</th>
+						<th>交强险/车船税</th>
+						<th>留言</th>
+						<th>状态</th>
+						<th>模版</th>
+						<th>推送</th>
+						<th>备注</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr class="text-c">
+						<td>2015-07-26</td>
+						<td class="text-c">一</td>
+						<td class="text-c">killer160</td>
+						<td class="text-c">续保</td>
+						<td class="text-c">个人</td>
+						<td class="text-c">京NB8888</td>
+						<td class="text-c">王</td>
+						<td class="text-c">13488699657</td>
+						<td class="text-c">一</td>
+						<td class="text-c">人保</td>
+						<td class="text-c">同去年</td>
+						<td class="text-c"><span class="label label-success radius">√</span></td>
+						<td class="text-c"></td>
+						<td class="text-c"><span class="label label-primary radius">待受理</span></td>
+						<td class="text-c"><a style="text-decoration:none" class="ml-5" onClick="article_edit('添加模板','Book-moduleAdd.html','10001')" href="javascript:;" title="添加模板"><i class="Hui-iconfont">&#xe610;</i></a> </td>
+						<td class="text-c td-status"><a onClick="product_start(this,'10001')" class="label label-danger radius">未推送</a></td>
+						<td class="text-c"></td>
+					</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="tabCon">
+			<div class="mt-20">
+				<div class="Huialert Huialert-success text-r">
+					<a style="text-decoration:none" class="btn btn-primary radius" onClick="saveAsExcel('tableid')" href="javascript:;" title="导出"> 导出Excel </a>
+				</div>
+				<table id="tableid1" class="table table-border table-bordered table-bg table-hover table-sort">
+					<thead>
+					<tr class="text-c">
+						<th>提交日期</th>
+						<th>起保日期</th>
+						<th>微信号</th>
+						<th>保险类型</th>
+						<th>保险性质</th>
+						<th>车牌号</th>
+						<th>联系人</th>
+						<th>联系电话</th>
+						<th>行驶本照片</th>
+						<th>保险公司</th>
+						<th>商业险险种</th>
+						<th>交强险/车船税</th>
+						<th>留言</th>
+						<th>状态</th>
+						<th>模版</th>
+						<th>推送</th>
+						<th>备注</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr class="text-c">
+						<td>2015-07-26</td>
+						<td class="text-c">一</td>
+						<td class="text-c">killer160</td>
+						<td class="text-c">续保</td>
+						<td class="text-c">个人</td>
+						<td class="text-c">京NB8888</td>
+						<td class="text-c">王</td>
+						<td class="text-c">13488699657</td>
+						<td class="text-c">一</td>
+						<td class="text-c">人保</td>
+						<td class="text-c">同去年</td>
+						<td class="text-c"><span class="label label-success radius">√</span></td>
+						<td class="text-c"></td>
+						<td class="text-c"><span class="label label-primary radius">待受理</span></td>
+						<td class="text-c"><a style="text-decoration:none" class="ml-5" onClick="article_edit('添加模板','Book-moduleAdd.html','10001')" href="javascript:;" title="添加模板"><i class="Hui-iconfont">&#xe610;</i></a> </td>
+						<td class="text-c td-status"><a onClick="product_start(this,'10001')" class="label label-danger radius">未推送</a></td>
+						<td class="text-c"></td>
+					</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="tabCon">
+			<div class="mt-20">
+				<div class="Huialert Huialert-success text-r">
+					<a style="text-decoration:none" class="btn btn-primary radius" onClick="saveAsExcel('tableid')" href="javascript:;" title="导出"> 导出Excel </a>
+				</div>
+				<table id="tableid1" class="table table-border table-bordered table-bg table-hover table-sort">
+					<thead>
+					<tr class="text-c">
+						<th>提交日期</th>
+						<th>起保日期</th>
+						<th>微信号</th>
+						<th>保险类型</th>
+						<th>保险性质</th>
+						<th>车牌号</th>
+						<th>联系人</th>
+						<th>联系电话</th>
+						<th>行驶本照片</th>
+						<th>保险公司</th>
+						<th>商业险险种</th>
+						<th>交强险/车船税</th>
+						<th>留言</th>
+						<th>状态</th>
+						<th>模版</th>
+						<th>推送</th>
+						<th>备注</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr class="text-c">
+						<td>2015-07-26</td>
+						<td class="text-c">一</td>
+						<td class="text-c">killer160</td>
+						<td class="text-c">续保</td>
+						<td class="text-c">个人</td>
+						<td class="text-c">京NB8888</td>
+						<td class="text-c">王</td>
+						<td class="text-c">13488699657</td>
+						<td class="text-c">一</td>
+						<td class="text-c">人保</td>
+						<td class="text-c">同去年</td>
+						<td class="text-c"><span class="label label-success radius">√</span></td>
+						<td class="text-c"></td>
+						<td class="text-c"><span class="label label-primary radius">待受理</span></td>
+						<td class="text-c"><a style="text-decoration:none" class="ml-5" onClick="article_edit('添加模板','Book-moduleAdd.html','10001')" href="javascript:;" title="添加模板"><i class="Hui-iconfont">&#xe610;</i></a> </td>
+						<td class="text-c td-status"><a onClick="product_start(this,'10001')" class="label label-danger radius">未推送</a></td>
+						<td class="text-c"></td>
+					</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--_footer 作为公共模版分离出去-->
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="lib/layer/2.1/layer.js"></script>
+<script type="text/javascript" src="lib/icheck/jquery.icheck.min.js"></script>
+<script type="text/javascript" src="lib/jquery.validation/1.14.0/jquery.validate.min.js"></script>
+<script type="text/javascript" src="lib/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="lib/jquery.validation/1.14.0/messages_zh.min.js"></script>
+<script type="text/javascript" src="lib/My97DatePicker/WdatePicker.js"></script>
+<script type="text/javascript" src="lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="static/h-ui/js/H-ui.js"></script>
+<script type="text/javascript" src="static/h-ui.admin/js/H-ui.admin.js"></script>
+<script type="text/javascript" src="static/h-ui.admin/js/comment.js"></script>
+<!--/_footer /作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="lib/webuploader/0.1.5/webuploader.min.js"></script>
+<script type="text/javascript" src="lib/ueditor/1.4.3/ueditor.config.js"></script>
+<script type="text/javascript" src="lib/ueditor/1.4.3/ueditor.all.min.js"> </script>
+<script type="text/javascript" src="lib/ueditor/1.4.3/lang/zh-cn/zh-cn.js"></script>
+<!--表单验证-->
+<script type="text/javascript" src="Validform/Validform.js"></script>
+<!--城市三级联动-->
+<script type="text/javascript" src="city-three/jquery.provincesCity.js"></script>
+<script type="text/javascript" src="city-three/provincesData.js"></script>
+<!--日期-->
+<script src="dataJquery/laydate/laydate.js"></script>
+<script type="text/javascript">
+    function article_save(){
+        window.parent.location.reload();
+    }
+    $(function () {
+        $.Huitab("#tab_demo .tabBar span","#tab_demo .tabCon","current","click","0");
+    })
+
+	/*推送*/
+    function product_start(obj,id){
+        layer.confirm('确认要推送吗？',function(index){
+            $(obj).parents("tr").find(".td-status").html('<a class="label label-success radius">已推送</a>');
+            //$(obj).remove();
+            layer.msg('已推送!',{icon: 6,time:1000});
+        });
+    }
+function article_updata() {
+	$("#updata").css("display","block");
+	var width=0%
+	setInterval(function () {
+     width+=35;
+		long(width)
+    },500);
+
+}
+function long(width) {
+        if(width<=351){
+            $("#updataSpan").css("width",width)
+		}else{
+            $("#updata").css("display","none");
+		}
+
+}
+	/*城市三级联动*/
+    $(function(){
+        /*table样式*/
+        var length=$("#tableCss").children("th").length;
+        for(var i=0;i<length;i++){
+            if(i<21){
+                $("#tableCss").find("th").eq(i).css("background","rgba(255, 153, 51, 1)")
+			}else if(31>i&&i>=21){
+                $("#tableCss").find("th").eq(i).css("background","rgba(255, 204, 0, 1)")
+			}else if(i>=31){
+                $("#tableCss").find("th").eq(i).css("background","rgba(255, 255, 0, 1)")
+			}
+		}
+        laydate({
+            elem: '#demo'
+        })
+        $("#tableCss")
+        $("#province").ProvinceCity();
+        $("#province").children("select").css("width","200");
+        $("#province").children("select").attr("class","input-text");
+        $('.table-sort').dataTable({
+            "aaSorting": [[ 0, "desc" ]],//默认第几个排序
+            "bStateSave": true,//状态保存
+            "aoColumnDefs": [
+                //{"bVisible": false, "aTargets": [ 3 ]} //控制列的隐藏显示
+                {"orderable":false,"aTargets":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]}// 制定列不参与排序
+            ]
+        });
+    });
+	/*删除*/
+    function article_del(obj,id){
+        layer.confirm('确认要删除吗？',function(index){
+            $(obj).parents("tr").remove();
+            layer.msg('已删除!',{icon:1,time:1000});
+        });
+    }
+	/*编辑*/
+    function article_edit(title,url,id,w,h){
+        var index = layer.open({
+            type: 2,
+            title: title,
+            content: url
+        });
+        layer.full(index);
+    }
+	/*导出表格*/
+    function saveAsExcel(tableID) {
+        var tb = new TableToExcel(tableid);
+        tb.setFontStyle("Courier New");
+        tb.setFontSize(10);
+        tb.setTableBorder(2);
+        tb.setColumnWidth(7);
+        tb.isLineWrap(true);
+        tb.getExcelFile();
+    }
+    function TableToExcel(tableID) {
+        this.tableBorder = -1; //边框类型，-1没有边框 可取1/2/3/4
+        this.backGround = 0; //背景颜色：白色 可取调色板中的颜色编号 1/2/3/4....
+        this.fontColor = 1; //字体颜色：黑色
+        this.fontSize = 10; //字体大小
+        this.fontStyle = "宋体"; //字体类型
+        this.rowHeight = -1; //行高
+        this.columnWidth = -1; //列宽
+        this.lineWrap = true; //是否自动换行
+        this.textAlign = -4108; //内容对齐方式 默认为居中
+        this.autoFit = false; //是否自适应宽度
+        this.tableID = tableID;
+    }
+    TableToExcel.prototype.setTableBorder = function (excelBorder) {
+        this.tableBorder = excelBorder;
+    };
+    TableToExcel.prototype.setBackGround = function (excelColor) {
+        this.backGround = excelColor;
+    };
+    TableToExcel.prototype.setFontColor = function (excelColor) {
+        this.fontColor = excelColor;
+    };
+    TableToExcel.prototype.setFontSize = function (excelFontSize) {
+        this.fontSize = excelFontSize;
+    };
+    TableToExcel.prototype.setFontStyle = function (excelFont) {
+        this.fontStyle = excelFont;
+    };
+    TableToExcel.prototype.setRowHeight = function (excelRowHeight) {
+        this.rowHeight = excelRowHeight;
+    };
+    TableToExcel.prototype.setColumnWidth = function (excelColumnWidth) {
+        this.columnWidth = excelColumnWidth;
+    };
+    TableToExcel.prototype.isLineWrap = function (lineWrap) {
+        if (lineWrap == false || lineWrap == true) {
+            this.lineWrap = lineWrap;
+        }
+    };
+    TableToExcel.prototype.setTextAlign = function (textAlign) {
+        this.textAlign = textAlign;
+    };
+    TableToExcel.prototype.isAutoFit = function (autoFit) {
+        if (autoFit == true || autoFit == false)
+            this.autoFit = autoFit;
+    }
+    //文件转换主函数
+    TableToExcel.prototype.getExcelFile = function () {
+        var jXls, myWorkbook, myWorksheet, myHTMLTableCell, myExcelCell, myExcelCell2;
+        var myCellColSpan, myCellRowSpan;
+
+        try {
+            jXls = new ActiveXObject('Excel.Application');
+        }
+        catch (e) {
+            alert("无法启动Excel!\n\n" + e.message +
+                "\n\n如果您确信您的电脑中已经安装了Excel，" +
+                "那么请调整IE的安全级别。\n\n具体操作：\n\n" +
+                "工具 → Internet选项 → 安全 → 自定义级别 → 对没有标记为安全的ActiveX进行初始化和脚本运行 → 启用");
+            return false;
+        }
+
+        jXls.Visible = true;
+        myWorkbook = jXls.Workbooks.Add();
+        jXls.DisplayAlerts = false;
+        myWorkbook.Worksheets(3).Delete();
+        myWorkbook.Worksheets(2).Delete();
+        jXls.DisplayAlerts = true;
+        myWorksheet = myWorkbook.ActiveSheet;
+
+        var readRow = 0, readCol = 0;
+        var totalRow = 0, totalCol = 0;
+        var tabNum = 0;
+
+        //设置行高、列宽
+        if (this.columnWidth != -1)
+            myWorksheet.Columns.ColumnWidth = this.columnWidth;
+        else
+            myWorksheet.Columns.ColumnWidth = 7;
+        if (this.rowHeight != -1)
+            myWorksheet.Rows.RowHeight = this.rowHeight;
+
+        //搜索需要转换的Table对象，获取对应行、列数
+        var obj = document.all.tags("table");
+        for (x = 0; x < obj.length; x++) {
+            if (obj[x].id == this.tableID) {
+                tabNum = x;
+                totalRow = obj[x].rows.length;
+                for (i = 0; i < obj[x].rows[0].cells.length; i++) {
+                    myHTMLTableCell = obj[x].rows(0).cells(i);
+                    myCellColSpan = myHTMLTableCell.colSpan;
+                    totalCol = totalCol + myCellColSpan;
+                }
+            }
+        }
+
+        //开始构件模拟表格
+        var excelTable = new Array();
+        for (i = 0; i <= totalRow; i++) {
+            excelTable[i] = new Array();
+            for (t = 0; t <= totalCol; t++) {
+                excelTable[i][t] = false;
+            }
+        }
+
+        //开始转换表格
+        for (z = 0; z < obj[tabNum].rows.length; z++) {
+            readRow = z + 1;
+            readCol = 0;
+            for (c = 0; c < obj[tabNum].rows(z).cells.length; c++) {
+                myHTMLTableCell = obj[tabNum].rows(z).cells(c);
+                myCellColSpan = myHTMLTableCell.colSpan;
+                myCellRowSpan = myHTMLTableCell.rowSpan;
+                for (y = 1; y <= totalCol; y++) {
+                    if (excelTable[readRow][y] == false) {
+                        readCol = y;
+                        break;
+                    }
+                }
+                if (myCellColSpan * myCellRowSpan > 1) {
+                    myExcelCell = myWorksheet.Cells(readRow, readCol);
+                    myExcelCell2 = myWorksheet.Cells(readRow + myCellRowSpan - 1, readCol + myCellColSpan - 1);
+                    myWorksheet.Range(myExcelCell, myExcelCell2).Merge();
+                    myExcelCell.HorizontalAlignment = this.textAlign;
+                    myExcelCell.Font.Size = this.fontSize;
+                    myExcelCell.Font.Name = this.fontStyle;
+                    myExcelCell.wrapText = this.lineWrap;
+                    myExcelCell.Interior.ColorIndex = this.backGround;
+                    myExcelCell.Font.ColorIndex = this.fontColor;
+                    if (this.tableBorder != -1) {
+                        myWorksheet.Range(myExcelCell, myExcelCell2).Borders(1).Weight = this.tableBorder;
+                        myWorksheet.Range(myExcelCell, myExcelCell2).Borders(2).Weight = this.tableBorder;
+                        myWorksheet.Range(myExcelCell, myExcelCell2).Borders(3).Weight = this.tableBorder;
+                        myWorksheet.Range(myExcelCell, myExcelCell2).Borders(4).Weight = this.tableBorder;
+                    }
+
+                    myExcelCell.Value = myHTMLTableCell.innerText;
+                    for (row = readRow; row <= myCellRowSpan + readRow - 1; row++) {
+                        for (col = readCol; col <= myCellColSpan + readCol - 1; col++) {
+                            excelTable[row][col] = true;
+                        }
+                    }
+
+                    readCol = readCol + myCellColSpan;
+                } else {
+                    myExcelCell = myWorksheet.Cells(readRow, readCol);
+                    myExcelCell.Value = myHTMLTableCell.innerText;
+                    myExcelCell.HorizontalAlignment = this.textAlign;
+                    myExcelCell.Font.Size = this.fontSize;
+                    myExcelCell.Font.Name = this.fontStyle;
+                    myExcelCell.wrapText = this.lineWrap;
+                    myExcelCell.Interior.ColorIndex = this.backGround;
+                    myExcelCell.Font.ColorIndex = this.fontColor;
+                    if (this.tableBorder != -1) {
+                        myExcelCell.Borders(1).Weight = this.tableBorder;
+                        myExcelCell.Borders(2).Weight = this.tableBorder;
+                        myExcelCell.Borders(3).Weight = this.tableBorder;
+                        myExcelCell.Borders(4).Weight = this.tableBorder;
+                    }
+                    excelTable[readRow][readCol] = true;
+                    readCol = readCol + 1;
+                }
+            }
+        }
+        if (this.autoFit == true)
+            myWorksheet.Columns.AutoFit;
+        jXls.UserControl = true;
+        jXls = null;
+        myWorkbook = null;
+        myWorksheet = null;
+    };
+</script>
+</body>
+</html>
