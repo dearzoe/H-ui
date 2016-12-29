@@ -2,41 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a3fc816-f8e1-4f66-86d1-326f0b8920f9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Book-dateManagement.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Book-insuranceManagement.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Book-lossManagement.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Book-maintenanceManagement.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Book-measuringManagement.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Book-moduleAdd-loss.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Book-moduleAdd-maintain.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Book-vehicleManagement.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Member-bookingManagement.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Member-management.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Operate-moduleAnalysis.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/11111copy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basis-customAdministrate.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basis-customMenu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basis-followAutoReply.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basis-messageInterfaceSet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basis-messagePanel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basis-voiceReply.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basis-weixinModuleDistribute.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basis-weixinMorePicReply.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basis-weixinPicReply.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basis-weixinTxtReply.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basisSeting.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/power-numberManage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/power-numberManage2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/register-channel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/register-messageBasis.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weixin-authorize.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weixin-authorize1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weixin-edit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weixin-editPass.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weixin.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commitRecord.html" afterPath="$PROJECT_DIR$/commitRecord.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Book-vehicleManagement.html" afterPath="$PROJECT_DIR$/Book-vehicleManagement.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -116,8 +82,8 @@
       <file leaf-file-name="Book-vehicleManagement.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Book-vehicleManagement.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="264">
+              <caret line="31" column="184" lean-forward="false" selection-start-line="31" selection-start-column="184" selection-end-line="31" selection-end-column="184" />
               <folding />
             </state>
           </provider>
@@ -185,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/11.html" />
         <option value="$PROJECT_DIR$/basisSeting.html" />
         <option value="$PROJECT_DIR$/awardRecord.html" />
         <option value="$PROJECT_DIR$/weixin-edit.html" />
@@ -236,6 +201,7 @@
         <option value="$PROJECT_DIR$/Book-moduleAdd-maintain.html" />
         <option value="$PROJECT_DIR$/commitRecord.html" />
         <option value="$PROJECT_DIR$/Book-maintenanceManagement.html" />
+        <option value="$PROJECT_DIR$/Book-vehicleManagement.html" />
       </list>
     </option>
   </component>
@@ -409,7 +375,7 @@
       <workItem from="1482890609324" duration="9777000" />
       <workItem from="1482912783661" duration="13946000" />
       <workItem from="1482974053939" duration="24565000" />
-      <workItem from="1483010838985" duration="12838000" />
+      <workItem from="1483010838985" duration="12935000" />
     </task>
     <task id="LOCAL-00001" summary="copy">
       <created>1482912969066</created>
@@ -422,7 +388,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121313000" />
+    <option name="totallyTimeSpent" value="121410000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
@@ -921,8 +887,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Book-vehicleManagement.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="264">
+          <caret line="31" column="184" lean-forward="false" selection-start-line="31" selection-start-column="184" selection-end-line="31" selection-end-column="184" />
           <folding />
         </state>
       </provider>
