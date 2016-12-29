@@ -1,0 +1,151 @@
+﻿<!--_meta 作为公共模版分离出去-->
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="renderer" content="webkit|ie-comp|ie-stand">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<LINK rel="Bookmark" href="/favicon.ico" >
+	<LINK rel="Shortcut Icon" href="/favicon.ico" />
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="lib/html5.js"></script>
+	<script type="text/javascript" src="lib/respond.min.js"></script>
+	<script type="text/javascript" src="lib/PIE_IE678.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css" />
+	<link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/H-ui.admin.css" />
+	<link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.7/iconfont.css" />
+	<link rel="stylesheet" type="text/css" href="lib/icheck/icheck.css" />
+	<link rel="stylesheet" type="text/css" href="static/h-ui.admin/skin/default/skin.css" id="skin" />
+	<link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/style.css" />
+	<!--[if IE 6]>
+	<script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
+	<script>DD_belatedPNG.fix('*');</script>
+	<![endif]-->
+	<!--/meta 作为公共模版分离出去-->
+	<title>模板添加</title>
+	<link href="lib/webuploader/0.1.5/webuploader.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="page-container">
+	<form class="form form-horizontal demoform" id="form-article-add">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">车牌号：</label>
+			<div class="formControls col-xs-8 col-sm-9" style="">
+				<input type="text" class="input-text" value="京NB8888" style="width:600px;" readonly></div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">事故类型：</label>
+			<div class="formControls col-xs-8 col-sm-9" style="">
+				<input type="text" class="input-text" value="单方事故" style="width:600px;" readonly></div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">定损金额：</label>
+			<div class="formControls col-xs-8 col-sm-9" style="">
+				<input type="text" class="input-text" value="" style="width:600px;">
+				<span style="font-weight: 800">元</span></div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">（选填）</span>维修项目：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<textarea name="" cols="" rows="" class="textarea" dragonfly="true" style="width: 600px"></textarea><p class="textarea-numberbar">
+
+			</div>
+		</div>
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2" style="position:
+relative">
+				<button onClick="article_save();" class="btn btn-primary radius" type="button"><i class="Hui-iconfont">&#xe632;</i> 提交 </button>
+			</div>
+		</div>
+	</form>
+</div>
+
+<!--_footer 作为公共模版分离出去-->
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="lib/layer/2.1/layer.js"></script>
+<script type="text/javascript" src="lib/icheck/jquery.icheck.min.js"></script>
+<script type="text/javascript" src="lib/jquery.validation/1.14.0/jquery.validate.min.js"></script>
+<script type="text/javascript" src="lib/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="lib/jquery.validation/1.14.0/messages_zh.min.js"></script>
+<script type="text/javascript" src="lib/My97DatePicker/WdatePicker.js"></script>
+<script type="text/javascript" src="lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="static/h-ui/js/H-ui.js"></script>
+<script type="text/javascript" src="static/h-ui.admin/js/H-ui.admin.js"></script>
+<script type="text/javascript" src="static/h-ui.admin/js/comment.js"></script>
+<!--/_footer /作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="lib/webuploader/0.1.5/webuploader.min.js"></script>
+<script type="text/javascript" src="lib/ueditor/1.4.3/ueditor.config.js"></script>
+<script type="text/javascript" src="lib/ueditor/1.4.3/ueditor.all.min.js"> </script>
+<script type="text/javascript" src="lib/ueditor/1.4.3/lang/zh-cn/zh-cn.js"></script>
+<!--表单验证-->
+<script type="text/javascript" src="Validform/Validform.js"></script>
+<!--城市三级联动-->
+<script type="text/javascript" src="city-three/jquery.provincesCity.js"></script>
+<script type="text/javascript" src="city-three/provincesData.js"></script>
+<!--日期-->
+<script src="dataJquery/laydate/laydate.js"></script>
+<script type="text/javascript">
+    function article_save(){
+        window.parent.location.reload();
+    }
+function article_updata() {
+	$("#updata").css("display","block");
+	var width=0%
+	setInterval(function () {
+     width+=35;
+		long(width)
+    },500);
+
+}
+function long(width) {
+        if(width<=351){
+            $("#updataSpan").css("width",width)
+		}else{
+            $("#updata").css("display","none");
+		}
+
+}
+	/*城市三级联动*/
+    $(function(){
+        /*table样式*/
+        var length=$("#tableCss").children("th").length;
+        for(var i=0;i<length;i++){
+            if(i<21){
+                $("#tableCss").find("th").eq(i).css("background","rgba(255, 153, 51, 1)")
+			}else if(31>i&&i>=21){
+                $("#tableCss").find("th").eq(i).css("background","rgba(255, 204, 0, 1)")
+			}else if(i>=31){
+                $("#tableCss").find("th").eq(i).css("background","rgba(255, 255, 0, 1)")
+			}
+		}
+        laydate({
+            elem: '#demo'
+        })
+        $("#tableCss")
+        $("#province").ProvinceCity();
+        $("#province").children("select").css("width","200");
+        $("#province").children("select").attr("class","input-text");
+        $('.table-sort').dataTable({
+            "aaSorting": [[ 0, "desc" ]],//默认第几个排序
+            "bStateSave": true,//状态保存
+            "aoColumnDefs": [
+                //{"bVisible": false, "aTargets": [ 3 ]} //控制列的隐藏显示
+                {"orderable":false,"aTargets":[1,2,3,4,5,6,7,8]}// 制定列不参与排序
+            ]
+        });
+    });
+    /*删除*/
+    function picture_del(obj,id){
+        layer.confirm('确认要删除吗？',function(index){
+            $(obj).parents("tr").remove();
+            layer.msg('已删除!',{icon:1,time:3000});
+        });
+    }
+</script>
+</body>
+</html>

@@ -163,25 +163,6 @@ function product_show(title,url,id){
 	});
 	layer.full(index);
 }
-/*图片-审核*/
-function product_shenhe(obj,id){
-	layer.confirm('审核文章？', {
-		btn: ['通过','不通过'], 
-		shade: false
-	},
-	function(){
-		$(obj).parents("tr").find(".td-manage").prepend('<a class="c-primary" onClick="product_start(this,id)" href="javascript:;" title="申请上线">申请上线</a>');
-		$(obj).parents("tr").find(".td-status").html('<span class="label label-success radius">已精选</span>');
-		$(obj).remove();
-		layer.msg('已精选', {icon:6,time:1000});
-	},
-	function(){
-		$(obj).parents("tr").find(".td-manage").prepend('<a class="c-primary" onClick="product_shenqing(this,id)" href="javascript:;" title="申请上线">申请上线</a>');
-		$(obj).parents("tr").find(".td-status").html('<span class="label label-danger radius">未通过</span>');
-		$(obj).remove();
-    	layer.msg('未通过', {icon:5,time:1000});
-	});	
-}
 /*图片-精选*/
 function product_stop(obj,id){
 	layer.confirm('确认要取消精选吗？',function(index){
@@ -191,7 +172,6 @@ function product_stop(obj,id){
 		layer.msg('取消精选!',{icon: 5,time:1000});
 	});
 }
-
 /*图片-精选*/
 function product_start(obj,id){
     console.log(obj)
