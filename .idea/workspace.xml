@@ -82,8 +82,8 @@
       <file leaf-file-name="Book-vehicleManagement.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Book-vehicleManagement.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="31" column="184" lean-forward="false" selection-start-line="31" selection-start-column="184" selection-end-line="31" selection-end-column="184" />
+            <state relative-caret-position="335">
+              <caret line="197" column="118" lean-forward="false" selection-start-line="197" selection-start-column="118" selection-end-line="197" selection-end-column="118" />
               <folding />
             </state>
           </provider>
@@ -375,7 +375,7 @@
       <workItem from="1482890609324" duration="9777000" />
       <workItem from="1482912783661" duration="13946000" />
       <workItem from="1482974053939" duration="24565000" />
-      <workItem from="1483010838985" duration="12935000" />
+      <workItem from="1483010838985" duration="13287000" />
     </task>
     <task id="LOCAL-00001" summary="copy">
       <created>1482912969066</created>
@@ -388,10 +388,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121410000" />
+    <option name="totallyTimeSpent" value="121762000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21726191" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -887,8 +887,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Book-vehicleManagement.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="31" column="184" lean-forward="false" selection-start-line="31" selection-start-column="184" selection-end-line="31" selection-end-column="184" />
+        <state relative-caret-position="335">
+          <caret line="197" column="118" lean-forward="false" selection-start-line="197" selection-start-column="118" selection-end-line="197" selection-end-column="118" />
           <folding />
         </state>
       </provider>
