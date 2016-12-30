@@ -51,7 +51,7 @@
 		float: right;
 		margin-top: 50px;
 		width: 870px;
-		height: 800px;
+		height: 1500px;
 	}
 </style>
 <!--[if IE 6]>
@@ -97,7 +97,7 @@
 		<div id="tab_demo" class="HuiTab">
 			<div class="tabBar cl">
 				<span class="btn btn-default" style="width: 144px"> 基本设置 </span>
-				<span class="btn btn-default" style="width: 145px"> 积分等级策略 </span>
+				<span class="btn btn-default" style="width: 145px"> 积分等级策略设置 </span>
 				<span class="btn btn-default c-red" style="width: 145px"> 消费优惠设置 </span>
 				<span class="btn btn-default c-red" style="width: 145px"> 支持优惠设置 </span>
 				<span class="btn btn-default c-red" style="width: 144px"> 计次设置 </span>
@@ -113,7 +113,7 @@
 							</div>
 						</div>
 						<div class="row cl">
-							<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>背景图案</label>
+							<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>背景图案：</label>
 							<div class="formControls col-xs-8 col-sm-9">
 								<div class="panel-body" style=";padding: 0px">
 									<div style="height: 30px; position: relative;margin-bottom:
@@ -198,9 +198,9 @@
 							</div>
 						</div>
 						<div class="row cl">
-							<label class="form-label col-xs-4 col-sm-2">会员卡资料</label>
+							<label class="form-label col-xs-4 col-sm-2">会员卡资料：</label>
 							<div class="formControls col-xs-8 col-sm-9">
-								<div class="panel-body" id="addDom" style="height: 220px;padding: 0px;overflow: auto">
+								<div class="panel-body" id="addDom" style="height: 166px;padding: 0px;overflow: auto">
 									<div class="addDomBox">
 										<div style="height: 30px; position: relative;margin-bottom:
 10px">
@@ -247,6 +247,81 @@
 							</div>
 						</div>
 						<div class="row cl">
+							<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>领卡赠送：</label>
+							<div class="formControls col-xs-8 col-sm-9">
+								<div class="panel-body"  style="height: 166px;padding: 0px;overflow: auto">
+									<div class="btn-group" style="position: relative;margin-bottom: 10px">
+										<input class="btn btn-danger radius" style="width: 50px;height: 31px" type="button" onClick="send1()" value="赠送">
+										<input class="input-text" style="position: absolute;left:50px;width: 300px;height: 30px;z-index: 100" type="text" value="0">
+										<span class="btn btn-default radius" style="width: 300px">暂不开启</span>
+										<span class="btn btn-success radius">积分</span>
+									</div>
+									<div class="btn-group" style="position: relative;margin-bottom: 10px">
+										<input class="btn btn-danger radius" style="width: 50px;height: 31px" type="button" onClick="send2()" value="赠送">
+										<input class="input-text" style="position: absolute;left:50px;width: 300px;height: 30px;z-index: 0" type="text" value="0">
+										<span class="btn btn-default radius" style="width: 300px">暂不开启</span>
+										<span class="btn btn-success radius">余额</span>
+									</div>
+									<div class="btn-group" style="position: relative;margin-bottom: 10px">
+										<span class="label label-default radius text-c" style="width: 150px;height: 30px;line-height: 26px;float: left">已选</span>
+										<input class="btn btn-primary radius" style="width: 150px;height: 30px;" type="button" onClick="find1()" value="搜索优惠券">
+									</div>
+									<p><a href="" class="btn btn-link" style="padding-top: 2px">添加优惠券</a>注意：赠送的优惠券应该各个会员组都可以领取，否则会造成赠送失败的问题。</p>
+								</div>
+							</div>
+						</div>
+						<div class="row cl">
+							<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>抵现比率：<p class="c-red" style="padding-right: 14px">以后版本</p></label>
+							<div class="formControls col-xs-8 col-sm-9">
+								<div class="panel-body"  style="height: 190px;padding: 0px;overflow: auto">
+									<div class="btn-group" style="position: relative;margin-bottom: 10px">
+										<input class="input-text" style="position: absolute;left:0px;width: 300px;height: 31px;z-index: 100" type="text" value="0">
+										<span class="btn btn-default radius" style="width: 300px">暂不开启</span>
+										<span class="btn btn-success radius">积分抵1元</span>
+									</div>
+									<div class="btn-group" style="position: relative;margin-bottom: 10px">
+										<input class="btn btn-danger radius" style="width: 150px;height: 30px" type="button"  value="单次最多可抵现">
+										<input class="input-text" style="position: absolute;left:150px;width: 150px;height: 30px;z-index: 10" type="text" value="0">
+										<span class="btn btn-default radius" style="width: 150px">暂不开启</span>
+										<span class="btn btn-success radius">余额</span>
+									</div>
+									<div class="btn-group" style="position: relative;margin-bottom: 10px">
+										<span class="label label-default radius text-c" style="width: 150px;height: 30px;line-height: 26px;float: left">已选</span>
+										<input class="btn btn-primary radius" style="width: 150px;height: 30px;" type="button" onClick="find1()" value="搜索优惠券">
+									</div>
+									<p style="color: #cb4b16">例：积分抵现金比率：100积分抵1元，那用户在消费的时候，将可用账户积分抵消部分金额。</p>
+									<p style="color: #cb4b16">目前仅支持后台交易抵现，暂不支持手机交易抵现。</p>
+								</div>
+							</div>
+						</div>
+						<div class="row cl">
+							<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>刷卡支付：<p class="c-red" style="padding-right: 14px">以后版本 </p></label>
+							<div class="formControls col-xs-8 col-sm-9"     style="padding-top: 3px;">
+								<div class="radio-box skin-minimal">
+									<input type="radio" id="radio-1" name="demo-radio1">
+									<label for="radio-1">开启</label>
+								</div>
+								<div class="radio-box skin-minimal">
+									<input type="radio" id="radio-2" name="demo-radio1" checked>
+									<label for="radio-2">关闭</label>
+								</div>
+								<p style="color: #bfbbc1">选择是否开启刷卡支付。</p>
+							</div>
+						</div>
+						<div class="row cl">
+							<label class="form-label col-xs-4 col-sm-2">开启短信验证：</label>
+							<div class="formControls col-xs-8 col-sm-9"     style="padding-top: 3px;">
+								<div class="radio-box skin-minimal">
+									<input type="radio" id="radio-3" name="demo-radio2">
+									<label for="radio-1">开启</label>
+								</div>
+								<div class="radio-box skin-minimal">
+									<input type="radio" id="radio-4" name="demo-radio2" checked>
+									<label for="radio-2">关闭</label>
+								</div>
+							</div>
+						</div>
+						<div class="row cl">
 							<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
 								<button onClick="article_save();" class="btn btn-primary radius" type="submit"><i class="Hui-iconfont">&#xe632;</i> 保存 </button>
 								<button onClick="layer_close();" class="btn btn-default radius" type="button">&nbsp;&nbsp;取消&nbsp;&nbsp;</button>
@@ -257,66 +332,32 @@
 			</div>
 			<div class="tabCon">
 				<div class="mt-20">
-					<form class="form form-horizontal" id="">
-						<div class="row cl">
-							<label class="form-label col-xs-4 col-sm-2">发送测算消息模版</label>
-							<div class="formControls col-xs-8 col-sm-9">
-								<input type="text" class="input-text" value="" placeholder="此处添加模板号"  name="">
-							</div>
-						</div>
-						<div class="row cl">
-							<label class="form-label col-xs-4 col-sm-2">发送预约投保模版</label>
-							<div class="formControls col-xs-8 col-sm-9">
-								<input type="text" class="input-text" value="" placeholder="此处添加模板号"  name="">
-							</div>
-						</div>
-						<div class="row cl">
-							<label class="form-label col-xs-4 col-sm-2">发送预约定损模版</label>
-							<div class="formControls col-xs-8 col-sm-9">
-								<input type="text" class="input-text" value="" placeholder="此处添加模板号"  name="">
-							</div>
-						</div>
-						<div class="row cl">
-							<label class="form-label col-xs-4 col-sm-2">发送定损进展模版</label>
-							<div class="formControls col-xs-8 col-sm-9">
-								<input type="text" class="input-text" value="" placeholder="此处添加模板号"  name="">
-							</div>
-						</div>
-						<div class="row cl">
-							<label class="form-label col-xs-4 col-sm-2">发送预约保养模版</label>
-							<div class="formControls col-xs-8 col-sm-9">
-								<input type="text" class="input-text" value="" placeholder="此处添加模板号"  name="">
-							</div>
-						</div>
-						<div class="row cl">
-							<label class="form-label col-xs-4 col-sm-2">发送预约验车模版</label>
-							<div class="formControls col-xs-8 col-sm-9">
-								<input type="text" class="input-text" value="" placeholder="此处添加模板号"  name="">
-							</div>
-						</div>
-						<div class="row cl">
-							<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
-								<button onClick="article_save();" class="btn btn-primary radius" type="submit"><i class="Hui-iconfont">&#xe632;</i> 保存 </button>
-								<button onClick="layer_close();" class="btn btn-default radius" type="button">&nbsp;&nbsp;取消&nbsp;&nbsp;</button>
-							</div>
-						</div>
-					</form>
+					
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
 <script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script> 
-<script type="text/javascript" src="lib/layer/2.1/layer.js"></script> 
+<script type="text/javascript" src="lib/layer/2.1/layer.js"></script>
 <script type="text/javascript" src="lib/My97DatePicker/WdatePicker.js"></script> 
 <script type="text/javascript" src="lib/datatables/1.10.0/jquery.dataTables.min.js"></script> 
 <script type="text/javascript" src="static/h-ui/js/H-ui.js"></script> 
 <script type="text/javascript" src="static/h-ui.admin/js/H-ui.admin.js"></script>
+<script type="text/javascript" src="lib/icheck/jquery.icheck.min.js"></script>
 <!--轮播图-->
 <script src="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script type="text/javascript">
     $(function(){
         $.Huitab("#tab_demo .tabBar span","#tab_demo .tabCon","current","click","0");
+    });
+    /*checkbox*/
+    $(function(){
+        $('.skin-minimal input').iCheck({
+            checkboxClass: 'icheckbox-blue',
+            radioClass: 'iradio-blue',
+            increaseArea: '20%'
+        });
     });
 	/*消息模板*/
     function message_edit(title,url,id){
@@ -326,16 +367,25 @@
             content: url
         });
         layer.full(index);
+    };
+    function send1() {
+        layer.msg('赠送积分',{icon:1,time:1000});
+    }
+    function send2() {
+        layer.msg('赠送余额：暂未开启',{icon:2,time:1000});
+    }
+    function find1() {
+        layer.msg('搜索优惠券',{icon:3,time:1000});
     }
     function addDom() {
         var str="";
         str+="<div style='height: 30px; position: relative;margin-bottom:10px'>";
         str+="<input class='input-text upload-url' style='width: 200px;height:30px' type='text'>";
-        str+="<div class='check-box'>";
+        str+="<div class='check-box' style='margin-left: 4px;'>";
         str+="<input type='checkbox' id='checkbox-2' checked>";
-        str+="<label for='checkbox-2'>必填</label>";
+        str+="<label for='checkbox-2' style='margin-left: 4px;'>必填</label>";
         str+="</div>";
-        str+="<div class='select-box' style='width: 210px;margin-left: 12px;'>";
+        str+="<div class='select-box' style='width: 210px;margin-left:4px;'>";
         str+="<select class='select' size='1' name='demo1'>";
         str+="<option value='' selected>  </option>";
         str+="</select>";
