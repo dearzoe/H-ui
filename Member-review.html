@@ -25,13 +25,13 @@
 	<script>DD_belatedPNG.fix('*');</script>
 	<![endif]-->
 	<!--/meta 作为公共模版分离出去-->
-	<title>会员资料</title>
+	<title>会员审核</title>
 	<link href="lib/webuploader/0.1.5/webuploader.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 会员管理 <span class="c-gray en">&gt;</span> 会员资料 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 会员管理 <span class="c-gray en">&gt;</span> 会员审核 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
 <marquee behavior="" direction="" class="c-red">系统将于2016年10月10日18：00一2016年10月11日6：00维护升级，如有不便敬请谅解！！</marquee>
-<div class="page-container">
+<div class="page-container" style="padding: 0">
 	<form class="form form-horizontal demoform" style="margin-bottom: 15px" id="form-article-add">
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-2">所属公司：</label>
@@ -40,99 +40,8 @@
 			</div>
 		</div>
 		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-2"> 归属选择： </label>
-			<div class="formControls col-xs-8 col-sm-9">
-				<div class="select-box" style="width: 600px">
-					<select class="select" size="1" name="demo1">
-						<option value="请选择" selected> 请选择 </option>
-						<option value="华东区域"> 华东区域 </option>
-						<option value="华南区域"> 华南区域 </option>
-						<option value="华中区域"> 华中区域 </option>
-						<option value="华北区域"> 华北区域 </option>
-						<option value="西南区域"> 西南区域 </option>
-						<option value="东北区域"> 东北区域 </option>
-						<option value="港澳台区域"> 港澳台区域 </option>
-					</select>
-				</div>
-			</div>
-		</div>
-		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-2">归属省市区：</label>
-			<div class="formControls col-xs-8 col-sm-9">
-				<div id="province"></div>
-			</div>
-		</div>
-		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-2">归属公司：</label>
-			<div class="formControls col-xs-8 col-sm-9">
-				<div class="select-box" style="width: 600px">
-					<select class="select" size="1" name="demo1">
-						<option value="公司1" selected> 公司1 </option>
-						<option value="公司2" selected> 公司2 </option>
-						<option value="公司4" selected> 公司4 </option>
-						<option value="公司5" selected> 公司5 </option>
-						<option value="公司6" selected> 公司6 </option>
-					</select>
-				</div>
-			</div>
-		</div>
-		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-2">归属部门：</label>
-			<div class="formControls col-xs-8 col-sm-9">
-				<div class="select-box" style="width: 600px">
-					<select class="select" size="1" name="demo1">
-						<option value="车商一部" selected> 车商一部 </option>
-						<option value="车商二部" selected> 车商二部 </option>
-						<option value="车商三部" selected> 车商三部 </option>
-						<option value="中介一部" selected> 中介一部 </option>
-					</select>
-				</div>
-			</div>
-		</div>
-		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-2">汽车品牌：</label>
-			<div class="formControls col-xs-8 col-sm-9">
-				<div class="select-box" style="width: 600px">
-					<select class="select" size="1" name="demo1">
-						<option value="品牌" selected> 品牌 </option>
-						<option value="所有" selected> 所有 </option>
-						<option value="奥迪" selected> 奥迪 </option>
-						<option value="奔驰" selected> 奔驰 </option>
-						<option value="宝马" selected> 宝马 </option>
-						<option value="大众" selected> 大众 </option>
-					</select>
-				</div>
-			</div>
-		</div>
-		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-2">渠道类型：</label>
-			<div class="formControls col-xs-8 col-sm-9">
-				<div class="select-box" style="width: 600px">
-					<select class="select" size="1" name="demo1">
-						<option value="类型1" selected> 类型1 </option>
-						<option value="类型2" selected> 类型2 </option>
-						<option value="类型3" selected> 类型3 </option>
-					</select>
-				</div>
-			</div>
-		</div>
-		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-2">渠道名称：</label>
-			<div class="formControls col-xs-8 col-sm-9">
-				<div class="select-box" style="width: 600px">
-					<select class="select" size="1" name="demo1">
-						<option value="渠道名称1" selected> 渠道名称1 </option>
-						<option value="渠道名称2" selected> 渠道名称2 </option>
-						<option value="渠道名称3" selected> 渠道名称3 </option>
-					</select>
-				</div>
-			</div>
-		</div>
-		<div class="row cl">
-			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2" style="position:
-relative">
-				<button onClick="article_save();" class="btn btn-primary radius" type="button"><i class="Hui-iconfont">&#xe632;</i> 确认提交 </button>
-				<button onClick="article_updata();" class="btn btn-primary radius" type="button"><i class="Hui-iconfont">&#xe632;</i> 更新会员资料 </button>
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2" style="position:relative;top: -43px;left: 253px;">
+				<button onClick="article_updata();" class="btn btn-primary radius" type="button"> 更新会员资料 </button>
 				<div class="progress" id="updata" style="display: none;position: absolute;top: 10px;left:263px;"><div class="progress-bar" style="width: 351px"><span class="sr-only" id="updataSpan" style="width:0"></span></div></div>
 			</div>
 		</div>
@@ -155,7 +64,6 @@ relative">
 			<span class="c-danger"> 12 </span>
 		</div>
 	</div>
-	<div id="main" style="height:400px"></div>
 	<div class="mt-20">
 		<div class="Huialert Huialert-success text-r">
 			<a style="text-decoration:none" class="btn btn-primary radius" onClick="saveAsExcel('tableid')" href="javascript:;" title="导出"> 导出Excel </a>
@@ -163,43 +71,50 @@ relative">
 		<table id="tableid1" class="table table-border table-bordered table-bg table-hover table-sort">
 			<thead>
 			<tr class="text-c">
-				<th>提交日期</th>
-				<th>起保日期</th>
-				<th>微信号</th>
-				<th>保险类型</th>
-				<th>保险性质</th>
+				<th>会员号</th>
+				<th>微信名称/微信号</th>
+				<th>持卡人</th>
+				<th>性别</th>
 				<th>车牌号</th>
-				<th>联系人</th>
-				<th>联系电话</th>
-				<th>行驶本照片</th>
-				<th>保险公司</th>
-				<th>商业险险种</th>
-				<th>交强险/车船税</th>
-				<th>留言</th>
+				<th>手机号码</th>
+				<th>领卡时间</th>
+				<th>有效期</th>
+				<th>剩余天数</th>
 				<th>状态</th>
-				<th>模版</th>
-				<th>推送</th>
+				<th>归属渠道</th>
+				<th>操作</th>
 				<th>备注</th>
 			</tr>
 			</thead>
 			<tbody>
 			<tr class="text-c">
-				<td>2015-07-26</td>
-				<td class="text-c">一</td>
-				<td class="text-c">killer160</td>
-				<td class="text-c">续保</td>
-				<td class="text-c">个人</td>
+				<td>ZCB0000001</td>
+				<td class="text-c">乔谷仙子<span class="label label-success radius">killer160</span></td>
+				<td class="text-c">乔宇翔</td>
+				<td class="text-c"><span class="c-blue">♂</span></td>
 				<td class="text-c">京NB8888</td>
-				<td class="text-c">王</td>
-				<td class="text-c">13488699657</td>
-				<td class="text-c">一</td>
-				<td class="text-c">人保</td>
-				<td class="text-c">同去年</td>
-				<td class="text-c"><span class="label label-success radius">√</span></td>
+				<td class="text-c">13888888888</td>
+				<td class="text-c">2015-12-12</td>
+				<td class="text-c">2015.12.12-2016.12.11</td>
 				<td class="text-c"></td>
-				<td class="text-c"><span class="label label-primary radius">待受理</span></td>
-				<td class="text-c"><a style="text-decoration:none" class="ml-5" onClick="article_edit('添加模板','Book-moduleAdd.html','10001')" href="javascript:;" title="添加模板"><i class="Hui-iconfont">&#xe610;</i></a> </td>
-				<td class="text-c td-status"><a onClick="product_start(this,'10001')" class="label label-danger radius">未推送</a></td>
+				<td class="text-c"><span class="c-green">正常</span></td>
+				<td class="text-c">京现4S店</td>
+				<td class="text-c td-status"><a onClick="product_start(this,'10001')" class="label label-danger radius">一键审核</a></td>
+				<td class="text-c"></td>
+			</tr>
+			<tr class="text-c">
+				<td>ZCB123123</td>
+				<td class="text-c">张<span class="label label-success radius">qwescdas</span></td>
+				<td class="text-c">张</td>
+				<td class="text-c"><span class="c-red">♀</span></td>
+				<td class="text-c">京NB8888</td>
+				<td class="text-c">13888888888</td>
+				<td class="text-c">2015-12-12</td>
+				<td class="text-c">2015.12.12-2016.12.11</td>
+				<td class="text-c"></td>
+				<td class="text-c"><span class="c-green">正常</span></td>
+				<td class="text-c">京现4S店</td>
+				<td class="text-c td-status"><a onClick="product_start(this,'10001')" class="label label-danger radius">一键审核</a></td>
 				<td class="text-c"></td>
 			</tr>
 			</tbody>
@@ -226,90 +141,20 @@ relative">
 <script type="text/javascript" src="lib/ueditor/1.4.3/ueditor.config.js"></script>
 <script type="text/javascript" src="lib/ueditor/1.4.3/ueditor.all.min.js"> </script>
 <script type="text/javascript" src="lib/ueditor/1.4.3/lang/zh-cn/zh-cn.js"></script>
-<!--表单验证-->
-<script type="text/javascript" src="Validform/Validform.js"></script>
-<!--城市三级联动-->
-<script type="text/javascript" src="city-three/jquery.provincesCity.js"></script>
-<script type="text/javascript" src="city-three/provincesData.js"></script>
-<!--日期-->
-<script src="dataJquery/laydate/laydate.js"></script>
-<!-- ECharts单文件引入 -->
-<script src="echarts-2.2.7/build/source/echarts-all.js"></script>
 <script type="text/javascript">
     function article_save(){
         window.parent.location.reload();
     }
     $(function () {
         $.Huitab("#tab_demo .tabBar span","#tab_demo .tabCon","current","click","0");
-        // 基于准备好的dom，初始化echarts图表
-        var myChart = echarts.init(document.getElementById('main'));
-        var option = {
-            tooltip : {
-                trigger: 'axis'
-            },
-            legend: {
-                data:['新增会员人数','过期会员人数','净会员人数','累计会员人数']
-            },
-            toolbox: {
-                show : true,
-                feature : {
-                    mark : {show: true},
-                    dataView : {show: true, readOnly: false},
-                    magicType : {show: true, type: ['line', 'bar', 'stack', 'tiled']},
-                    restore : {show: true},
-                    saveAsImage : {show: true}
-                }
-            },
-            calculable : true,
-            xAxis : [
-                {
-                    type : 'category',
-                    boundaryGap : false,
-                    data : ['10-11','10-12','10-13','10-14','10-15','10-16','10-17']
-                }
-            ],
-            yAxis : [
-                {
-                    type : 'value'
-                }
-            ],
-            series : [
-                {
-                    name:'新增会员人数',
-                    type:'line',
-                    stack: '总量',
-                    data:[120, 132, 101, 134, 90, 230, 210]
-                },
-                {
-                    name:'过期会员人数',
-                    type:'line',
-                    stack: '总量',
-                    data:[220, 182, 191, 234, 290, 330, 310]
-                },
-                {
-                    name:'净会员人数',
-                    type:'line',
-                    stack: '总量',
-                    data:[150, 232, 201, 154, 190, 330, 410]
-                },
-                {
-                    name:'累计会员人数',
-                    type:'line',
-                    stack: '总量',
-                    data:[320, 332, 301, 334, 390, 330, 320]
-                }
-            ]
-        };
-        // 为echarts对象加载数据
-        myChart.setOption(option);
     })
 
     /*推送*/
     function product_start(obj,id){
-        layer.confirm('确认要推送吗？',function(index){
-            $(obj).parents("tr").find(".td-status").html('<a class="label label-success radius">已推送</a>');
+        layer.confirm('确认要审核吗？',function(index){
+            $(obj).parents("tr").find(".td-status").html('<a class="label label-success radius">审核并推送</a>');
             //$(obj).remove();
-            layer.msg('已推送!',{icon: 6,time:1000});
+            layer.msg('已审核并推送!',{icon: 6,time:1000});
         });
     }
 function article_updata() {
