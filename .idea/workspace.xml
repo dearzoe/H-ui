@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a3fc816-f8e1-4f66-86d1-326f0b8920f9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Member-review.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Member-transferCard.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Member-information.html" afterPath="$PROJECT_DIR$/Member-information.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Member-review.html" afterPath="$PROJECT_DIR$/Member-review.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -57,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Member-review.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Member-review.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Member-review.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="105" column="29" lean-forward="false" selection-start-line="105" selection-start-column="29" selection-end-line="105" selection-end-column="29" />
+            <state relative-caret-position="242">
+              <caret line="114" column="53" lean-forward="false" selection-start-line="114" selection-start-column="53" selection-end-line="114" selection-end-column="53" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -72,6 +72,16 @@
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Member-transferCard.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Member-transferCard.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1870">
+              <caret line="89" column="30" lean-forward="true" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -141,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/basis-MorePicReply.html" />
         <option value="$PROJECT_DIR$/addPic.html" />
         <option value="$PROJECT_DIR$/44444.html" />
         <option value="$PROJECT_DIR$/5.html" />
@@ -191,6 +200,7 @@
         <option value="$PROJECT_DIR$/../index.html" />
         <option value="$PROJECT_DIR$/Member-cardSettings.html" />
         <option value="$PROJECT_DIR$/Member-information.html" />
+        <option value="$PROJECT_DIR$/Member-transferCard.html" />
         <option value="$PROJECT_DIR$/Member-review.html" />
       </list>
     </option>
@@ -367,7 +377,7 @@
       <workItem from="1482912783661" duration="13946000" />
       <workItem from="1482974053939" duration="24565000" />
       <workItem from="1483010838985" duration="17116000" />
-      <workItem from="1483062241291" duration="28313000" />
+      <workItem from="1483062241291" duration="28886000" />
     </task>
     <task id="LOCAL-00001" summary="copy">
       <created>1482912969066</created>
@@ -380,7 +390,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153904000" />
+    <option name="totallyTimeSpent" value="154477000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
@@ -437,7 +447,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/power-numberManage2.html" />
     <entry file="file://$PROJECT_DIR$/jquery-treemenu20160517/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -977,8 +986,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Member-review.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="105" column="29" lean-forward="false" selection-start-line="105" selection-start-column="29" selection-end-line="105" selection-end-column="29" />
+        <state relative-caret-position="242">
+          <caret line="114" column="53" lean-forward="false" selection-start-line="114" selection-start-column="53" selection-end-line="114" selection-end-column="53" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -989,6 +998,14 @@
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Member-transferCard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="89" column="30" lean-forward="true" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
