@@ -1,0 +1,547 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!--轮播图-->
+<link rel="stylesheet" href="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+<!--[if lt IE 9]>
+<script type="text/javascript" src="lib/html5.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+<script type="text/javascript" src="lib/PIE_IE678.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/H-ui.admin.css" />
+<link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.7/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="lib/icheck/icheck.css" />
+<link rel="stylesheet" type="text/css" href="static/h-ui.admin/skin/default/skin.css" id="skin" />
+<link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/style.css" />
+<style>
+	body{
+		background: #f9f9f9;
+	}
+	.DOM{
+		background: url('temp/brand/u9596all.png');
+		background-size:100% 100%;
+		width: 361px;
+		height: 844px;
+		float: left;
+		position: relative
+	}
+	.DOM .carousel{
+		width: 290px;
+		height: 160px;
+		top: 156px;
+		left: 34px;
+	}
+	.DOM .vip{
+		width: 22px;
+		height: 16px;
+		z-index: 1;
+		background: url("temp/brand/vip-grow-rank/7.png");
+		background-position: 0px 0px;
+		position: absolute;
+		top: 428px;
+		left: 93px;
+	}
+	.dataPanel{
+		float: right;
+		margin-top: 50px;
+		width: 870px;
+		height: 800px;
+	}
+</style>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+</head>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 会员管理 <span class="c-gray en">&gt;</span> 设置会员卡 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="cl pd-5 bg-1 bk-gray mt-20" style="background-color:#fcf8e3;padding-left: 20px">
+	<span><i class="Hui-iconfont">&#xe6e0;</i>会员在进行余额充值，会员组变更，会员积分变更，会员卡计次充值，会员卡计时充值等操作时，系统会进行微信模板消息通知。<a style="text-decoration:none" class="ml-5" onClick="message_edit('设置模板消息','Basic-messageTemplate.html','10001')" href="javascript:;" title="设置模板消息">设置模板消息</a></span>
+</div>
+<div class="page-container">
+	<div class="DOM">
+		<div class="vip"></div>
+		<div id="myCarousel" class="carousel slide">
+			<!-- 轮播（Carousel）指标 -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+			<!-- 轮播（Carousel）项目 -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="temp/brand/1.png" alt="First slide">
+				</div>
+				<div class="item">
+					<img src="temp/brand/2.png" alt="Second slide">
+				</div>
+				<div class="item">
+					<img src="temp/brand/3.png" alt="Third slide">
+				</div>
+			</div>
+			<!-- 轮播（Carousel）导航 -->
+			<a class="carousel-control left" href="#myCarousel"
+			   data-slide="prev">&lsaquo;</a>
+			<a class="carousel-control right" href="#myCarousel"
+			   data-slide="next">&rsaquo;</a>
+		</div>
+	</div>
+	<div class="panel panel-default dataPanel">
+		<div id="tab_demo" class="HuiTab">
+			<div class="tabBar cl">
+				<span class="btn btn-default" style="width: 144px"> 基本设置 </span>
+				<span class="btn btn-default" style="width: 145px"> 积分等级策略 </span>
+				<span class="btn btn-default c-red" style="width: 145px"> 消费优惠设置 </span>
+				<span class="btn btn-default c-red" style="width: 145px"> 支持优惠设置 </span>
+				<span class="btn btn-default c-red" style="width: 144px"> 计次设置 </span>
+				<span class="btn btn-default c-red" style="width: 144px"> 计时设置 </span>
+			</div>
+			<div class="tabCon">
+				<div class="mt-20">
+					<form class="form form-horizontal">
+						<div class="row cl">
+							<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>名称：</label>
+							<div class="formControls col-xs-8 col-sm-9">
+								<input type="text" class="input-text" value="" placeholder="会员卡"  name="">
+							</div>
+						</div>
+						<div class="row cl">
+							<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>背景图案</label>
+							<div class="formControls col-xs-8 col-sm-9">
+								<div class="panel-body" style=";padding: 0px">
+									<div style="height: 30px; position: relative;margin-bottom:
+10px">
+										<span>广告图一：</span>
+										<span class="btn-upload form-group" style="position: absolute;top: 0px;left: 305px;">
+											<span>链接地址：</span>
+  <input class="input-text upload-url" style="width: 210px;" type="text" name="uploadfile-1" id="uploadfile-1" readonly><a href="javascript:void();" class="btn btn-primary"><i class="Hui-iconfont">&#xe642;</i> 浏览 </a>
+  <input type="file" multiple name="file-1" class="input-file">
+</span>
+										<img src="" alt="" style="width: 200px;height: 30px">
+									</div>
+									<div style="height: 30px; position: relative;margin-bottom:
+10px">
+										<span>广告图二：</span>
+										<span class="btn-upload form-group" style="position: absolute;top: 0px;left: 305px;">
+											<span>链接地址：</span>
+  <input class="input-text upload-url" style="width: 210px;" type="text" name="uploadfile-1" id="uploadfile-1" readonly><a href="javascript:void();" class="btn btn-primary"><i class="Hui-iconfont">&#xe642;</i> 浏览 </a>
+  <input type="file" multiple name="file-1" class="input-file">
+</span>
+										<img src="" alt="" style="width: 200px;height: 30px">
+									</div>
+									<div style="height: 30px; position: relative;margin-bottom:
+10px">
+										<span>广告图三：</span>
+										<span class="btn-upload form-group" style="position: absolute;top: 0px;left: 305px;">
+											<span>链接地址：</span>
+  <input class="input-text upload-url" style="width: 210px;" type="text" name="uploadfile-1" id="uploadfile-1" readonly><a href="javascript:void();" class="btn btn-primary"><i class="Hui-iconfont">&#xe642;</i> 浏览 </a>
+  <input type="file" multiple name="file-1" class="input-file">
+</span>
+										<img src="" alt="" style="width: 200px;height: 30px">
+									</div>
+									<div style="height: 30px; position: relative;margin-bottom:
+10px">
+										<span>广告图四：</span>
+										<span class="btn-upload form-group" style="position: absolute;top: 0px;left: 305px;">
+											<span>链接地址：</span>
+  <input class="input-text upload-url" style="width: 210px;" type="text" name="uploadfile-1" id="uploadfile-1" readonly><a href="javascript:void();" class="btn btn-primary"><i class="Hui-iconfont">&#xe642;</i> 浏览 </a>
+  <input type="file" multiple name="file-1" class="input-file">
+</span>
+										<img src="" alt="" style="width: 200px;height: 30px">
+									</div>
+									<div style="height: 30px; position: relative;margin-bottom:
+10px">
+										<span>广告图五：</span>
+										<span class="btn-upload form-group" style="position: absolute;top: 0px;left: 305px;">
+											<span>链接地址：</span>
+  <input class="input-text upload-url" style="width: 210px;" type="text" name="uploadfile-1" id="uploadfile-1" readonly><a href="javascript:void();" class="btn btn-primary"><i class="Hui-iconfont">&#xe642;</i> 浏览 </a>
+  <input type="file" multiple name="file-1" class="input-file">
+</span>
+										<img src="" alt="" style="width: 200px;height: 30px">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row cl">
+							<label class="form-label col-xs-4 col-sm-2"> 间隔时间设定： </label>
+							<div class="formControls col-xs-8 col-sm-9">
+								<div class="select-box" style="width: 100px ">
+									<select class="select" size="1" name="demo1">
+										<option value="0.5"> 0.5 </option>
+										<option value="1"> 1 </option>
+										<option value="1.5"> 1.5 </option>
+										<option value="2"> 2 </option>
+										<option value="2.5"> 2.5 </option>
+										<option value="3"> 3 </option>
+										<option value="3.5"> 3.5 </option>
+										<option value="4"> 4 </option>
+										<option value="4.5"> 4.5 </option>
+										<option value="5" selected> 5 </option>
+									</select>
+								</div><span style="font-weight: 800;margin-left: 10px">秒</span>
+								<button class="btn btn-success radius">预览</button>
+							</div>
+
+						</div>
+						<div class="row cl">
+							<label class="form-label col-xs-4 col-sm-2">使用说明：</label>
+							<div class="formControls col-xs-8 col-sm-9">
+								<textarea name="" cols="" rows="" id="textarea" class="textarea"   dragonfly="true" nullmsg="备注不能为空！"></textarea>
+								<p class="label-warning">请填写会员卡使用说明</p>
+							</div>
+						</div>
+						<div class="row cl">
+							<label class="form-label col-xs-4 col-sm-2">会员卡资料</label>
+							<div class="formControls col-xs-8 col-sm-9">
+								<div class="panel-body" id="addDom" style="height: 220px;padding: 0px;overflow: auto">
+									<div class="addDomBox">
+										<div style="height: 30px; position: relative;margin-bottom:
+10px">
+											<input class="input-text upload-url" style="width: 200px;height: 30px"type="text" placeholder="姓名">
+											<div class="check-box">
+												<input type="checkbox" id="checkbox-2" checked>
+												<label for="checkbox-2">必填</label>
+											</div>
+											<div class="select-box" style="width: 210px;">
+												<select class="select" size="1" name="demo1">
+													<option value="真实姓名" selected> 真实姓名 </option>
+												</select>
+											</div>
+										</div>
+										<div style="height: 30px; position: relative;margin-bottom:
+10px">
+											<input class="input-text upload-url" style="width: 200px;height: 30px"type="text" placeholder="手机">
+											<div class="check-box">
+												<input type="checkbox" id="checkbox-2" checked>
+												<label for="checkbox-2">必填</label>
+											</div>
+											<div class="select-box" style="width: 210px;">
+												<select class="select" size="1" name="demo1">
+													<option value="手机号码" selected> 手机号码 </option>
+												</select>
+											</div>
+										</div>
+										<div style="height: 30px; position: relative;margin-bottom:
+10px">
+											<input class="input-text upload-url" style="width: 200px;height: 30px"type="text" placeholder="">
+											<div class="check-box">
+												<input type="checkbox" id="checkbox-2" checked>
+												<label for="checkbox-2">必填</label>
+											</div>
+											<div class="select-box" style="width: 210px;">
+												<select class="select" size="1" name="demo1">
+													<option value="" selected>  </option>
+												</select>
+											</div>
+										</div>
+									</div>
+									<a href="javascript:;" onclick="addDom()" class="btn btn-default radius"><i class="Hui-iconfont">&#xe610;</i>添加填写项目</a>
+								</div>
+							</div>
+						</div>
+						<div class="row cl">
+							<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
+								<button onClick="article_save();" class="btn btn-primary radius" type="submit"><i class="Hui-iconfont">&#xe632;</i> 保存 </button>
+								<button onClick="layer_close();" class="btn btn-default radius" type="button">&nbsp;&nbsp;取消&nbsp;&nbsp;</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="tabCon">
+				<div class="mt-20">
+					<form class="form form-horizontal" id="">
+						<div class="row cl">
+							<label class="form-label col-xs-4 col-sm-2">发送测算消息模版</label>
+							<div class="formControls col-xs-8 col-sm-9">
+								<input type="text" class="input-text" value="" placeholder="此处添加模板号"  name="">
+							</div>
+						</div>
+						<div class="row cl">
+							<label class="form-label col-xs-4 col-sm-2">发送预约投保模版</label>
+							<div class="formControls col-xs-8 col-sm-9">
+								<input type="text" class="input-text" value="" placeholder="此处添加模板号"  name="">
+							</div>
+						</div>
+						<div class="row cl">
+							<label class="form-label col-xs-4 col-sm-2">发送预约定损模版</label>
+							<div class="formControls col-xs-8 col-sm-9">
+								<input type="text" class="input-text" value="" placeholder="此处添加模板号"  name="">
+							</div>
+						</div>
+						<div class="row cl">
+							<label class="form-label col-xs-4 col-sm-2">发送定损进展模版</label>
+							<div class="formControls col-xs-8 col-sm-9">
+								<input type="text" class="input-text" value="" placeholder="此处添加模板号"  name="">
+							</div>
+						</div>
+						<div class="row cl">
+							<label class="form-label col-xs-4 col-sm-2">发送预约保养模版</label>
+							<div class="formControls col-xs-8 col-sm-9">
+								<input type="text" class="input-text" value="" placeholder="此处添加模板号"  name="">
+							</div>
+						</div>
+						<div class="row cl">
+							<label class="form-label col-xs-4 col-sm-2">发送预约验车模版</label>
+							<div class="formControls col-xs-8 col-sm-9">
+								<input type="text" class="input-text" value="" placeholder="此处添加模板号"  name="">
+							</div>
+						</div>
+						<div class="row cl">
+							<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
+								<button onClick="article_save();" class="btn btn-primary radius" type="submit"><i class="Hui-iconfont">&#xe632;</i> 保存 </button>
+								<button onClick="layer_close();" class="btn btn-default radius" type="button">&nbsp;&nbsp;取消&nbsp;&nbsp;</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script> 
+<script type="text/javascript" src="lib/layer/2.1/layer.js"></script> 
+<script type="text/javascript" src="lib/My97DatePicker/WdatePicker.js"></script> 
+<script type="text/javascript" src="lib/datatables/1.10.0/jquery.dataTables.min.js"></script> 
+<script type="text/javascript" src="static/h-ui/js/H-ui.js"></script> 
+<script type="text/javascript" src="static/h-ui.admin/js/H-ui.admin.js"></script>
+<!--轮播图-->
+<script src="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $.Huitab("#tab_demo .tabBar span","#tab_demo .tabCon","current","click","0");
+    });
+	/*消息模板*/
+    function message_edit(title,url,id){
+        var index = layer.open({
+            type: 2,
+            title: title,
+            content: url
+        });
+        layer.full(index);
+    }
+    function addDom() {
+        var str="";
+        str+="<div style='height: 30px; position: relative;margin-bottom:10px'>";
+        str+="<input class='input-text upload-url' style='width: 200px;height:30px' type='text'>";
+        str+="<div class='check-box'>";
+        str+="<input type='checkbox' id='checkbox-2' checked>";
+        str+="<label for='checkbox-2'>必填</label>";
+        str+="</div>";
+        str+="<div class='select-box' style='width: 210px;margin-left: 12px;'>";
+        str+="<select class='select' size='1' name='demo1'>";
+        str+="<option value='' selected>  </option>";
+        str+="</select>";
+        str+="</div>";
+        str+="</div>";
+		$("#addDom").find(".addDomBox").append(str)
+    }
+    $(function () {
+        var str="";
+        str+="1、本卡采用记名消费方式\n";
+        str+="2、持卡人可享受会员专属优惠\n";
+        str+="3、持卡人不能与其他优惠活动共同使用\n";
+        str+="4、持卡人可用卡内余额进行消费\n";
+        $("textarea").val(str);
+		/*var obj=$("#radioDom").find("input[name='demo-radio1']")//.is(':checked');
+		if(obj.is(':checked')){
+             if(obj.id == "radio-1"){
+                 console.log("1")
+			 }else if(obj.id == "radio-2"){
+                 console.log("2")
+            }else if(obj.id == "radio-3"){
+                 console.log("3")
+            }
+		}
+		console.dir(obj)
+		console.log($("#radioDom").find("input[name='demo-radio1']").parents(".radio-box").find("label").text())*/
+      /* console.log($("input[name='demo-radio1']"));
+       var DomId=$("input[name='demo-radio1'][checked]")["prevObject"]["0"]["activeElement"].id;
+       console.log(DomId)
+           if(DomId == "radio-1"){
+               console.log("1")
+           }else if(DomId == "radio-2"){
+               console.log("2")
+           }else if(DomId == "radio-3"){
+               console.log("3")
+           }*/
+    });
+    function changeDom() {
+        var DomId=$("input[name='demo-radio1'][checked]")["prevObject"]["0"]["activeElement"].id;
+        console.log(DomId)
+        if(DomId == "radio-1"){
+            $("#appendDom").empty()
+            var str='';
+            str+="<label class='form-label col-xs-4 col-sm-2'></label>";
+            str+="<div class='formControls col-xs-8 col-sm-9'>";
+            str+="<span class='btn-upload form-group'>";
+            str+="<input class='input-text upload-url' type='text' name='uploadfile' id='basisMonge' readonly style='width:400px'>";
+            str+="<a href='javascript:void();' class='btn btn-danger radius upload-btn'>";
+            str+="<i class='Hui-iconfont'>";
+            str+="&#xe63c;";
+            str+="</i>";
+            str+="系统链接";
+            str+="</a>";
+            str+="<input type='file' multiple name='file-2' class='input-file'>";
+            str+="</span>";
+            str+="</div>";
+            str+="<div class='form-label col-xs-4 col-sm-2'></div>";
+            str+="<div class='formControls col-xs-8 col-sm-9' style='margin-bottom: 10px;color: #7d7d7d;font-size: 10px'>指定点击此菜单时要跳转的链接（注：链接需加http://）</div>";
+            str+="<div class='form-label col-xs-4 col-sm-2'></div>";
+            str+="<div class='formControls col-xs-8 col-sm-9'>注意: 由于接口限制. 如果你没有网页oAuth接口权限, 这里输入链接直接进入微站个人中心时将会有缺陷(有可能获得不到当前访问用户的身份信息. 如果没有oAuth接口权限, 建议你使用图文回复的形式来访问个人中心)</div>";
+            $("#appendDom").append(str);
+            str="";
+        }else if(DomId == "radio-2"){
+            $("#appendDom").empty()
+            var str='';
+            str+="<label class='form-label col-xs-4 col-sm-2'></label>";
+            str+="<div class='formControls col-xs-8 col-sm-9'>";
+            str+="<span class='btn-upload form-group'>";
+            str+="<input class='input-text' type='text' name='uploadfile' id='basisMonge' style='width:400px'>";
+            str+="<a href='javascript:void();' class='btn btn-danger radius upload-btn'>";
+            str+="<i class='Hui-iconfont'>";
+            str+="&#xe665;";
+            str+="</i>";
+            str+="搜索";
+            str+="</a>";
+            str+="</span>";
+            str+="</div>";
+            str+="<div class='form-label col-xs-4 col-sm-2'></div>";
+            str+="<div class='formControls col-xs-8 col-sm-9' style='margin-bottom: 10px;color: #7d7d7d;font-size: 10px'>指定点击此菜单时要执行的操作, 你可以在这里输入关键字, 那么点击这个菜单时就就相当于发送这个内容至微擎系统</div>";
+            str+="<div class='form-label col-xs-4 col-sm-2'></div>";
+            str+="<div class='formControls col-xs-8 col-sm-9'>这个过程是程序模拟的, 比如这里添加关键字: 优惠券, 那么点击这个菜单是, 微擎系统相当于接受了粉丝用户的消息, 内容为'优惠券'</div>";
+            $("#appendDom").append(str);
+            str="";
+        }else if(DomId == "radio-3"){
+            $("#appendDom").empty()
+            var str='';
+            str+="<label class='form-label col-xs-4 col-sm-2'></label>";
+            str+="<div class='formControls col-xs-8 col-sm-9'>";
+            str+="<span class='btn-upload form-group'>";
+            str+="<input class='input-text upload-url' type='text' name='uploadfile' id='basisMonge' readonly style='width:400px'>";
+            str+="<a href='javascript:void();' class='btn btn-danger radius upload-btn'>";
+            str+="<i class='Hui-iconfont'>";
+            str+="&#xe616;";
+            str+="</i>";
+            str+="选择素材";
+            str+="</a>";
+            str+="<input type='file' multiple name='file-2' class='input-file'>";
+            str+="</span>";
+            str+="</div>";
+            $("#appendDom").append(str);
+            str="";
+        }
+    }
+	/*增加图文消息*/
+    function addPic(title,url,id,w,h){
+        layer_show(title,url,w,h);
+    }
+    function clearImg() {
+        document.getElementById('lableImg').setAttribute('src',
+            'temp/brand/2.jpg');
+    }
+	/*删除*/
+    function article_del(obj,id){
+        layer.confirm('确认要删除吗？',function(index){
+            $(obj).parents("tr").remove();
+            layer.msg('已删除!',{icon:1,time:1000});
+        });
+    }
+$('.table-sort').dataTable({
+	"aaSorting": [[ 1, "desc" ]],//默认第几个排序
+	"bStateSave": true,//状态保存
+	"aoColumnDefs": [
+	  //{"bVisible": false, "aTargets": [ 3 ]} //控制列的隐藏显示
+	  {"orderable":false,"aTargets":[2,3]}// 制定列不参与排序
+	]
+});
+/*图片-添加*/
+function picture_add(title,url){
+	var index = layer.open({
+		type: 2,
+		title: title,
+		content: url
+	});
+	layer.full(index);
+}
+/*图片-查看*/
+function picture_show(title,url,id){
+	var index = layer.open({
+		type: 2,
+		title: title,
+		content: url
+	});
+	layer.full(index);
+}
+/*图片-审核*/
+function picture_shenhe(obj,id){
+	layer.confirm('审核文章？', {
+		btn: ['通过','不通过'], 
+		shade: false
+	},
+	function(){
+		$(obj).parents("tr").find(".td-manage").prepend('<a class="c-primary" onClick="picture_start(this,id)" href="javascript:;" title="申请上线">申请上线</a>');
+		$(obj).parents("tr").find(".td-status").html('<span class="label label-success radius">完全匹配</span>');
+		$(obj).remove();
+		layer.msg('完全匹配', {icon:6,time:1000});
+	},
+	function(){
+		$(obj).parents("tr").find(".td-manage").prepend('<a class="c-primary" onClick="picture_shenqing(this,id)" href="javascript:;" title="申请上线">申请上线</a>');
+		$(obj).parents("tr").find(".td-status").html('<span class="label label-danger radius">模糊匹配</span>');
+		$(obj).remove();
+    	layer.msg('模糊匹配', {icon:5,time:1000});
+	});	
+}
+/*888888888888888888888888888888*/
+/*/!*图片-下架*!/
+function picture_stop(obj,id){
+	layer.confirm('确认要下架吗？',function(index){
+		$(obj).parents("tr").find(".td-manage").prepend('<a style="text-decoration:none" onClick="picture_start(this,id)" href="javascript:;" title="发布"><i class="Hui-iconfont">&#xe603;</i></a>');
+		$(obj).parents("tr").find(".td-status").html('<span class="label label-defaunt radius">已下架</span>');
+		$(obj).remove();
+		layer.msg('已下架!',{icon: 5,time:1000});
+	});
+}
+
+/!*图片-发布*!/
+function picture_start(obj,id){
+	layer.confirm('确认要发布吗？',function(index){
+		$(obj).parents("tr").find(".td-manage").prepend('<a style="text-decoration:none" onClick="picture_stop(this,id)" href="javascript:;" title="下架"><i class="Hui-iconfont">&#xe6de;</i></a>');
+		$(obj).parents("tr").find(".td-status").html('<span class="label label-success radius">已发布</span>');
+		$(obj).remove();
+		layer.msg('已发布!',{icon: 6,time:1000});
+	});
+}*/
+/*888888888888888888888888888888*/
+/*图片-申请上线*/
+function picture_shenqing(obj,id){
+	$(obj).parents("tr").find(".td-status").html('<span class="label label-default radius">待审核</span>');
+	$(obj).parents("tr").find(".td-manage").html("");
+	layer.msg('已提交申请，耐心等待审核!', {icon: 1,time:2000});
+}
+/*图片-编辑*/
+function message_edit(title,url,id){
+	var index = layer.open({
+		type: 2,
+		title: title,
+		content: url
+	});
+	layer.full(index);
+}
+/*图片-删除*/
+function picture_del(obj,id){
+	layer.confirm('确认要删除吗？',function(index){
+		$(obj).parents("tr").remove();
+		layer.msg('已删除!',{icon:1,time:1000});
+	});
+}
+</script>
+</body>
+</html>
