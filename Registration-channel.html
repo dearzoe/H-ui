@@ -1,8 +1,8 @@
-<!--_meta 作为公共模版分离出去-->
 <!DOCTYPE HTML>
 <html>
 <head>
 <meta charset="utf-8">
+<title>注册渠道</title>
 <meta name="renderer" content="webkit|ie-comp|ie-stand">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
@@ -24,22 +24,19 @@
 <script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
 <script>DD_belatedPNG.fix('*');</script>
 <![endif]-->
-<!--/meta 作为公共模版分离出去-->
-
-<title>文本回复编辑</title>
 <link href="lib/webuploader/0.1.5/webuploader.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 注册管理 <span class="c-gray en">&gt;</span> 注册渠道 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
 <div class="page-container">
-	<form class="form form-horizontal" id="form-article-add">
+	<form class="form form-horizontal demoform" id="RC_form">
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-2">所属公司：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<span class="c-succes">中国人民财产保险股份有限公司 <img style="width:29px;height: 13px" src="temp/brand/u1602.png" alt=""></span>
 			</div>
 		</div>
-		<div class="row cl">
+		<div class="row cl" id="RC_area">
 			<label class="form-label col-xs-4 col-sm-2">所属区域：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
@@ -51,13 +48,13 @@
 				</div>
 			</div>
 		</div>
-		<div class="row cl">
+		<div class="row cl" id="RC_city">
 			<label class="form-label col-xs-4 col-sm-2">所属城市：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div id="province"></div>
 			</div>
 		</div>
-		<div class="row cl">
+		<div class="row cl" id="RC_firstCompany">
 			<label class="form-label col-xs-4 col-sm-2">一级公司：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
@@ -68,13 +65,13 @@
 				</div>
 			</div>
 		</div>
-		<div class="row cl">
+		<div class="row cl" id="RC_firstAddress">
 			<label class="form-label col-xs-4 col-sm-2">所在地址：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input style="width: 600px" type="text" class="input-text" value="" placeholder="" id="basis_pic_title" name="">
+				<input style="width: 600px" type="text" class="input-text" value="" placeholder="" name="">
 			</div>
 		</div>
-		<div class="row cl">
+		<div class="row cl" id="RC_secondCompany">
 			<label class="form-label col-xs-4 col-sm-2">二级公司：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
@@ -85,13 +82,13 @@
 				</div>
 			</div>
 		</div>
-		<div class="row cl">
+		<div class="row cl" id="RC_secondAddress">
 			<label class="form-label col-xs-4 col-sm-2">所在地址：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<input style="width: 600px" type="text" class="input-text" value="" placeholder="" id="basis_pic_title" name="">
 			</div>
 		</div>
-		<div class="row cl">
+		<div class="row cl" id="RC_thirdCompany">
 			<label class="form-label col-xs-4 col-sm-2">三级公司：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
@@ -102,31 +99,31 @@
 				</div>
 			</div>
 		</div>
-		<div class="row cl">
+		<div class="row cl" id="RC_thirdAddress">
 			<label class="form-label col-xs-4 col-sm-2">所在地址：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input style="width: 600px" type="text" class="input-text" value="" placeholder="" id="basis_pic_title" name="">
+				<input style="width: 600px" type="text" class="input-text" value="" placeholder=""  name="">
 			</div>
 		</div>
-		<div class="row cl">
+		<div class="row cl" id="RC_department">
 			<label class="form-label col-xs-4 col-sm-2">所属部门：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input style="width: 600px" type="text" class="input-text" value="" placeholder="" id="basis_pic_title" name="">
+				<input style="width: 600px" type="text" class="input-text" value="" placeholder=""  name="">
 			</div>
 		</div>
-		<div class="row cl">
+		<div class="row cl" id="RC_departmentManager">
 			<label class="form-label col-xs-4 col-sm-2">部门经理：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input style="width: 600px" type="text" class="input-text" value="" placeholder="" id="basis_pic_title" name="">
+				<input style="width: 600px" type="text" class="input-text" value="" placeholder=""  name="">
 			</div>
 		</div>
-		<div class="row cl">
+		<div class="row cl" id="RC_managerPhone">
 			<label class="form-label col-xs-4 col-sm-2">经理电话：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input style="width: 600px" type="text" class="input-text" value="" placeholder="" id="basis_pic_title" name="">
+				<input style="width: 600px"  class="input-text" value="" placeholder="请输入11位手机号码"  datatype="n11-11" name="phoneNumber">
 			</div>
 		</div>
-		<div class="row cl">
+		<div class="row cl" id="RC_channelType">
 			<label class="form-label col-xs-4 col-sm-2">渠道类别：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
@@ -141,7 +138,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row cl">
+		<div class="row cl" id="RC_carBrand">
 			<label class="form-label col-xs-4 col-sm-2">汽车品牌：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
@@ -154,50 +151,47 @@
 				</div>
 			</div>
 		</div>
-		<div class="row cl">
+		<div class="row cl" id="RC_channelName">
 			<label class="form-label col-xs-4 col-sm-2">渠道名称：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input style="width: 600px" type="text" class="input-text" value="" placeholder="" id="basis_pic_title" name="">
+				<input style="width: 600px" type="text" class="input-text" value="" placeholder=""  name="">
 			</div>
 		</div>
-		<div class="row cl">
+		<div class="row cl" id="RC_channelAddress">
 			<label class="form-label col-xs-4 col-sm-2">渠道地址：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input style="width: 600px" type="text" class="input-text" value="" placeholder="" id="basis_pic_title" name="">
+				<input style="width: 600px" type="text" class="input-text" value="" placeholder=""  name="">
 			</div>
 		</div>
-		<div class="row cl">
+		<div class="row cl"  id="RC_telephone">
 			<label class="form-label col-xs-4 col-sm-2">联系电话：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input style="width: 100px" type="text" class="input-text" value="" placeholder=""  name=""> -
-				<input style="width: 200px" type="text" class="input-text" value="" placeholder=""  name=""> -
-				<input style="width: 100px" type="text" class="input-text" value="" placeholder=""  name="">
-				<span class="c-red">区号—固话—分机（没有分机可不填）</span>
+				<input style="width: 600px" type="text" class="input-text" value="" placeholder="请输入固定电话，不用加区号，7位或者8位数字" datatype="n7-8" name="">
 			</div>
 		</div>
-		<div class="row cl">
+		<div class="row cl" id="RC_charge">
 			<label class="form-label col-xs-4 col-sm-2">负责人：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input style="width: 600px" type="text" class="input-text" value="" placeholder="" id="basis_pic_title" name="">
+				<input style="width: 600px" type="text" class="input-text" value="" placeholder="" name="">
 			</div>
 		</div>
-		<div class="row cl">
+		<div class="row cl" id="RC_chargePhone">
 			<label class="form-label col-xs-4 col-sm-2">负责人电话：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input style="width: 600px" type="text" class="input-text" value="" placeholder="" id="basis_pic_title" name="">
+				<input style="width: 600px" type="text" class="input-text" datatype="n7-11" value="" placeholder="手机号或者固定电话" name="">
 			</div>
 		</div>
 		<div class="row cl">
 			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
-				<button onClick="article_save();" class="btn btn-secondary radius" type="button"><i class="Hui-iconfont">&#xe604;</i> 确认添加 </button>
+				<a onClick="article_save();" href="javascript:;" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe604;</i> 确认添加 </a>
 			</div>
 		</div>
 	</form>
 	<div class="mt-20">
 		<div class="Huialert Huialert-success text-r">
-			<a style="text-decoration:none" class="btn btn-primary radius" onClick="saveAsExcel('tableid')" href="javascript:;" title="导出"> 导出Excel </a>
+			<a style="text-decoration:none" class="btn btn-primary radius" onClick="saveAsExcel('RC_table')" href="javascript:;" title="导出"> 导出Excel </a>
 		</div>
-		<table id="tableid" class="table table-border table-bordered table-bg table-hover table-sort">
+		<table id="RC_table" class="table table-border table-bordered table-bg table-hover table-sort">
 			<thead>
 			<tr class="text-c">
 				<th>序号</th>
@@ -246,8 +240,8 @@
 				<td class="text-c">负责人</td>
 				<td class="text-c">13800013490</td>
 				<td class="td-manage">
-					<a style="text-decoration:none" class="ml-5" onClick="picture_edit('编辑','basis-picAdd.html','10001')" href="javascript:;" title="编辑"><i class="Hui-iconfont">&#xe6df;</i></a>
-					<a style="text-decoration:none" class="ml-5" onClick="picture_del(this,'10001')" href="javascript:;" title="删除"><i class="Hui-iconfont">&#xe6e2;</i></a>
+					<a style="text-decoration:none" class="ml-5" onClick="tableList_edit('编辑','basis-picAdd.html','10001')" href="javascript:;" title="编辑"><i class="Hui-iconfont">&#xe6df;</i></a>
+					<a style="text-decoration:none" class="ml-5" onClick="tableList_del(this,'10001')" href="javascript:;" title="删除"><i class="Hui-iconfont">&#xe6e2;</i></a>
 				</td>
 			</tr>
 			<tr class="text-c">
@@ -272,8 +266,8 @@
 				<td class="text-c">负责人</td>
 				<td class="text-c">13800013490</td>
 				<td class="td-manage">
-					<a style="text-decoration:none" class="ml-5" onClick="picture_edit('编辑','basis-picAdd.html','10001')" href="javascript:;" title="编辑"><i class="Hui-iconfont">&#xe6df;</i></a>
-					<a style="text-decoration:none" class="ml-5" onClick="picture_del(this,'10001')" href="javascript:;" title="删除"><i class="Hui-iconfont">&#xe6e2;</i></a>
+					<a style="text-decoration:none" class="ml-5" onClick="tableList_edit('编辑','basis-picAdd.html','10001')" href="javascript:;" title="编辑"><i class="Hui-iconfont">&#xe6df;</i></a>
+					<a style="text-decoration:none" class="ml-5" onClick="tableList_del(this,'10001')" href="javascript:;" title="删除"><i class="Hui-iconfont">&#xe6e2;</i></a>
 				</td>
 			</tr>
 			</tbody>
@@ -282,7 +276,6 @@
 
 </div>
 </div>
-
 <!--_footer 作为公共模版分离出去-->
 <script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script> 
 <script type="text/javascript" src="lib/layer/2.1/layer.js"></script> 
@@ -296,7 +289,6 @@
 <script type="text/javascript" src="static/h-ui.admin/js/H-ui.admin.js"></script> 
 <script type="text/javascript" src="static/h-ui.admin/js/comment.js"></script>
 <!--/_footer /作为公共模版分离出去-->
-
 <!--请在下方写此页面业务相关的脚本-->
 <script type="text/javascript" src="lib/webuploader/0.1.5/webuploader.min.js"></script>
 <script type="text/javascript" src="lib/ueditor/1.4.3/ueditor.config.js"></script>
@@ -305,13 +297,16 @@
 <!--城市三级联动-->
 <script type="text/javascript" src="city-three/jquery.provincesCity.js"></script>
 <script type="text/javascript" src="city-three/provincesData.js"></script>
+<!--表单验证-->
+<script type="text/javascript" src="Validform/Validform.js"></script>
 <script type="text/javascript">
 function article_save(){
 	window.parent.location.reload();
 }
 /*城市三级联动*/
 $(function(){
-
+	/*电话验证*/
+    $(".demoform").Validform()
     $("#province").ProvinceCity();
     $("#province").children("select").css("width","200");
     $("#province").children("select").attr("class","input-text");
@@ -322,18 +317,15 @@ $(function(){
             //{"bVisible": false, "aTargets": [ 3 ]} //控制列的隐藏显示
             {"orderable":false,"aTargets":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]}// 制定列不参与排序
         ]
-    });
-	/*删除*/
-
+    })
 });
-function picture_del(obj,id){
+function tableList_del(obj,id){
     layer.confirm('确认要删除吗？',function(index){
         $(obj).parents("tr").remove();
         layer.msg('已删除!',{icon:1,time:3000});
     });
 }
 /*导出表格*/
-
     function saveAsExcel(tableID) {
         var tb = new TableToExcel(tableid);
         tb.setFontStyle("Courier New");
