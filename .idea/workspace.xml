@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a3fc816-f8e1-4f66-86d1-326f0b8920f9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/caozuo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node-false.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Power-accountManagement.html" afterPath="$PROJECT_DIR$/Power-accountManagement.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Power-accountRightsAllocation.html" afterPath="$PROJECT_DIR$/Power-accountRightsAllocation.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,7 +23,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-39">
@@ -55,6 +51,23 @@
                 <element signature="n#style#0;n#ul#2;n#ul#0;n#dd#0;n#dl#10;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#0;n#ul#2;n#ul#0;n#dd#0;n#dl#10;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#dl#11;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Power-accountRightsAllocation.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Power-accountRightsAllocation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="180" column="57" lean-forward="false" selection-start-line="180" selection-start-column="57" selection-end-line="180" selection-end-column="57" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#td#7;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#td#7;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#td#7;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#10921#11106#0" expanded="false" />
+                <element signature="e#11141#11530#0" expanded="false" />
+                <element signature="e#12647#16638#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -193,8 +206,8 @@
         <option value="$PROJECT_DIR$/node-false.js" />
         <option value="$PROJECT_DIR$/caozuo.html" />
         <option value="$PROJECT_DIR$/../权限管理/权限管理模块命名.txt" />
-        <option value="$PROJECT_DIR$/Power-accountRightsAllocation.html" />
         <option value="$PROJECT_DIR$/Power-accountManagement.html" />
+        <option value="$PROJECT_DIR$/Power-accountRightsAllocation.html" />
       </list>
     </option>
   </component>
@@ -386,7 +399,7 @@
       <workItem from="1483168626753" duration="2617000" />
       <workItem from="1483276635134" duration="10480000" />
       <workItem from="1483352237123" duration="281000" />
-      <workItem from="1483368489580" duration="3678000" />
+      <workItem from="1483368489580" duration="4048000" />
     </task>
     <task id="LOCAL-00001" summary="copy">
       <created>1482912969066</created>
@@ -399,13 +412,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183075000" />
+    <option name="totallyTimeSpent" value="183445000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2217262" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2217262" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -814,21 +827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Power-accountRightsAllocation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="178" column="188" lean-forward="false" selection-start-line="178" selection-start-column="20" selection-end-line="178" selection-end-column="188" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#td#7;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#td#7;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#td#7;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#10852#11037#0" expanded="false" />
-            <element signature="e#11072#11461#0" expanded="false" />
-            <element signature="e#12578#16569#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Power-accountManagement.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1297">
@@ -867,6 +865,21 @@
             <element signature="n#style#0;n#ul#2;n#ul#0;n#dd#0;n#dl#10;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#0;n#ul#2;n#ul#0;n#dd#0;n#dl#10;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#dl#11;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Power-accountRightsAllocation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="180" column="57" lean-forward="false" selection-start-line="180" selection-start-column="57" selection-end-line="180" selection-end-column="57" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#td#7;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#7;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#7;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#10921#11106#0" expanded="false" />
+            <element signature="e#11141#11530#0" expanded="false" />
+            <element signature="e#12647#16638#0" expanded="false" />
           </folding>
         </state>
       </provider>
