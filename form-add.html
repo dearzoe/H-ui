@@ -52,7 +52,26 @@
 <script type="text/javascript" src="lib/ueditor/1.4.3/ueditor.all.min.js"> </script>
 <script type="text/javascript" src="lib/ueditor/1.4.3/lang/zh-cn/zh-cn.js"></script>
 <script type="text/javascript">
-    document.write(localStorage.data2);
+    var obj=JSON.parse(localStorage.dataobj);
+    localStorage.clear();
+    var RC_area=obj.RC_area;/*所属区域*/
+    var RC_city=obj.RC_city1+obj.RC_city2+obj.RC_city3;/*省+市+区*/
+    var RC_firstCompany=obj.RC_firstCompany;/*一级公司*/
+    var RC_firstAddress=obj.RC_firstAddress;/*一级公司地址*/
+    var RC_secondCompany=obj.RC_secondCompany;/*二级公司*/
+    var RC_secondAddress=obj.RC_secondAddress;/*二级公司地址*/
+    var RC_thirdCompany=obj.RC_thirdCompany;/*三级公司*/
+    var RC_thirdAddress=obj.RC_thirdAddress;/*三级公司地址*/
+    var RC_department=obj.RC_department;/*部门*/
+    var RC_departmentManager=obj.RC_departmentManager;/*部门经理*/
+    var RC_managerPhone=obj.RC_managerPhone;/*经理电话*/
+    var RC_channelType=obj.RC_channelType;/*渠道类别*/
+    var RC_carBrand=obj.RC_carBrand;/*汽车品牌*/
+    var RC_channelName=obj.RC_channelName;/*渠道名称*/
+    var RC_channelAddress=obj.RC_channelAddress;/*渠道地址*/
+    var RC_telephone=obj.RC_telephone;/*联系电话*/
+    var RC_charge=obj.RC_charge;/*负责人*/
+    var RC_chargePhone=obj.RC_chargePhone;/*负责人电话*/
 </script>
 </body>
 </html>
