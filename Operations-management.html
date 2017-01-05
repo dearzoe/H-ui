@@ -7,6 +7,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
 	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" media="all" href="bootstrap-data/daterangepicker-bs3.css" />
 	<LINK rel="Bookmark" href="/favicon.ico" >
 	<LINK rel="Shortcut Icon" href="/favicon.ico" />
 	<!--[if lt IE 9]>
@@ -31,14 +34,14 @@
 <body>
 <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 运营管理 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
 <div class="page-container">
-	<form class="form form-horizontal demoform" id="form-article-add">
+	<form class="form form-horizontal demoform" id="OM_form">
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-2">所属公司：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<span class="c-succes">中国人民财产保险股份有限公司 <img style="width:29px;height: 13px" src="temp/brand/u1602.png" alt=""></span>
 			</div>
 		</div>
-		<div class="row cl">
+		<div class="row cl" id="OM_area">
 			<label class="form-label col-xs-4 col-sm-2"> 区域选择： </label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
@@ -56,13 +59,13 @@
 				</div>
 			</div>
 		</div>
-		<div class="row cl">
+		<div class="row cl" id="OM_city">
 			<label class="form-label col-xs-4 col-sm-2">归属省市区：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div id="province"></div>
 			</div>
 		</div>
-		<div class="row cl">
+		<div class="row cl" id="OM_company">
 			<label class="form-label col-xs-4 col-sm-2">渠道公司：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
@@ -76,7 +79,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row cl">
+		<div class="row cl" id="OM_department">
 			<label class="form-label col-xs-4 col-sm-2">渠道部门：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
@@ -89,7 +92,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row cl">
+		<div class="row cl" id="OM_brand">
 			<label class="form-label col-xs-4 col-sm-2">渠道品牌：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
@@ -104,7 +107,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row cl">
+		<div class="row cl" id="OM_channel">
 			<label class="form-label col-xs-4 col-sm-2">渠道渠道：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
@@ -116,7 +119,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row cl">
+		<div class="row cl" id="OM_channelType">
 			<label class="form-label col-xs-4 col-sm-2">渠道类型：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
@@ -128,7 +131,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row cl">
+		<div class="row cl" id="OM_channelName">
 			<label class="form-label col-xs-4 col-sm-2">渠道名称：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
@@ -140,19 +143,21 @@
 				</div>
 			</div>
 		</div>
-		<div class="row cl">
+		<div class="row cl" id="OM_time">
 			<label class="form-label col-xs-4 col-sm-2">选择区间：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input style="width: 135px" type="text" class="input-text" value="" placeholder=""  name=""> -
-				<input style="width: 135px" type="text" class="input-text" value="" placeholder=""  name=""> ----
-				<input style="width: 135px" type="text" class="input-text" value="" placeholder=""  name=""> -
-				<input style="width: 135px" type="text" class="input-text" value="" placeholder=""  name="">
-				<span class="c-red">起始时间格式未规定</span>
+				<div class="control-group">
+					<div class="controls">
+						<div class="input-prepend input-group">
+							<span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar fa fa-calendar"></i></span><input type="text" readonly="readonly" style="width: 200px" name="reservation" id="reservation" class="form-control" value="2014-5-21 - 2014-6-21" />
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="row cl">
 			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
-				<button onClick="article_save();" class="btn btn-secondary radius" type="button"><i class="Hui-iconfont">&#xe604;</i> 确认提交 </button>
+				<a onClick="article_save()" href="form-add1.html" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe604;</i> 确认提交 </a>
 			</div>
 		</div>
 	</form>
@@ -160,7 +165,7 @@
 		<div class="Huialert Huialert-success text-r">
 			<a style="text-decoration:none" class="btn btn-primary radius" onClick="saveAsExcel('tableid')" href="javascript:;" title="导出"> 导出Excel </a>
 		</div>
-		<table id="tableid" class="table table-border table-bordered table-bg table-hover table-sort" style="width: 2600px;">
+		<table id="OM_table" class="table table-border table-bordered table-bg table-hover table-sort" style="width: 2600px;">
 			<thead>
 			<tr id="tableCss" class="text-c">
 				<th>序号</th>
@@ -263,7 +268,6 @@
 			</tbody>
 		</table>
 	</div>
-
 </div>
 </div>
 <!--_footer 作为公共模版分离出去-->
@@ -285,16 +289,36 @@
 <script type="text/javascript" src="lib/ueditor/1.4.3/ueditor.config.js"></script>
 <script type="text/javascript" src="lib/ueditor/1.4.3/ueditor.all.min.js"> </script>
 <script type="text/javascript" src="lib/ueditor/1.4.3/lang/zh-cn/zh-cn.js"></script>
-<!--表单验证-->
-<script type="text/javascript" src="Validform/Validform.js"></script>
 <!--城市三级联动-->
 <script type="text/javascript" src="city-three/jquery.provincesCity.js"></script>
 <script type="text/javascript" src="city-three/provincesData.js"></script>
+<!--date-->
+<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="bootstrap-data/moment.min.js"></script>
+<script type="text/javascript" src="bootstrap-data/daterangepicker.js"></script>
 <script type="text/javascript">
     function article_save(){
-        window.parent.location.reload();
+        var dataobj={};
+        dataobj.OM_area=$("#OM_area").children("div.formControls").children().find("option:selected").text();
+        dataobj.OM_city1=$("#OM_city").children("div.formControls").children().find("option:selected").eq(0).text();
+        dataobj.OM_city2=$("#OM_city").children("div.formControls").children().find("option:selected").eq(1).text();
+        dataobj.OM_city3=$("#OM_city").children("div.formControls").children().find("option:selected").eq(2).text();
+        dataobj.OM_company=$("#OM_company").children("div.formControls").children().find("option:selected").text();
+        dataobj.OM_department=$("#OM_department").children("div.formControls").children().find("option:selected").text();
+        dataobj.OM_brand=$("#OM_brand").children("div.formControls").children().find("option:selected").text();
+        dataobj.OM_channel=$("#OM_channel").children("div.formControls").children().find("option:selected").text();
+        dataobj.OM_channelType=$("#OM_channelType").children("div.formControls").children().find("option:selected").text();
+        dataobj.OM_channelName=$("#OM_channelName").children("div.formControls").children().find("option:selected").text();
+        dataobj.OM_time=$("#OM_time").children("div.formControls").children().find("input.form-control").val();
+        console.log(dataobj);
+        var str=JSON.stringify(dataobj);
+        localStorage.dataobj=str;
     }
-
+    $(document).ready(function() {
+        $('#reservation').daterangepicker(null, function(start, end, label) {
+            console.log(start.toISOString(), end.toISOString(), label);
+        });
+    });
 	/*城市三级联动*/
     $(function(){
         /*table样式*/
@@ -320,28 +344,7 @@
                 {"orderable":false,"aTargets":[1,2,3,4,5,6,7,8]}// 制定列不参与排序
             ]
         });
-    /*表单验证*/
-    $(function () {
-        $(".demoform").Validform();
-        var str="";
-        str+="渠道名称：\n";
-        str+="渠道地址：\n";
-        str+="渠道电话：\n";
-        str+="渠道负责人：\n";
-        str+="负责人电话：\n";
-        str+="所属部门：\n";
-        str+="部门经理：\n";
-        str+="经理电话：\n";
-        $("#power-textarea").val(str);
-    })
     });
-    /*删除*/
-    function picture_del(obj,id){
-        layer.confirm('确认要删除吗？',function(index){
-            $(obj).parents("tr").remove();
-            layer.msg('已删除!',{icon:1,time:3000});
-        });
-    }
 	/*导出表格*/
     function saveAsExcel(tableID) {
         var tb = new TableToExcel(tableid);

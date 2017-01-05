@@ -29,7 +29,7 @@
 <body>
 <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 注册管理 <span class="c-gray en">&gt;</span> 注册渠道 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
 <div class="page-container">
-	<form class="form form-horizontal demoform" id="RC_form">
+	<form class="form form-horizontal demoform" id="RC_form" method="post" action="form-add.html">
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-2">所属公司：</label>
 			<div class="formControls col-xs-8 col-sm-9">
@@ -40,7 +40,7 @@
 			<label class="form-label col-xs-4 col-sm-2">所属区域：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
-					<select class="select" size="1" name="demo1">
+					<select class="select" size="1" name="RC_area">
 						<option value="请选择" selected> 请选择 </option>
 						<option value="东北地区">东北地区</option>
 						<option value="华北地区">华北地区</option>
@@ -58,7 +58,7 @@
 			<label class="form-label col-xs-4 col-sm-2">一级公司：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
-					<select class="select" size="1" name="demo1">
+					<select class="select" size="1" name="RC_firstCompany">
 						<option value="请选择" selected> 请选择 </option>
 						<option value="北京市分公司">北京市分公司</option>
 					</select>
@@ -68,14 +68,14 @@
 		<div class="row cl" id="RC_firstAddress">
 			<label class="form-label col-xs-4 col-sm-2">所在地址：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input style="width: 600px" type="text" class="input-text" value="" placeholder="" name="">
+				<input style="width: 600px" type="text" class="input-text" name="RC_firstAddress" value="" placeholder="">
 			</div>
 		</div>
 		<div class="row cl" id="RC_secondCompany">
 			<label class="form-label col-xs-4 col-sm-2">二级公司：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
-					<select class="select" size="1" name="demo1">
+					<select class="select" size="1" name="RC_secondCompany">
 						<option value="请选择" selected> 请选择 </option>
 						<option value="北京市分公司">北京市分公司</option>
 					</select>
@@ -85,14 +85,14 @@
 		<div class="row cl" id="RC_secondAddress">
 			<label class="form-label col-xs-4 col-sm-2">所在地址：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input style="width: 600px" type="text" class="input-text" value="" placeholder="" id="basis_pic_title" name="">
+				<input style="width: 600px" type="text" class="input-text" value="" placeholder="" id="basis_pic_title" name="RC_secondAddress">
 			</div>
 		</div>
 		<div class="row cl" id="RC_thirdCompany">
 			<label class="form-label col-xs-4 col-sm-2">三级公司：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
-					<select class="select" size="1" name="demo1">
+					<select class="select" size="1" name="RC_thirdCompany">
 						<option value="请选择" selected> 请选择 </option>
 						<option value="北京市分公司">北京市分公司</option>
 					</select>
@@ -102,32 +102,32 @@
 		<div class="row cl" id="RC_thirdAddress">
 			<label class="form-label col-xs-4 col-sm-2">所在地址：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input style="width: 600px" type="text" class="input-text" value="" placeholder=""  name="">
+				<input style="width: 600px" type="text" class="input-text" value="" placeholder=""  name="RC_thirdAddress">
 			</div>
 		</div>
 		<div class="row cl" id="RC_department">
 			<label class="form-label col-xs-4 col-sm-2">所属部门：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input style="width: 600px" type="text" class="input-text" value="" placeholder=""  name="">
+				<input style="width: 600px" type="text" class="input-text" value="" placeholder=""  name="RC_department">
 			</div>
 		</div>
 		<div class="row cl" id="RC_departmentManager">
 			<label class="form-label col-xs-4 col-sm-2">部门经理：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input style="width: 600px" type="text" class="input-text" value="" placeholder=""  name="">
+				<input style="width: 600px" type="text" class="input-text" value="" placeholder=""  name="RC_departmentManager">
 			</div>
 		</div>
 		<div class="row cl" id="RC_managerPhone">
 			<label class="form-label col-xs-4 col-sm-2">经理电话：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input style="width: 600px"  class="input-text" value="" placeholder="请输入11位手机号码"  datatype="n11-11" name="phoneNumber">
+				<input style="width: 600px"  class="input-text" value="" placeholder="请输入11位手机号码"  datatype="n11-11" name="RC_managerPhone">
 			</div>
 		</div>
 		<div class="row cl" id="RC_channelType">
 			<label class="form-label col-xs-4 col-sm-2">渠道类别：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
-					<select class="select" size="1" name="demo1">
+					<select class="select" size="1" name="RC_channelType">
 						<option value="请选择" selected> 请选择 </option>
 						<option value="4S店">4S店</option>
 						<option value="修理厂">修理厂</option>
@@ -142,7 +142,7 @@
 			<label class="form-label col-xs-4 col-sm-2">汽车品牌：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
-					<select class="select" size="1" name="demo1">
+					<select class="select" size="1" name="RC_carBrand">
 						<option value="请选择" selected> 请选择 </option>
 						<option value="宝马">宝马（德国）</option>
 						<option value="奔驰">奔驰（德国）</option>
@@ -154,36 +154,36 @@
 		<div class="row cl" id="RC_channelName">
 			<label class="form-label col-xs-4 col-sm-2">渠道名称：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input style="width: 600px" type="text" class="input-text" value="" placeholder=""  name="">
+				<input style="width: 600px" type="text" class="input-text" value="" placeholder=""  name="RC_channelName">
 			</div>
 		</div>
 		<div class="row cl" id="RC_channelAddress">
 			<label class="form-label col-xs-4 col-sm-2">渠道地址：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input style="width: 600px" type="text" class="input-text" value="" placeholder=""  name="">
+				<input style="width: 600px" type="text" class="input-text" value="" placeholder=""  name="RC_channelAddress">
 			</div>
 		</div>
 		<div class="row cl"  id="RC_telephone">
 			<label class="form-label col-xs-4 col-sm-2">联系电话：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input style="width: 600px" type="text" class="input-text" value="" placeholder="请输入固定电话，不用加区号，7位或者8位数字" datatype="n7-8" name="">
+				<input style="width: 600px" type="text" class="input-text" value="" placeholder="请输入固定电话，不用加区号，7位或者8位数字" datatype="n7-8" name="RC_telephone">
 			</div>
 		</div>
 		<div class="row cl" id="RC_charge">
 			<label class="form-label col-xs-4 col-sm-2">负责人：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input style="width: 600px" type="text" class="input-text" value="" placeholder="" name="">
+				<input style="width: 600px" type="text" class="input-text" value="" placeholder="" name="RC_charge">
 			</div>
 		</div>
 		<div class="row cl" id="RC_chargePhone">
 			<label class="form-label col-xs-4 col-sm-2">负责人电话：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input style="width: 600px" type="text" class="input-text" datatype="n7-11" value="" placeholder="手机号或者固定电话" name="">
+				<input style="width: 600px" type="text" class="input-text" datatype="n7-11" value="" placeholder="手机号或者固定电话" name="RC_chargePhone">
 			</div>
 		</div>
 		<div class="row cl">
 			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
-				<a onClick="form_add()" href="form-add.html" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe604;</i> 确认添加 </a>
+				<input type="submit" class="btn btn-primary radius" name="button" id="button" value="确认添加" />
 			</div>
 		</div>
 	</form>
@@ -299,9 +299,32 @@
 <!--表单验证-->
 <script type="text/javascript" src="Validform/Validform.js"></script>
 <script type="text/javascript">
+	/*城市三级联动*/
+    $(function(){
+		/*电话验证*/
+        $(".demoform").Validform();
+        $("#province").ProvinceCity();
+        $("#province").children("select").css("width","200");
+        $("#province").children("select").attr("class","input-text");
+        $('.table-sort').dataTable({
+            "aaSorting": [[ 0, "desc" ]],//默认第几个排序
+            "bStateSave": true,//状态保存
+            "aoColumnDefs": [
+                //{"bVisible": false, "aTargets": [ 3 ]} //控制列的隐藏显示
+                {"orderable":false,"aTargets":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]}// 制定列不参与排序
+            ]
+        })
+    });
+    $(function () {
+        $("#province").find("select.input-text").eq(0).attr("name","RC_city1");
+        $("#province").find("select.input-text").eq(1).attr("name","RC_city2");
+        $("#province").find("select.input-text").eq(2).attr("name","RC_city3");
+    });
+
+
 /*表单添加*/
 function form_add(title,url,id){
-    var dataobj={};
+   /* var dataobj={};
      dataobj.RC_area=$("#RC_area").children("div.formControls").children().find("option:selected").text();
     dataobj.RC_city1=$("#RC_city").children("div.formControls").children().find("option:selected").eq(0).text();
     dataobj.RC_city2=$("#RC_city").children("div.formControls").children().find("option:selected").eq(1).text();
@@ -323,7 +346,7 @@ function form_add(title,url,id){
     dataobj.RC_charge=$("#RC_charge").children("div.formControls").children().val();
 	dataobj.RC_chargePhone=$("#RC_chargePhone").children("div.formControls").children().val();
     var str=JSON.stringify(dataobj);
-	localStorage.dataobj=str;
+	localStorage.dataobj=str;*/
    /* var index = layer.open({
         type: 2,
         title: title,
@@ -331,22 +354,7 @@ function form_add(title,url,id){
     });
     layer.full(index);*/
 }
-/*城市三级联动*/
-$(function(){
-	/*电话验证*/
-    $(".demoform").Validform()
-    $("#province").ProvinceCity();
-    $("#province").children("select").css("width","200");
-    $("#province").children("select").attr("class","input-text");
-    $('.table-sort').dataTable({
-        "aaSorting": [[ 0, "desc" ]],//默认第几个排序
-        "bStateSave": true,//状态保存
-        "aoColumnDefs": [
-            //{"bVisible": false, "aTargets": [ 3 ]} //控制列的隐藏显示
-            {"orderable":false,"aTargets":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]}// 制定列不参与排序
-        ]
-    })
-});
+
 function tableList_del(obj,id){
     layer.confirm('确认要删除吗？',function(index){
         $(obj).parents("tr").remove();

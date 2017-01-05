@@ -31,36 +31,10 @@
 </head>
 <body>
 <div class="page-container">
-    <table id="RC_formAdd" class="table table-border table-bordered table-bg table-hover table-sort" style="width: 2600px;">
-        <thead>
-        <tr id="tableCss" class="text-c">
-            <th>所属区域</th>
-            <th>省+市+区</th>
-            <th>一级公司</th>
-            <th>一级公司地址</th>
-            <th>二级公司</th>
-            <th>二级公司地址</th>
-            <th>三级公司</th>
-            <th>三级公司地址</th>
-            <th>部门</th>
-            <th>部门经理</th>
-            <th>经理电话</th>
-            <th>渠道类别</th>
-            <th>汽车品牌</th>
-            <th>渠道名称</th>
-            <th>渠道地址</th>
-            <th>联系电话</th>
-            <th>负责人</th>
-            <th>负责人电话</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="text-c" id="table_tr">
-        </tr>
-        </tbody>
-    </table>
+
 </div>
 </div>
+
 <!--_footer 作为公共模版分离出去-->
 <script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script> 
 <script type="text/javascript" src="lib/layer/2.1/layer.js"></script> 
@@ -78,47 +52,18 @@
 <script type="text/javascript" src="lib/ueditor/1.4.3/ueditor.all.min.js"> </script>
 <script type="text/javascript" src="lib/ueditor/1.4.3/lang/zh-cn/zh-cn.js"></script>
 <script type="text/javascript">
-   /* var obj=JSON.parse(localStorage.dataobj);
-    console.log(obj);
+    var obj=JSON.parse(localStorage.dataobj);
     localStorage.clear();
-    var RC_area=obj.RC_area;/!*所属区域*!/
-    var RC_city=obj.RC_city1+obj.RC_city2+obj.RC_city3;/!*省+市+区*!/
-    var RC_firstCompany=obj.RC_firstCompany;/!*一级公司*!/
-    var RC_firstAddress=obj.RC_firstAddress;/!*一级公司地址*!/
-    var RC_secondCompany=obj.RC_secondCompany;/!*二级公司*!/
-    var RC_secondAddress=obj.RC_secondAddress;/!*二级公司地址*!/
-    var RC_thirdCompany=obj.RC_thirdCompany;/!*三级公司*!/
-    var RC_thirdAddress=obj.RC_thirdAddress;/!*三级公司地址*!/
-    var RC_department=obj.RC_department;/!*部门*!/
-    var RC_departmentManager=obj.RC_departmentManager;/!*部门经理*!/
-    var RC_managerPhone=obj.RC_managerPhone;/!*经理电话*!/
-    var RC_channelType=obj.RC_channelType;/!*渠道类别*!/
-    var RC_carBrand=obj.RC_carBrand;/!*汽车品牌*!/
-    var RC_channelName=obj.RC_channelName;/!*渠道名称*!/
-    var RC_channelAddress=obj.RC_channelAddress;/!*渠道地址*!/
-    var RC_telephone=obj.RC_telephone;/!*联系电话*!/
-    var RC_charge=obj.RC_charge;/!*负责人*!/
-    var RC_chargePhone=obj.RC_chargePhone;/!*负责人电话*!/
-    var str="";
-    str+="<td>"+RC_area+"</td>";
-    str+="<td>"+RC_city+"</td>";
-    str+="<td>"+RC_firstCompany+"</td>";
-    str+="<td>"+RC_firstAddress+"</td>";
-    str+="<td>"+RC_secondCompany+"</td>";
-    str+="<td>"+RC_secondAddress+"</td>";
-    str+="<td>"+RC_thirdCompany+"</td>";
-    str+="<td>"+RC_thirdAddress+"</td>";
-    str+="<td>"+RC_department+"</td>";
-    str+="<td>"+RC_departmentManager+"</td>";
-    str+="<td>"+RC_managerPhone+"</td>";
-    str+="<td>"+RC_channelType+"</td>";
-    str+="<td>"+RC_carBrand+"</td>";
-    str+="<td>"+RC_channelName+"</td>";
-    str+="<td>"+RC_channelAddress+"</td>";
-    str+="<td>"+RC_telephone+"</td>";
-    str+="<td>"+RC_charge+"</td>";
-    str+="<td>"+RC_chargePhone+"</td>";
-    $("#table_tr").append(str)*/
+
+    var OM_area=obj.OM_area;/*所属区域*/
+    var OM_city=obj.OM_city1+obj.OM_city2+obj.OM_city3;/*省+市+区*/
+    var OM_department=obj.OM_department;/*部门*/
+    var OM_brand=obj.OM_brand;/*部门经理*/
+    var OM_channel=obj.OM_channel;/*经理电话*/
+    var OM_channelType=obj.OM_channelType;/*渠道类别*/
+    var OM_channelName=obj.OM_channelName;/*渠道名称*/
+    var OM_time=obj.OM_time;/*渠道地址*/
+    document.write(OM_area,OM_city,OM_department,OM_brand,OM_channel,OM_channelType,OM_channelName,OM_time)
 </script>
 </body>
 </html>
