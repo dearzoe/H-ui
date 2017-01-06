@@ -29,23 +29,23 @@
 <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 推送管理 <span class="c-gray en">&gt;</span> 升级推送说明 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
 <div class="page-container">
 	<div class="mt-20">
-		<form class="form form-horizontal" id="">
+		<form class="form form-horizontal" id="PUPSI_form" method="post" action="">
 			<div class="row cl">
 				<label class="form-label col-xs-4 col-sm-2">标题：</label>
 				<div class="formControls col-xs-8 col-sm-9">
-					<input type="text" class="input-text" value="" placeholder="" id="basis_txt_keyWord" name="">
+					<input type="text" class="input-text" value="" placeholder="" id="basis_txt_keyWord" name="PUPSI_title">
 				</div>
 			</div>
-			<div class="row cl">
+			<div class="row cl" id="PUPSI_radio">
 				<label class="form-label col-xs-4 col-sm-2">时间：</label>
 				<div class="formControls col-xs-8 col-sm-9 skin-minimal">
 					<div class="radio-box">
-						<input type="radio" id="radio-4" name="demo-radio3">
-						<label for="radio-1">及时生效</label>
+						<input type="radio" id="radio-4" name="PUPSI_radio">
+						<label for="PUPSI_radio">及时生效</label>
 					</div>
 					<div class="radio-box">
-						<input type="radio" id="radio-5" name="demo-radio3" checked>
-						<label for="radio-2">选择生效时间</label>
+						<input type="radio" id="radio-5" name="PUPSI_radio" checked>
+						<label for="PUPSI_radio">选择生效时间</label>
 					</div>
 				</div>
 			</div>
@@ -55,7 +55,7 @@
 					<div class="control-group">
 						<div class="controls">
 							<div class="input-prepend input-group">
-								<span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar fa fa-calendar"></i></span><input type="text" readonly="readonly" style="width: 200px" name="reservation" id="reservation" class="form-control" value="2014-5-21 - 2014-6-21" />
+								<span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar fa fa-calendar"></i></span><input type="text" readonly="readonly" style="width: 200px" name="PUPSI_time" id="reservation" class="form-control" value="2014-5-21 - 2014-6-21" />
 							</div>
 						</div>
 					</div>
@@ -68,64 +68,10 @@
 				</div>
 			</div>
 			<div class="row cl">
-				<label class="form-label col-xs-4 col-sm-2">图片：</label>
-				<div class="formControls col-xs-8 col-sm-9"><span class="btn-upload form-group">
-				<input class="input-text upload-url" type="text" name="uploadfile" id="uploadfile" readonly nullmsg="请添加附件！" style="width:737px;left:15px">
-				<a href="javascript:void();" class="btn btn-primary radius upload-btn"><i class="Hui-iconfont">&#xe642;</i> 浏览文件</a>
-				<input type="file" multiple name="file-2" class="input-file">
-				</span></div>
-			</div>
-			<div class="row cl">
-				<label class="form-label col-xs-4 col-sm-7">
-					<div class="formControls col-xs-8 col-sm-7" style="margin-left: 44px">
-						<img id="lableImg" class="thumbnail" src="temp/brand/2.jpg" alt="">
-					</div>
-				</label>
-			</div>
-			<div class="row cl">
-				<label class="form-label col-xs-4 col-sm-2">选择推送方式：</label>
-				<div class="formControls col-xs-8 col-sm-9 skin-minimal">
-					<div class="radio-box">
-						<input type="radio" id="radio-1" name="demo-radio1">
-						<label for="radio-1">会员卡</label>
-					</div>
-					<div class="radio-box">
-						<input type="radio" id="radio-2" name="demo-radio1" checked>
-						<label for="radio-2">微信</label>
-					</div>
-					<div class="radio-box">
-						<input type="radio" id="radio-3" name="demo-radio1" checked>
-						<label for="radio-2">短信</label>
-					</div>
-					<span class="c-succes">(微信及短信不支持图片发送)</span>
-				</div>
-			</div>
-			<div class="row cl">
-				<label class="form-label col-xs-4 col-sm-2">选择类型：</label>
-				<div class="formControls col-xs-8 col-sm-9">
-					<div class="select-box" style="width: 300px">
-						<select class="select" size="1" name="demo1">
-							<option value="车商一部" selected> 选择类型 </option>
-							<option value="车商二部"> 会员卡类型 </option>
-							<option value="车商三部"> 性别 </option>
-							<option value="中介一部"> 其他 </option>
-							<option value="中介一部"> 积分 </option>
-							<option value="中介一部"> 会员卡剩余时间 </option>
-						</select>
-					</div>
-				</div>
-				<span class="label label-danger">JS判断</span>
-			</div>
-		</form>
-	</div>
-	<div class="label label-success" style="width: 100%;height: 20px;margin: 15px"><i class="Hui-iconfont">&#xe667;</i></div>
-	<div class="mt-20">
-		<form class="form form-horizontal" id="">
-			<div class="row cl">
-				<label class="form-label col-xs-4 col-sm-2"> 归属选择： </label>
+				<label class="form-label col-xs-4 col-sm-2"> 归属区域： </label>
 				<div class="formControls col-xs-8 col-sm-9">
 					<div class="select-box" style="width: 600px">
-						<select class="select" size="1" name="demo1">
+						<select class="select" size="1" name="PUPSI_area">
 							<option value="请选择" selected> 请选择 </option>
 							<option value="华东区域"> 华东区域 </option>
 							<option value="华南区域"> 华南区域 </option>
@@ -148,7 +94,7 @@
 				<label class="form-label col-xs-4 col-sm-2">归属公司：</label>
 				<div class="formControls col-xs-8 col-sm-9">
 					<div class="select-box" style="width: 600px">
-						<select class="select" size="1" name="demo1">
+						<select class="select" size="1" name="PUPSI_company">
 							<option value="公司1" selected> 公司1 </option>
 							<option value="公司2" selected> 公司2 </option>
 							<option value="公司4" selected> 公司4 </option>
@@ -162,7 +108,7 @@
 				<label class="form-label col-xs-4 col-sm-2">归属部门：</label>
 				<div class="formControls col-xs-8 col-sm-9">
 					<div class="select-box" style="width: 600px">
-						<select class="select" size="1" name="demo1">
+						<select class="select" size="1" name="PUPSI_department">
 							<option value="车商一部" selected> 车商一部 </option>
 							<option value="车商二部" selected> 车商二部 </option>
 							<option value="车商三部" selected> 车商三部 </option>
@@ -175,7 +121,7 @@
 				<label class="form-label col-xs-4 col-sm-2">汽车品牌：</label>
 				<div class="formControls col-xs-8 col-sm-9">
 					<div class="select-box" style="width: 600px">
-						<select class="select" size="1" name="demo1">
+						<select class="select" size="1" name="PUPSI_brand">
 							<option value="品牌" selected> 品牌 </option>
 							<option value="所有" selected> 所有 </option>
 							<option value="奥迪" selected> 奥迪 </option>
@@ -190,7 +136,7 @@
 				<label class="form-label col-xs-4 col-sm-2">渠道类型：</label>
 				<div class="formControls col-xs-8 col-sm-9">
 					<div class="select-box" style="width: 600px">
-						<select class="select" size="1" name="demo1">
+						<select class="select" size="1" name="PUPSI_channelType">
 							<option value="类型1" selected> 类型1 </option>
 							<option value="类型2" selected> 类型2 </option>
 							<option value="类型3" selected> 类型3 </option>
@@ -202,7 +148,7 @@
 				<label class="form-label col-xs-4 col-sm-2">渠道名称：</label>
 				<div class="formControls col-xs-8 col-sm-9">
 					<div class="select-box" style="width: 600px">
-						<select class="select" size="1" name="demo1">
+						<select class="select" size="1" name="PUPSI_channelName">
 							<option value="渠道名称1" selected> 渠道名称1 </option>
 							<option value="渠道名称2" selected> 渠道名称2 </option>
 							<option value="渠道名称3" selected> 渠道名称3 </option>
@@ -212,11 +158,14 @@
 			</div>
 			<div class="row cl">
 				<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
-					<button onClick="article_save();" class="btn btn-primary radius" type="submit"><i class="Hui-iconfont">&#xe632;</i> 添加 </button>
+					<input type="submit" class="btn btn-primary radius" name="button" id="button" value="确认添加" />
 				</div>
 			</div>
 		</form>
-		<table class="table table-border table-bordered table-bg table-hover table-sort">
+	</div>
+	<div class="label label-success" style="width: 100%;height: 20px;margin: 15px"><i class="Hui-iconfont">&#xe667;</i></div>
+	<div class="mt-20">
+		<table id="PUPSI_table" class="table table-border table-bordered table-bg table-hover table-sort">
 			<thead>
 			<tr class="text-c">
 				<th width="80">序号</th>

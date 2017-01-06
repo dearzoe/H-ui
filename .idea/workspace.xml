@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a3fc816-f8e1-4f66-86d1-326f0b8920f9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form-add1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Operations-management.html" afterPath="$PROJECT_DIR$/Operations-management.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Power-accountRightsAllocation.html" afterPath="$PROJECT_DIR$/Power-accountRightsAllocation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Registration-channel.html" afterPath="$PROJECT_DIR$/Registration-channel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form-add.html" afterPath="$PROJECT_DIR$/form-add.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Push-upgradePushSystemInstructions.html" afterPath="$PROJECT_DIR$/Push-upgradePushSystemInstructions.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,50 +25,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Power-accountRightsAllocation.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Power-accountRightsAllocation.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="230" column="7" lean-forward="true" selection-start-line="230" selection-start-column="7" selection-end-line="230" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Registration-channel.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Registration-channel.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="312" column="67" lean-forward="true" selection-start-line="312" selection-start-column="67" selection-end-line="312" selection-end-column="67" />
+            <state relative-caret-position="62">
+              <caret line="130" column="34" lean-forward="false" selection-start-line="130" selection-start-column="34" selection-end-line="130" selection-end-column="34" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#span#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#4;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#6;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#7;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#8;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#9;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#10;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#11;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#16;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#18;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#td#20;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#td#20;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#td#20;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#13837#16023#0" expanded="false" />
+                <element signature="n#dl#0;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#dl#2;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#dl#3;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#dl#4;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#dl#6;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#dl#7;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#dl#8;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#dl#9;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#dl#10;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#dd#0;n#dl#10;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#dl#11;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Registration-channel.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../注册管理/Registration-channel.html">
+      <file leaf-file-name="Push-upgradePushSystemInstructions.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Push-upgradePushSystemInstructions.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="367" column="5" lean-forward="false" selection-start-line="367" selection-start-column="5" selection-end-line="367" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="833">
+              <caret line="215" column="136" lean-forward="true" selection-start-line="215" selection-start-column="136" selection-end-line="215" selection-end-column="136" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Operations-management.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Operations-management.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="320" column="7" lean-forward="true" selection-start-line="320" selection-start-column="7" selection-end-line="322" selection-end-column="79" />
+              <folding>
+                <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#13124#13359#0" expanded="false" />
+                <element signature="e#13395#13859#0" expanded="false" />
+                <element signature="e#15000#15092#0" expanded="false" />
+                <element signature="e#15161#20535#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,7 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Operate-moduleAnalysis.html" />
         <option value="$PROJECT_DIR$/dataJquery/index.html" />
         <option value="$PROJECT_DIR$/Book-dateManagement.html" />
         <option value="$PROJECT_DIR$/Basic-messageTemplateForDistribution.html" />
@@ -176,7 +174,6 @@
         <option value="$PROJECT_DIR$/FZ-memberNotifications1.html" />
         <option value="$PROJECT_DIR$/FZ-memberNotifications2.html" />
         <option value="$PROJECT_DIR$/Member-AD-management.html" />
-        <option value="$PROJECT_DIR$/Push-upgradePushSystemInstructions.html" />
         <option value="$PROJECT_DIR$/welcome.html" />
         <option value="$PROJECT_DIR$/Book-maintenanceManagement.html" />
         <option value="$PROJECT_DIR$/Book-vehicleManagement.html" />
@@ -193,7 +190,6 @@
         <option value="$PROJECT_DIR$/localStorage2.html" />
         <option value="$PROJECT_DIR$/localstorage1.html" />
         <option value="$PROJECT_DIR$/form-add1.html" />
-        <option value="$PROJECT_DIR$/Operations-management.html" />
         <option value="$PROJECT_DIR$/../A端（12.4)/frames/register/way.html" />
         <option value="$PROJECT_DIR$/form-add.html" />
         <option value="$PROJECT_DIR$/../A端（12.4)/frames/register/info.html" />
@@ -202,6 +198,9 @@
         <option value="$PROJECT_DIR$/Power-accountRightsAllocation.html" />
         <option value="$PROJECT_DIR$/Registration-channel.html" />
         <option value="$PROJECT_DIR$/../注册管理/Registration-channel.html" />
+        <option value="$PROJECT_DIR$/../运营管理/运营管理模块命名.txt" />
+        <option value="$PROJECT_DIR$/Operations-management.html" />
+        <option value="$PROJECT_DIR$/Push-upgradePushSystemInstructions.html" />
       </list>
     </option>
   </component>
@@ -220,7 +219,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1370" />
     <option name="height" value="754" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -275,7 +274,7 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/工快速启动具/node/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Registration-channel.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\工快速启动具\node\node.exe" />
@@ -398,7 +397,8 @@
       <workItem from="1483525892587" duration="4977000" />
       <workItem from="1483537295269" duration="1480000" />
       <workItem from="1483595848742" duration="4203000" />
-      <workItem from="1483600681456" duration="17521000" />
+      <workItem from="1483600681456" duration="18118000" />
+      <workItem from="1483711438135" duration="4167000" />
     </task>
     <task id="LOCAL-00001" summary="copy">
       <created>1482912969066</created>
@@ -411,28 +411,28 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214687000" />
+    <option name="totallyTimeSpent" value="219451000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1370" height="754" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.014880952" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17042042" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24961832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -464,22 +464,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="copy" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Member-notifications.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2464">
-          <caret line="159" column="153" lean-forward="false" selection-start-line="159" selection-start-column="153" selection-end-line="159" selection-end-column="153" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp/brand/2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/temp/brand/ambio.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -649,13 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Power-accountManagement.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1297">
-          <caret line="86" column="21" lean-forward="true" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Registration-informationManagement.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-440">
@@ -724,15 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="144" column="7" lean-forward="false" selection-start-line="144" selection-start-column="7" selection-end-line="144" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Push-upgradePushSystemInstructions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="99" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -744,58 +718,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Operations-management.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="167" column="8" lean-forward="false" selection-start-line="167" selection-start-column="8" selection-end-line="268" selection-end-column="16" />
-          <folding>
-            <element signature="n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#15212#15447#0" expanded="false" />
-            <element signature="e#15483#15947#0" expanded="false" />
-            <element signature="e#17088#17180#0" expanded="false" />
-            <element signature="e#17249#22623#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/form-add.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
           <caret line="77" column="9" lean-forward="false" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
-          <folding>
-            <element signature="e#3545#5371#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="60" column="161" lean-forward="false" selection-start-line="60" selection-start-column="161" selection-end-line="60" selection-end-column="161" />
-          <folding>
-            <element signature="n#style#0;n#i#0;n#a#0;n#li#3;n#ul#0;n#nav#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#dl#0;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#dl#2;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#dd#0;n#dl#2;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#dl#3;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#dl#4;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#i#1;n#dt#0;n#dl#4;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#dl#5;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#dl#6;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#i#1;n#dt#0;n#dl#6;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#dl#7;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#ul#0;n#dd#0;n#dl#8;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#dl#9;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#dl#10;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#dd#0;n#dl#10;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#ul#0;n#ul#0;n#dd#0;n#dl#10;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#ul#0;n#dd#0;n#dl#10;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#ul#1;n#ul#0;n#dd#0;n#dl#10;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#1;n#ul#0;n#dd#0;n#dl#10;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#ul#2;n#ul#0;n#dd#0;n#dl#10;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#2;n#ul#0;n#dd#0;n#dl#10;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#dl#11;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -803,12 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="477">
           <caret line="182" column="16" lean-forward="true" selection-start-line="182" selection-start-column="16" selection-end-line="182" selection-end-column="16" />
-          <folding>
-            <element signature="n#form#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -816,11 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
           <caret line="261" column="21" lean-forward="true" selection-start-line="261" selection-start-column="21" selection-end-line="261" selection-end-column="21" />
-          <folding>
-            <element signature="n#table#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -828,15 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="272" column="34" lean-forward="true" selection-start-line="272" selection-start-column="34" selection-end-line="272" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Power-accountRightsAllocation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="230" column="7" lean-forward="true" selection-start-line="230" selection-start-column="7" selection-end-line="230" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -844,41 +750,109 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1143">
           <caret line="356" column="3" lean-forward="true" selection-start-line="356" selection-start-column="3" selection-end-line="356" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../注册管理/Registration-channel.html" />
     <entry file="file://$PROJECT_DIR$/Registration-channel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="312" column="67" lean-forward="true" selection-start-line="312" selection-start-column="67" selection-end-line="312" selection-end-column="67" />
+        <state relative-caret-position="22">
+          <caret line="312" column="67" lean-forward="false" selection-start-line="312" selection-start-column="67" selection-end-line="312" selection-end-column="67" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#span#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#4;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#6;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#7;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#8;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#9;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#10;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#11;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#16;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#18;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#td#20;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#td#20;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#td#20;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#span#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#4;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#6;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#7;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#8;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#9;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#10;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#11;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#16;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#18;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#1;n#td#20;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#td#20;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#1;n#td#20;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#13837#16023#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../注册管理/Registration-channel.html">
+    <entry file="file://$PROJECT_DIR$/Operate-moduleAnalysis.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="367" column="5" lean-forward="false" selection-start-line="367" selection-start-column="5" selection-end-line="367" selection-end-column="5" />
+        <state relative-caret-position="-462">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Power-accountManagement.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1378">
+          <caret line="86" column="21" lean-forward="true" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Power-accountRightsAllocation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4876">
+          <caret line="230" column="7" lean-forward="false" selection-start-line="230" selection-start-column="7" selection-end-line="230" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="130" column="34" lean-forward="false" selection-start-line="130" selection-start-column="34" selection-end-line="130" selection-end-column="34" />
+          <folding>
+            <element signature="n#dl#0;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#dl#2;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#dl#3;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#dl#4;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#dl#6;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#dl#7;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#dl#8;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#dl#9;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#dl#10;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#dd#0;n#dl#10;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#dl#11;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../运营管理/运营管理模块命名.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Operations-management.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="320" column="7" lean-forward="true" selection-start-line="320" selection-start-column="7" selection-end-line="322" selection-end-column="79" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#13124#13359#0" expanded="false" />
+            <element signature="e#13395#13859#0" expanded="false" />
+            <element signature="e#15000#15092#0" expanded="false" />
+            <element signature="e#15161#20535#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Push-upgradePushSystemInstructions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="215" column="136" lean-forward="true" selection-start-line="215" selection-start-column="136" selection-end-line="215" selection-end-column="136" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
