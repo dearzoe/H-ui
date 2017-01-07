@@ -25,7 +25,7 @@
 <script>DD_belatedPNG.fix('*');</script>
 <![endif]-->
 </head>
-<body>
+<body id="body">
 <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 推送管理 <span class="c-gray en">&gt;</span> 升级推送说明 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
 <div class="page-container">
 	<div class="mt-20">
@@ -64,7 +64,8 @@
 			<div class="row cl">
 				<label class="form-label col-xs-4 col-sm-2">内容：</label>
 				<div class="formControls col-xs-8 col-sm-9">
-					<script id="editor" type="text/plain" style="width:100%;height:200px;"></script>
+					<textarea id="" name="PUPSI_content" cols="" rows="" class="textarea"  dragonfly="true" nullmsg="备注不能为空！" onKeyUp="textarealength(this,200)" style="width: 600px"></textarea>
+					<p class="textarea-numberbar"><em class="textarea-length">0</em>/200</p>
 				</div>
 			</div>
 			<div class="row cl">
@@ -163,7 +164,7 @@
 			</div>
 		</form>
 	</div>
-	<div class="label label-success" style="width: 100%;height: 20px;margin: 15px"><i class="Hui-iconfont">&#xe667;</i></div>
+	<div class="label label-success" style="width: 100%;height: 20px;margin: 15px;position: relative;left:-15px;"><i class="Hui-iconfont">&#xe667;</i></div>
 	<div class="mt-20">
 		<table id="PUPSI_table" class="table table-border table-bordered table-bg table-hover table-sort">
 			<thead>
@@ -231,6 +232,13 @@
 <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="bootstrap-data/moment.min.js"></script>
 <script type="text/javascript" src="bootstrap-data/daterangepicker.js"></script>
+<!--城市三级联动-->
+<script type="text/javascript" src="city-three/jquery.provincesCity.js"></script>
+<script type="text/javascript" src="city-three/provincesData.js"></script>
+<script>
+    var body=document.getElementById("body")
+    console.log(body.innerHTML)
+</script>
 <script type="text/javascript">
     $(function(){
         $('.skin-minimal input').iCheck({
@@ -240,6 +248,22 @@
         });
 
         $.Huitab("#tab_demo .tabBar span","#tab_demo .tabCon","current","click","0");
+        $('.table-sort').dataTable({
+            "aaSorting": [[ 0, "desc" ]],//默认第几个排序
+            "bStateSave": true,//状态保存
+            "aoColumnDefs": [
+                //{"bVisible": false, "aTargets": [ 3 ]} //控制列的隐藏显示
+                {"orderable":false,"aTargets":[]}// 制定列不参与排序
+            ]
+        });
+        /*三级城市联动*/
+        $("#province").ProvinceCity();
+        $("#province").children("select").css("width","200");
+        $("#province").children("select").attr("class","input-text");
+        $("#province").find("select.input-text").eq(0).attr("name","PUPSI_city1");
+        $("#province").find("select.input-text").eq(1).attr("name","PUPSI_city2");
+        $("#province").find("select.input-text").eq(2).attr("name","PUPSI_city3");
+
     });
     $(document).ready(function() {
         $('#reservation').daterangepicker(null, function(start, end, label) {
@@ -261,14 +285,6 @@
             layer.msg('已删除!',{icon:1,time:1000});
         });
     }
-$('.table-sort').dataTable({
-	"aaSorting": [[ 0, "desc" ]],//默认第几个排序
-	"bStateSave": true,//状态保存
-	"aoColumnDefs": [
-	  //{"bVisible": false, "aTargets": [ 3 ]} //控制列的隐藏显示
-	  {"orderable":false,"aTargets":[]}// 制定列不参与排序
-	]
-});
 /*图片-添加*/
 function picture_add(title,url){
 	var index = layer.open({
