@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title></title>
+    <style>
+        body {
+            font-size:14px;
+        }
+        table{border-collapse:collapse;border-spacing:0}
+        table th, table td{
+            border:1px solid #ccc;
+            padding:6px;
+        }
+    </style>
+</head>
+<script src='http://code.jquery.com/jquery.js'></script>
+<script>
+    (function($){
+        $.fn.expand = function(){
+            var element = this;
+
+            $(element).find("tr:odd").addClass("odd");
+            $(element).find("tr:not(.odd)").hide();
+            $(element).find("tr:first-child").show();
+
+            $(element).find("tr.odd").click(function() {
+                $(this).next("tr").toggle();
+            });
+
+        }
+    })(jQuery);
+    $(function(){
+        $('#report').expand();
+    });
+</script>
+
+<body>
+
+<table id="report">
+    <tr>
+        <th>会员ID</th>
+        <th>会员名</th>
+        <th>邮箱</th>
+    </tr>
+    <tr>
+        <td>131</td>
+        <td>javascript</td>
+        <td>js2011@126.com</td>
+    </tr>
+    <tr>
+        <td colspan="4">
+            显示详细:<br />
+            <img src="http://avatar.csdn.net/C/D/D/1_malinjie66.jpg" width=152 height=152 />
+        </td>
+    </tr>
+    <tr>
+        <td>129</td>
+        <td>tired</td>
+        <td>tired@126.com</td>
+    </tr>
+    <tr>
+        <td colspan="4">
+            显示详细:<br />
+            <img src="http://www.qq360wang.com/uploads/allimg/111028/1_111028203723_7.jpg" width=152 height=205 />
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

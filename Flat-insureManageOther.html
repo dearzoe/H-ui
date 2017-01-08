@@ -45,74 +45,74 @@
 			</div>
 		</div>
 	</form>
-	<form class="form form-horizontal demoform" style="margin-bottom: 15px" id="FIMP_form" method="post" action="">
-		<div class="row cl" id="FIMP_companyName">
+	<form class="form form-horizontal demoform" style="margin-bottom: 15px" id="FIMO_form" method="post" action="">
+		<div class="row cl" id="FIMO_companyName">
 			<label class="form-label col-xs-4 col-sm-2">公司名称：</label>
 			<div class="formControls col-xs-8 col-sm-9 skin-minimal">
 				<div class="check-box">
-					<input type="checkbox" id="FIMP_companyName_1" name="FIMP_companyName" checked>
-					<label for="FIMP_companyName">平安公司</label>
+					<input type="checkbox" id="FIMO_companyName_1" name="FIMO_companyName" checked>
+					<label for="FIMO_companyName">平安公司</label>
 				</div>
 				<div class="check-box">
-					<input type="checkbox" id="FIMP_companyName_2" name="FIMP_companyName" checked>
-					<label for="FIMP_companyName">太平洋公司</label>
+					<input type="checkbox" id="FIMO_companyName_2" name="FIMO_companyName">
+					<label for="FIMO_companyName">太平洋公司</label>
 				</div>
 			</div>
 		</div>
-		<div class="row cl" id="FIMP_muneKind">
+		<div class="row cl" id="FIMO_muneKind">
 			<label class="form-label col-xs-4 col-sm-2">菜单类目：</label>
 			<div class="formControls col-xs-8 col-sm-9 skin-minimal">
 				<div class="radio-box">
-					<input type="radio" name="FIMP_muneKind">
-					<label for="FIMP_muneKind">渠道类型</label>
+					<input type="radio" name="FIMO_muneKind">
+					<label for="FIMO_muneKind">渠道类型</label>
 				</div>
 				<div class="radio-box">
-					<input type="radio" name="FIMP_muneKind" checked>
-					<label for="FIMP_muneKind">渠道名称</label>
+					<input type="radio" name="FIMO_muneKind" checked>
+					<label for="FIMO_muneKind">渠道名称</label>
 				</div>
 				<div class="radio-box">
-					<input type="radio" name="FIMP_muneKind" checked>
-					<label for="FIMP_muneKind">购买人</label>
+					<input type="radio" name="FIMO_muneKind" checked>
+					<label for="FIMO_muneKind">购买人</label>
 				</div>
 				<div class="radio-box">
-					<input type="radio" name="FIMP_muneKind" checked>
-					<label for="FIMP_muneKind">车牌号</label>
+					<input type="radio" name="FIMO_muneKind" checked>
+					<label for="FIMO_muneKind">车牌号</label>
 				</div>
 			</div>
 		</div>
-		<div class="row cl" id="FIMP_effect">
+		<div class="row cl" id="FIMO_effect">
 			<label class="form-label col-xs-4 col-sm-2">生效状态：</label>
 			<div class="formControls col-xs-8 col-sm-9 skin-minimal">
 				<div class="radio-box">
-					<input type="radio"  name="FIMP_effect">
-					<label for="FIMP_effect">已生效&nbsp;&nbsp;&nbsp;</label>
+					<input type="radio"  name="FIMO_effect">
+					<label for="FIMO_effect">已生效&nbsp;&nbsp;&nbsp;</label>
 				</div>
 				<div class="radio-box">
-					<input type="radio"  name="FIMP_effect" checked>
-					<label for="FIMP_effect">未生效</label>
+					<input type="radio"  name="FIMO_effect" checked>
+					<label for="FIMO_effect">未生效</label>
 				</div>
 			</div>
 		</div>
-		<div class="row cl" id="FIMP_panment">
+		<div class="row cl" id="FIMO_payment">
 			<label class="form-label col-xs-4 col-sm-2">赔付状态：</label>
 			<div class="formControls col-xs-8 col-sm-9 skin-minimal">
 				<div class="radio-box">
-					<input type="radio" name="FIMP_panment">
-					<label for="FIMP_panment">已赔付&nbsp;&nbsp;&nbsp;</label>
+					<input type="radio" name="FIMO_payment">
+					<label for="FIMO_payment">已赔付&nbsp;&nbsp;&nbsp;</label>
 				</div>
 				<div class="radio-box">
-					<input type="radio" name="FIMP_panment" checked>
-					<label for="FIMP_panment">未赔付</label>
+					<input type="radio" name="FIMO_payment" checked>
+					<label for="FIMO_payment">未赔付</label>
 				</div>
 			</div>
 		</div>
-		<div class="row cl" id="FIMP_time">
+		<div class="row cl" id="FIMO_time">
 			<label class="form-label col-xs-4 col-sm-2">时间状态：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="control-group">
 					<div class="controls">
 						<div class="input-prepend input-group">
-							<span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar fa fa-calendar"></i></span><input type="text" readonly="readonly" style="width: 200px" name="FIMP_time" id="reservation" class="form-control" value="2017-1-1 - 2017-2-2" />
+							<span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar fa fa-calendar"></i></span><input type="text" readonly="readonly" style="width: 200px" name="FIMO_time" id="reservation" class="form-control" value="2017-1-1 - 2017-2-2" />
 						</div>
 					</div>
 				</div>
@@ -129,7 +129,7 @@ relative">
 		<div class="Huialert Huialert-success text-r">
 			<a style="text-decoration:none" class="btn btn-primary radius" onClick="saveAsExcel('tableid')" href="javascript:;" title="导出"> 导出Excel </a>
 		</div>
-		<table id="FIMP_table" class="table table-border table-bordered table-bg table-hover table-sort">
+		<table id="FIMO_table" class="table table-border table-bordered table-bg table-hover table-sort">
 			<thead>
 			<tr class="text-c">
 				<th>渠道类型</th>
