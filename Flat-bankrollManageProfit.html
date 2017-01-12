@@ -1,0 +1,605 @@
+﻿<!--_meta 作为公共模版分离出去-->
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="renderer" content="webkit|ie-comp|ie-stand">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<LINK rel="Bookmark" href="/favicon.ico" >
+	<LINK rel="Shortcut Icon" href="/favicon.ico" />
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="lib/html5.js"></script>
+	<script type="text/javascript" src="lib/respond.min.js"></script>
+	<script type="text/javascript" src="lib/PIE_IE678.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css" />
+	<link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/H-ui.admin.css" />
+	<link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.7/iconfont.css" />
+	<link rel="stylesheet" type="text/css" href="lib/icheck/icheck.css" />
+	<link rel="stylesheet" type="text/css" href="static/h-ui.admin/skin/default/skin.css" id="skin" />
+	<link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/style.css" />
+	<!--[if IE 6]>
+	<script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
+	<script>DD_belatedPNG.fix('*');</script>
+	<![endif]-->
+	<!--/meta 作为公共模版分离出去-->
+	<title>利润管理</title>
+	<link href="lib/webuploader/0.1.5/webuploader.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 活动管理 <span class="c-gray en">&gt;</span> 平台活动 <span class="c-gray en">&gt;</span> 利润管理 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<marquee behavior="" direction="" class="c-red">系统将于2016年10月10日18：00一2016年10月11日6：00维护升级，如有不便敬请谅解！！</marquee>
+<div class="page-container">
+	<form class="form form-horizontal demoform" style="margin-bottom: 15px">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">所属公司：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<span class="c-succes">中国人民财产保险股份有限公司 <img style="width:29px;height: 13px" src="temp/brand/u1602.png" alt=""></span><span style="padding: 0 20px 0 20px;font-weight: 700">
+				<span>区域：</span><span>华北地区</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>省市：</span><span>北京</span>
+			</span>
+			</div>
+		</div>
+	</form>
+	<div class="panel panel-warning">
+		<div class="panel-header text-c">总收入  12000（100%）</div>
+		<div class="panel-body clearfix" style="padding: 0px;position: relative;width: 1120px">
+			<div class="panel panel-success" style="width:556px;float:left">
+				<div class="panel-header" style="text-align: center">人保公司  6000（50%）</div>
+				<div class="panel-body"  style="padding: 0px">
+					<table class="table table-border table-bordered table-bg table-hover table-sort" id="FBMP_tablePerson">
+						<thead>
+						<tr>
+							<th class="text-c" rowspan="4">渠道类型</th>
+							<th class="text-c" rowspan="4">投保人数</th>
+							<th class="text-c" colspan="12" style="padding: 0px">
+								<div class="select-box" style="width: 100px">
+									<select class="select" size="1" name="FBMP_personChannel">
+										<option value="选择渠道" selected> 选择渠道 </option>
+										<option value="社区"> 社区 </option>
+										<option value="4S店"> 4S店 </option>
+									</select>
+								</div>
+								<div class="select-box" style="width: 100px">
+									<select class="select" size="1" name="FBMP_personYear">
+										<option value="2017" selected> 2017 </option>
+										<option value="2016"> 2016 </option>
+									</select>
+								</div>
+								收入分布  6000（100%）</th>
+						</tr>
+						<tr>
+							<th class="text-c" colspan="6">上半年 6000（100%）</th>
+							<th class="text-c" colspan="6">下半年  0（0%）</th>
+						</tr>
+						<tr>
+							<th class="text-c" colspan="3">第一季度  6000（100%</th>
+							<th class="text-c" colspan="3">第二季度</th>
+							<th class="text-c" colspan="3">第三季度</th>
+							<th class="text-c" colspan="3">第四季度</th>
+						</tr>
+						<tr>
+							<th>一月</th>
+							<th>二月</th>
+							<th>三月</th>
+							<th>四月</th>
+							<th>五月</th>
+							<th>六月</th>
+							<th>七月</th>
+							<th>八月</th>
+							<th>九月</th>
+							<th>十月</th>
+							<th>十一月</th>
+							<th>十二月</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td>社区</td>
+							<td>100</td>
+							<td>3000(50%)</td>
+							<td>1800(30%)</td>
+							<th>1200(20%)</th>
+							<th></th>
+							<th></th>
+							<th></th>
+							<th></th>
+							<th></th>
+							<th></th>
+							<th></th>
+							<th></th>
+							<th></th>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="panel panel-primary" style="width:556px;float:right">
+				<div class="panel-header" style="text-align: center">其他公司  6000（50%）</div>
+				<div class="panel-body" style="padding: 0px">
+					<table class="table table-border table-bordered table-bg table-hover table-sort" id="FBMP_tableOther">
+						<thead>
+						<tr>
+							<th class="text-c" rowspan="4">渠道类型</th>
+							<th class="text-c" rowspan="4">投保人数</th>
+							<th class="text-c" colspan="12" style="padding: 0px">
+								<div class="select-box" style="width: 100px">
+									<select class="select" size="1" name="FBMP_otherCompany">
+										<option value="选择公司" selected> 选择公司 </option>
+										<option value="平安"> 平安 </option>
+										<option value="太平洋"> 太平洋 </option>
+									</select>
+							    </div>
+								<div class="select-box" style="width: 100px">
+									<select class="select" size="1" name="FBMP_otherYear">
+										<option value="2017" selected> 2017 </option>
+										<option value="2016"> 2016 </option>
+									</select>
+								</div>
+								收入分布  6000（100%）</th>
+						</tr>
+						<tr>
+							<th class="text-c" colspan="6">上半年 6000（100%）</th>
+							<th class="text-c" colspan="6">下半年  0（0%）</th>
+						</tr>
+						<tr>
+							<th class="text-c" colspan="3">第一季度  6000（100%</th>
+							<th class="text-c" colspan="3">第二季度</th>
+							<th class="text-c" colspan="3">第三季度</th>
+							<th class="text-c" colspan="3">第四季度</th>
+						</tr>
+						<tr>
+							<th>一月</th>
+							<th>二月</th>
+							<th>三月</th>
+							<th>四月</th>
+							<th>五月</th>
+							<th>六月</th>
+							<th>七月</th>
+							<th>八月</th>
+							<th>九月</th>
+							<th>十月</th>
+							<th>十一月</th>
+							<th>十二月</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td>全部</td>
+							<td>100</td>
+							<td>3000(50%)</td>
+							<td>1800(30%)</td>
+							<th>1200(20%)</th>
+							<th></th>
+							<th></th>
+							<th></th>
+							<th></th>
+							<th></th>
+							<th></th>
+							<th></th>
+							<th></th>
+							<th></th>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="">
+		<div class="panel panel-danger">
+			<div class="panel-header text-c"><div class="select-box" style="width: 200px;border: none">
+				<select class="select" size="1" name="FBMP_allCompany">
+					<option value="所有公司" selected> 所有公司 </option>
+					<option value="人保公司"> 人保公司 </option>
+					<option value="平安公司"> 平安公司 </option>
+					<option value="太平洋公司"> 太平洋公司 </option>
+				</select>
+			</div></div>
+			<div class="panel-body" style="padding: 0px">
+				<form class="form form-horizontal demoform" style="margin-bottom: 15px" id="FBMP_form" method="post" action="">
+					<div class="row cl">
+						<label class="form-label col-xs-4 col-sm-2" style="width: 120px">按年查看：</label>
+						<div class="formControls col-xs-8 col-sm-9 skin-minimal" style="position: relative">
+							<div class="select-box" style="width: 680px;;margin-left: 20px">
+								<select class="select" size="1" name="FBMP_year">
+									<option value="请选择" selected> 请选择 </option>
+									<option value="2017"> 2017 </option>
+								</select>
+							</div>
+							<div class="check-box" style="position: absolute;right: 30px">
+								<input type="checkbox" id="FBMP_top" name="FBMP_top" onchange="change()">
+								<label for="FBMP_top">上半年</label>
+							</div>
+							<div class="check-box" style="position: absolute;right: -50px" >
+								<input type="checkbox" id="FBMP_buttom" name="FBMP_buttom" onchange="change()">
+								<label for="FBMP_buttom">下半年</label>
+							</div>
+						</div>
+					</div>
+					<div class="row cl">
+						<label class="form-label col-xs-4 col-sm-2" style="width: 120px">按季查看：</label>
+						<div class="formControls col-xs-8 col-sm-9">
+							<div class="select-box" style="width: 680px;;margin-left: 20px">
+								<select id="FBMP_jidu" class="select" size="1" name="FBMP_quarter" onchange="changeYue()">
+									<option value="请选择" selected> 请选择 </option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="row cl">
+						<label class="form-label col-xs-4 col-sm-2" style="width: 120px">按月查看：</label>
+						<div class="formControls col-xs-8 col-sm-9">
+							<div class="select-box" style="width: 680px;;margin-left: 20px">
+								<select id="FBMP_yuefen" class="select" size="1" name="FBMP_month">
+									<option value="请选择" selected> 请选择 </option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="row cl">
+						<label class="form-label col-xs-4 col-sm-2" style="width: 120px">渠道类型：</label>
+						<div class="formControls col-xs-8 col-sm-9">
+							<div class="select-box" style="width: 680px;;margin-left: 20px">
+								<select class="select" size="1" name="FBMP_channelType">
+									<option value="全部" selected> 全部 </option>
+									<option value="4S店"> 4S店 </option>
+									<option value="社区"> 社区 </option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="row cl">
+						<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2" style="position:
+relative">
+							<input type="submit" class="btn btn-primary radius" name="button" value="确认查找" />
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="main" style="height:400px;width: 1110px"></div>
+
+</div>
+<!--_footer 作为公共模版分离出去-->
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="lib/layer/2.1/layer.js"></script>
+<script type="text/javascript" src="lib/icheck/jquery.icheck.min.js"></script>
+<script type="text/javascript" src="lib/jquery.validation/1.14.0/jquery.validate.min.js"></script>
+<script type="text/javascript" src="lib/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="lib/jquery.validation/1.14.0/messages_zh.min.js"></script>
+<script type="text/javascript" src="lib/My97DatePicker/WdatePicker.js"></script>
+<script type="text/javascript" src="lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="static/h-ui/js/H-ui.js"></script>
+<script type="text/javascript" src="static/h-ui.admin/js/H-ui.admin.js"></script>
+<script type="text/javascript" src="static/h-ui.admin/js/comment.js"></script>
+<!--/_footer /作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="lib/webuploader/0.1.5/webuploader.min.js"></script>
+<script type="text/javascript" src="lib/ueditor/1.4.3/ueditor.config.js"></script>
+<script type="text/javascript" src="lib/ueditor/1.4.3/ueditor.all.min.js"> </script>
+<script type="text/javascript" src="lib/ueditor/1.4.3/lang/zh-cn/zh-cn.js"></script>
+<!--表单验证-->
+<script type="text/javascript" src="Validform/Validform.js"></script>
+<!--城市三级联动-->
+<script type="text/javascript" src="city-three/jquery.provincesCity.js"></script>
+<script type="text/javascript" src="city-three/provincesData.js"></script>
+<!--日期-->
+<script src="dataJquery/laydate/laydate.js"></script>
+<!-- ECharts单文件引入 -->
+<script src="echarts-2.2.7/build/source/echarts-all.js"></script>
+<script type="text/javascript">
+    function change() {
+        var str="";
+        if($("#FBMP_top").is(":checked")){
+            $("#FBMP_jidu").html("");
+            str+="<option value='第一季度'> 第一季度 </option>";
+            str+="<option value='第二季度'> 第二季度 </option>";
+        }
+        if($("#FBMP_buttom").is(":checked")){
+            $("#FBMP_jidu").html("");
+            str+="<option value='第三季度'> 第三季度 </option>";
+            str+="<option value='第四季度'> 第四季度 </option>";
+        }
+        if(!$("#FBMP_buttom").is(":checked")&&!$("#FBMP_top").is(":checked")){
+            $("#FBMP_jidu").html("<option value='请选择' checked> 请选择 </option>");
+            $("#FBMP_yuefen").html("<option value='请选择' checked> 请选择 </option>");
+        }
+        $("#FBMP_jidu").append(str)
+        str="";
+    }
+    function changeYue() {
+        var str="";
+        debugger;//1
+        var text=$("#FBMP_jidu").find("option:selected").text();
+        if(text==" 第一季度 "){
+            $("#FBMP_yuefen").html("");
+            str+="<option value='一月'> 一月 </option>";
+            str+="<option value='二月'> 二月 </option>";
+            str+="<option value='三月'> 三月 </option>";
+        }
+        if(text==" 第二季度 "){
+            $("#FBMP_yuefen").html("");
+            str+="<option value='四月'> 四月 </option>";
+            str+="<option value='五月'> 五月 </option>";
+            str+="<option value='六月'> 六月 </option>";
+        }
+        if(text==" 第三季度 "){
+            $("#FBMP_yuefen").html("");
+            str+="<option value='七月'> 七月 </option>";
+            str+="<option value='八月'> 八月 </option>";
+            str+="<option value='九月'> 九月 </option>";
+        }
+        if(text==" 第四季度 "){
+            $("#FBMP_yuefen").html("");
+            str+="<option value='十月'> 十月 </option>";
+            str+="<option value='十一月'> 十一月 </option>";
+            str+="<option value='十二月'> 十二月 </option>";
+        }
+        $("#FBMP_yuefen").append(str);
+        str="";
+    }
+</script>
+<script type="text/javascript">
+    $(function(){
+        $('.skin-minimal input').iCheck({
+            checkboxClass: 'icheckbox-blue',
+            radioClass: 'iradio-blue',
+            increaseArea: '20%'
+        });
+        $.Huitab("#tab_demo .tabBar span","#tab_demo .tabCon","current","click","0");
+        var myChart = echarts.init(document.getElementById('main'));
+        option = {
+            title: {
+                text: "2016年",
+                x: "center"
+            },
+            tooltip: {
+                trigger: "item",
+                formatter: "{a} <br/>{b} : {c}"
+            },
+            legend: {
+                x: 'left',
+                data: ["2016", "2017"]
+            },
+            xAxis: [
+                {
+                    type: "category",
+                    name: "x",
+                    splitLine: {show: false},
+                    data: ["1", "5", "10", "15", "20", "25", "30", "35", "40"]
+                }
+            ],
+            yAxis: [
+                {
+                    type: "log",
+                    name: "y"
+                }
+            ],
+            toolbox: {
+                show: true,
+                feature: {
+                    mark: {
+                        show: true
+                    },
+                    dataView: {
+                        show: true,
+                        readOnly: true
+                    },
+                    restore: {
+                        show: true
+                    },
+                    saveAsImage: {
+                        show: true
+                    }
+                }
+            },
+            calculable: true,
+            series: [
+                {
+                    name: "2016",
+                    type: "line",
+                    data: [1, 3, 9, 27, 81, 247, 741, 2223, 6669]
+
+                },
+                {
+                    name: "2017",
+                    type: "line",
+                    data: [1, 2, 4, 8, 16, 32, 64, 128, 256]
+
+                }
+            ]
+        };
+        myChart.setOption(option);
+    });
+    function article_save(){
+        window.parent.location.reload();
+    }
+
+	/*导出表格*/
+    function saveAsExcel(tableID) {
+        var tb = new TableToExcel(tableid);
+        tb.setFontStyle("Courier New");
+        tb.setFontSize(10);
+        tb.setTableBorder(2);
+        tb.setColumnWidth(7);
+        tb.isLineWrap(true);
+        tb.getExcelFile();
+    }
+    function TableToExcel(tableID) {
+        this.tableBorder = -1; //边框类型，-1没有边框 可取1/2/3/4
+        this.backGround = 0; //背景颜色：白色 可取调色板中的颜色编号 1/2/3/4....
+        this.fontColor = 1; //字体颜色：黑色
+        this.fontSize = 10; //字体大小
+        this.fontStyle = "宋体"; //字体类型
+        this.rowHeight = -1; //行高
+        this.columnWidth = -1; //列宽
+        this.lineWrap = true; //是否自动换行
+        this.textAlign = -4108; //内容对齐方式 默认为居中
+        this.autoFit = false; //是否自适应宽度
+        this.tableID = tableID;
+    }
+    TableToExcel.prototype.setTableBorder = function (excelBorder) {
+        this.tableBorder = excelBorder;
+    };
+    TableToExcel.prototype.setBackGround = function (excelColor) {
+        this.backGround = excelColor;
+    };
+    TableToExcel.prototype.setFontColor = function (excelColor) {
+        this.fontColor = excelColor;
+    };
+    TableToExcel.prototype.setFontSize = function (excelFontSize) {
+        this.fontSize = excelFontSize;
+    };
+    TableToExcel.prototype.setFontStyle = function (excelFont) {
+        this.fontStyle = excelFont;
+    };
+    TableToExcel.prototype.setRowHeight = function (excelRowHeight) {
+        this.rowHeight = excelRowHeight;
+    };
+    TableToExcel.prototype.setColumnWidth = function (excelColumnWidth) {
+        this.columnWidth = excelColumnWidth;
+    };
+    TableToExcel.prototype.isLineWrap = function (lineWrap) {
+        if (lineWrap == false || lineWrap == true) {
+            this.lineWrap = lineWrap;
+        }
+    };
+    TableToExcel.prototype.setTextAlign = function (textAlign) {
+        this.textAlign = textAlign;
+    };
+    TableToExcel.prototype.isAutoFit = function (autoFit) {
+        if (autoFit == true || autoFit == false)
+            this.autoFit = autoFit;
+    }
+    //文件转换主函数
+    TableToExcel.prototype.getExcelFile = function () {
+        var jXls, myWorkbook, myWorksheet, myHTMLTableCell, myExcelCell, myExcelCell2;
+        var myCellColSpan, myCellRowSpan;
+
+        try {
+            jXls = new ActiveXObject('Excel.Application');
+        }
+        catch (e) {
+            alert("无法启动Excel!\n\n" + e.message +
+                "\n\n如果您确信您的电脑中已经安装了Excel，" +
+                "那么请调整IE的安全级别。\n\n具体操作：\n\n" +
+                "工具 → Internet选项 → 安全 → 自定义级别 → 对没有标记为安全的ActiveX进行初始化和脚本运行 → 启用");
+            return false;
+        }
+
+        jXls.Visible = true;
+        myWorkbook = jXls.Workbooks.Add();
+        jXls.DisplayAlerts = false;
+        myWorkbook.Worksheets(3).Delete();
+        myWorkbook.Worksheets(2).Delete();
+        jXls.DisplayAlerts = true;
+        myWorksheet = myWorkbook.ActiveSheet;
+
+        var readRow = 0, readCol = 0;
+        var totalRow = 0, totalCol = 0;
+        var tabNum = 0;
+
+        //设置行高、列宽
+        if (this.columnWidth != -1)
+            myWorksheet.Columns.ColumnWidth = this.columnWidth;
+        else
+            myWorksheet.Columns.ColumnWidth = 7;
+        if (this.rowHeight != -1)
+            myWorksheet.Rows.RowHeight = this.rowHeight;
+
+        //搜索需要转换的Table对象，获取对应行、列数
+        var obj = document.all.tags("table");
+        for (x = 0; x < obj.length; x++) {
+            if (obj[x].id == this.tableID) {
+                tabNum = x;
+                totalRow = obj[x].rows.length;
+                for (i = 0; i < obj[x].rows[0].cells.length; i++) {
+                    myHTMLTableCell = obj[x].rows(0).cells(i);
+                    myCellColSpan = myHTMLTableCell.colSpan;
+                    totalCol = totalCol + myCellColSpan;
+                }
+            }
+        }
+
+        //开始构件模拟表格
+        var excelTable = new Array();
+        for (i = 0; i <= totalRow; i++) {
+            excelTable[i] = new Array();
+            for (t = 0; t <= totalCol; t++) {
+                excelTable[i][t] = false;
+            }
+        }
+
+        //开始转换表格
+        for (z = 0; z < obj[tabNum].rows.length; z++) {
+            readRow = z + 1;
+            readCol = 0;
+            for (c = 0; c < obj[tabNum].rows(z).cells.length; c++) {
+                myHTMLTableCell = obj[tabNum].rows(z).cells(c);
+                myCellColSpan = myHTMLTableCell.colSpan;
+                myCellRowSpan = myHTMLTableCell.rowSpan;
+                for (y = 1; y <= totalCol; y++) {
+                    if (excelTable[readRow][y] == false) {
+                        readCol = y;
+                        break;
+                    }
+                }
+                if (myCellColSpan * myCellRowSpan > 1) {
+                    myExcelCell = myWorksheet.Cells(readRow, readCol);
+                    myExcelCell2 = myWorksheet.Cells(readRow + myCellRowSpan - 1, readCol + myCellColSpan - 1);
+                    myWorksheet.Range(myExcelCell, myExcelCell2).Merge();
+                    myExcelCell.HorizontalAlignment = this.textAlign;
+                    myExcelCell.Font.Size = this.fontSize;
+                    myExcelCell.Font.Name = this.fontStyle;
+                    myExcelCell.wrapText = this.lineWrap;
+                    myExcelCell.Interior.ColorIndex = this.backGround;
+                    myExcelCell.Font.ColorIndex = this.fontColor;
+                    if (this.tableBorder != -1) {
+                        myWorksheet.Range(myExcelCell, myExcelCell2).Borders(1).Weight = this.tableBorder;
+                        myWorksheet.Range(myExcelCell, myExcelCell2).Borders(2).Weight = this.tableBorder;
+                        myWorksheet.Range(myExcelCell, myExcelCell2).Borders(3).Weight = this.tableBorder;
+                        myWorksheet.Range(myExcelCell, myExcelCell2).Borders(4).Weight = this.tableBorder;
+                    }
+
+                    myExcelCell.Value = myHTMLTableCell.innerText;
+                    for (row = readRow; row <= myCellRowSpan + readRow - 1; row++) {
+                        for (col = readCol; col <= myCellColSpan + readCol - 1; col++) {
+                            excelTable[row][col] = true;
+                        }
+                    }
+
+                    readCol = readCol + myCellColSpan;
+                } else {
+                    myExcelCell = myWorksheet.Cells(readRow, readCol);
+                    myExcelCell.Value = myHTMLTableCell.innerText;
+                    myExcelCell.HorizontalAlignment = this.textAlign;
+                    myExcelCell.Font.Size = this.fontSize;
+                    myExcelCell.Font.Name = this.fontStyle;
+                    myExcelCell.wrapText = this.lineWrap;
+                    myExcelCell.Interior.ColorIndex = this.backGround;
+                    myExcelCell.Font.ColorIndex = this.fontColor;
+                    if (this.tableBorder != -1) {
+                        myExcelCell.Borders(1).Weight = this.tableBorder;
+                        myExcelCell.Borders(2).Weight = this.tableBorder;
+                        myExcelCell.Borders(3).Weight = this.tableBorder;
+                        myExcelCell.Borders(4).Weight = this.tableBorder;
+                    }
+                    excelTable[readRow][readCol] = true;
+                    readCol = readCol + 1;
+                }
+            }
+        }
+        if (this.autoFit == true)
+            myWorksheet.Columns.AutoFit;
+        jXls.UserControl = true;
+        jXls = null;
+        myWorkbook = null;
+        myWorksheet = null;
+    };
+</script>
+</body>
+</html>

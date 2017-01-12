@@ -32,19 +32,18 @@
 <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 会员管理 <span class="c-gray en">&gt;</span> 预约管理 <span class="c-gray en">&gt;</span> 日期管理 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
 <marquee behavior="" direction="" class="c-red">系统将于2016年10月10日18：00一2016年10月11日6：00维护升级，如有不便敬请谅解！！</marquee>
 <div class="page-container">
-	<form class="form form-horizontal demoform" id="form-article-add">
+	<form class="form form-horizontal demoform" id="BDM_form" method="post" action="">
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-2">所属公司：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<span class="c-succes">中国人民财产保险股份有限公司 <img style="width:29px;height: 13px" src="temp/brand/u1602.png" alt=""></span>
 			</div>
-
 		</div>
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-2"> 归属选择： </label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
-					<select class="select" size="1" name="demo1">
+					<select class="select" size="1" name="BDM_area">
 						<option value="请选择" selected> 请选择 </option>
 						<option value="华东区域"> 华东区域 </option>
 						<option value="华南区域"> 华南区域 </option>
@@ -67,7 +66,7 @@
 			<label class="form-label col-xs-4 col-sm-2">归属公司：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
-					<select class="select" size="1" name="demo1">
+					<select class="select" size="1" name="BDM_company">
 						<option value="公司1" selected> 公司1 </option>
 						<option value="公司2" selected> 公司2 </option>
 						<option value="公司4" selected> 公司4 </option>
@@ -81,7 +80,7 @@
 			<label class="form-label col-xs-4 col-sm-2">归属部门：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
-					<select class="select" size="1" name="demo1">
+					<select class="select" size="1" name="BDM_department">
 						<option value="车商一部" selected> 车商一部 </option>
 						<option value="车商二部" selected> 车商二部 </option>
 						<option value="车商三部" selected> 车商三部 </option>
@@ -94,7 +93,7 @@
 			<label class="form-label col-xs-4 col-sm-2">汽车品牌：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
-					<select class="select" size="1" name="demo1">
+					<select class="select" size="1" name="BDM_brand">
 						<option value="品牌" selected> 品牌 </option>
 						<option value="所有" selected> 所有 </option>
 						<option value="奥迪" selected> 奥迪 </option>
@@ -109,7 +108,7 @@
 			<label class="form-label col-xs-4 col-sm-2">渠道类型：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
-					<select class="select" size="1" name="demo1">
+					<select class="select" size="1" name="BDM_channelType">
 						<option value="类型1" selected> 类型1 </option>
 						<option value="类型2" selected> 类型2 </option>
 						<option value="类型3" selected> 类型3 </option>
@@ -121,7 +120,7 @@
 			<label class="form-label col-xs-4 col-sm-2">渠道名称：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
-					<select class="select" size="1" name="demo1">
+					<select class="select" size="1" name="BDM_channelName">
 						<option value="渠道名称1" selected> 渠道名称1 </option>
 						<option value="渠道名称2" selected> 渠道名称2 </option>
 						<option value="渠道名称3" selected> 渠道名称3 </option>
@@ -132,37 +131,37 @@
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-2">测算日期设置：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input type="text" class="input-text laydate-icon"  onclick="laydate()" value=""  name="" style="width: 600px;height: 32px;">
+				<input type="text" class="input-text laydate-icon"  onclick="laydate()" value=""  name="BDM_guessDate" style="width: 600px;height: 32px;">
 			</div>
 		</div>
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-2">投保日期设置：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input type="text" class="input-text laydate-icon"  onclick="laydate()" value=""  name="" style="width: 600px;height: 32px;">
+				<input type="text" class="input-text laydate-icon"  onclick="laydate()" value=""  name="BDM_insureDate" style="width: 600px;height: 32px;">
 			</div>
 		</div>
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-2">定损日期设置：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input type="text" class="input-text laydate-icon"  onclick="laydate()" value=""  name="" style="width: 600px;height: 32px;">
+				<input type="text" class="input-text laydate-icon"  onclick="laydate()" value=""  name="BDM_assessDate" style="width: 600px;height: 32px;">
 			</div>
 		</div>
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-2">保养日期设置：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input type="text" class="input-text laydate-icon"  onclick="laydate()" value=""  name="" style="width: 600px;height: 32px;">
+				<input type="text" class="input-text laydate-icon"  onclick="laydate()" value=""  name="BDM_maintainDate" style="width: 600px;height: 32px;">
 			</div>
 		</div>
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-2">验车日期设置：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input type="text" class="input-text laydate-icon"  onclick="laydate()" value=""  name="" style="width: 600px;height: 32px;">
+				<input type="text" class="input-text laydate-icon"  onclick="laydate()" value=""  name="BDM_validate" style="width: 600px;height: 32px;">
 			</div>
 		</div>
 		<div class="row cl">
 			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2" style="position:
 relative">
-				<button onClick="article_save();" class="btn btn-primary radius" type="button"><i class="Hui-iconfont">&#xe632;</i> 确认提交 </button>
+				<input type="submit" class="btn btn-primary radius" name="button" value="确认提交" />
 				<button onClick="article_updata();" class="btn btn-primary radius" type="button"><i class="Hui-iconfont">&#xe632;</i> 更新会员资料 </button>
 				<div class="progress" id="updata" style="display: none;position: absolute;top: 10px;left:263px;"><div class="progress-bar" style="width: 351px"><span class="sr-only" id="updataSpan" style="width:0"></span></div></div>
 			</div>
@@ -207,7 +206,6 @@ function article_updata() {
      width+=35;
 		long(width)
     },500);
-
 }
 function long(width) {
         if(width<=351){
@@ -215,7 +213,6 @@ function long(width) {
 		}else{
             $("#updata").css("display","none");
 		}
-
 }
 	/*城市三级联动*/
     $(function(){
@@ -237,6 +234,9 @@ function long(width) {
         $("#province").ProvinceCity();
         $("#province").children("select").css("width","200");
         $("#province").children("select").attr("class","input-text");
+        $("#province").find("select.input-text").eq(0).attr("name","BDM_city1");
+        $("#province").find("select.input-text").eq(1).attr("name","BDM_city2");
+        $("#province").find("select.input-text").eq(2).attr("name","BDM_city3");
         $('.table-sort').dataTable({
             "aaSorting": [[ 0, "desc" ]],//默认第几个排序
             "bStateSave": true,//状态保存

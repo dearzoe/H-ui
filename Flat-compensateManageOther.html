@@ -1,0 +1,294 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" media="all" href="bootstrap-data/daterangepicker-bs3.css" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="lib/html5.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+<script type="text/javascript" src="lib/PIE_IE678.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/H-ui.admin.css" />
+<link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.7/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="lib/icheck/icheck.css" />
+<link rel="stylesheet" type="text/css" href="static/h-ui.admin/skin/default/skin.css" id="skin" />
+<link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/style.css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+</head>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 活动管理 <span class="c-gray en">&gt;</span> 平台管理 <span class="c-gray en">&gt;</span> 赔付管理 <span class="c-gray en">&gt;</span> 其他公司 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="page-container">
+	<form class="form form-horizontal demoform" style="margin-bottom: 15px">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">所属公司：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<span class="c-succes">中国人民财产保险股份有限公司 <img style="width:29px;height: 13px" src="temp/brand/u1602.png" alt=""></span><span style="padding: 0 20px 0 20px;font-weight: 700">
+				<span>区域：</span><span>华北地区</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>省市：</span><span>北京</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>其他公司</span>
+			</span>
+			</div>
+		</div>
+	</form>
+	<form class="form form-horizontal demoform" style="margin-bottom: 15px" id="FCMO_form" method="post" action="">
+		<div class="row cl" id="FCMO_muneKind">
+			<label class="form-label col-xs-4 col-sm-2">菜单类目：</label>
+			<div class="formControls col-xs-8 col-sm-9 skin-minimal">
+				<div class="radio-box">
+					<input type="radio" name="FCMO_muneKind">
+					<label for="FCMO_muneKind">购买人</label>
+				</div>
+				<div class="radio-box">
+					<input type="radio" name="FCMO_muneKind" checked>
+					<label for="FCMO_muneKind">车牌号</label>
+				</div>
+			</div>
+		</div>
+		<div class="row cl" id="FCMO_company">
+			<label class="form-label col-xs-4 col-sm-2">选择公司：</label>
+			<div class="formControls col-xs-8 col-sm-9 skin-minimal">
+				<div class="radio-box">
+					<input type="radio" name="FCMO_company">
+					<label for="FCMO_company">平安</label>
+				</div>
+				<div class="radio-box">
+					<input type="radio" name="FCMO_company" checked>
+					<label for="FCMO_company">太平洋</label>
+				</div>
+			</div>
+		</div>
+		<div class="row cl" id="FCMO_effect">
+			<label class="form-label col-xs-4 col-sm-2">当前状态：</label>
+			<div class="formControls col-xs-8 col-sm-9 skin-minimal">
+				<div class="radio-box">
+					<input type="radio"  name="FCMO_effect">
+					<label for="FCMO_effect">待审核&nbsp;&nbsp;&nbsp;</label>
+				</div>
+				<div class="radio-box">
+					<input type="radio"  name="FCMO_effect">
+					<label for="FCMO_effect">不通过&nbsp;&nbsp;&nbsp;</label>
+				</div>
+				<div class="radio-box">
+					<input type="radio"  name="FCMO_effect">
+					<label for="FCMO_effect">已通过，未支付&nbsp;&nbsp;&nbsp;</label>
+				</div>
+				<div class="radio-box">
+					<input type="radio"  name="FCMO_effect" checked>
+					<label for="FCMO_effect">结案</label>
+				</div>
+			</div>
+		</div>
+		<div class="row cl" id="FCMO_time">
+			<label class="form-label col-xs-4 col-sm-2">时间状态：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<div class="control-group">
+					<div class="controls">
+						<div class="input-prepend input-group">
+							<span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar fa fa-calendar"></i></span><input type="text" readonly="readonly" style="width: 200px" name="FCMO_time" id="reservation" class="form-control" value="2017-1-1 - 2017-2-2" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2" style="position:
+relative">
+				<input type="submit" class="btn btn-primary radius" name="button" value="确认添加" />
+			</div>
+		</div>
+	</form>
+	<div class="mt-20">
+		<div class="Huialert Huialert-success text-r">
+			<a style="text-decoration:none" class="btn btn-primary radius" onClick="saveAsExcel('tableid')" href="javascript:;" title="导出"> 导出Excel </a>
+		</div>
+	<div id="tab_demo" class="HuiTab">
+		<div class="tabBar cl">
+			<span class="btn btn-default ttt0"> 待审核 </span>
+			<span class="btn btn-default ttt1"> 待支付 </span>
+			<span class="btn btn-default ttt2"> 结案 </span>
+		</div>
+		<div class="tabCon" id="tabOne">
+			<div class="mt-20">
+				<table id="FCMO_tablePending" class="table table-border table-bordered table-bg table-hover table-sort">
+					<thead>
+					<tr class="text-c">
+						<th>申请时间</th>
+						<th>渠道类型</th>
+						<th>渠道名称</th>
+						<th>购买人</th>
+						<th>车牌号</th>
+						<th>手机号</th>
+						<th>报案号</th>
+						<th>生效时间</th>
+						<th>到期时间</th>
+						<th>剩余时间/出险率</th>
+						<th>当前状态</th>
+						<th>操作</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr class="text-c" id="FCMO_tablePending_tr">
+						<td>2017.06.06</td>
+						<td>4S店</td>
+						<td class="text-c">京现（北京现代）</td>
+						<td class="text-c">蒸蒸日上</td>
+						<td class="text-c">京NB8888</td>
+						<td class="text-c">13888888888</td>
+						<td class="text-c"></td>
+						<td class="text-c">2017.01.02</td>
+						<td class="text-c">2018.01.02</td>
+						<td class="text-c">150（58.9%）</td>
+						<td class="text-c td-state"><span class="label label-danger radius">待审核</span></td>
+						<td class="text-c td-status"><a onClick="product_start(this,10001)" class="label label-success radius">审核并推送</a></td>
+					</tr>
+					</tbody>
+				</table>
+		 	</div>
+		</div>
+		<div class="tabCon" id="tabTwo">
+			<div class="mt-20">
+				<table id="FCMO_tablePay" class="table table-border table-bordered table-bg table-hover table-sort">
+					<thead>
+					<tr class="text-c">
+						<th>申请时间</th>
+						<th>渠道类型</th>
+						<th>渠道名称</th>
+						<th>购买人</th>
+						<th>车牌号</th>
+						<th>手机号</th>
+						<th>报案号</th>
+						<th>生效时间</th>
+						<th>到期时间</th>
+						<th>剩余时间/出险率</th>
+						<th>当前状态</th>
+						<th>操作</th>
+					</tr>
+					</thead>
+					<tbody class="FCMO_tablePay" id="FCMO_tablePay_tr">
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="tabCon" id="tabThree">
+			<div class="mt-20">
+				<table id="FCMO_tableEnd" class="table table-border table-bordered table-bg table-hover table-sort">
+					<thead>
+					<tr class="text-c">
+						<th>申请时间</th>
+						<th>渠道类型</th>
+						<th>渠道名称</th>
+						<th>购买人</th>
+						<th>车牌号</th>
+						<th>手机号</th>
+						<th>报案号</th>
+						<th>生效时间</th>
+						<th>到期时间</th>
+						<th>剩余时间/出险率</th>
+						<th>当前状态</th>
+						<th>操作</th>
+					</tr>
+					</thead>
+					<tbody class="FCMO_tableEnd" id="FCMO_tableEnd_tr">
+
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script> 
+<script type="text/javascript" src="lib/layer/2.1/layer.js"></script>
+<script type="text/javascript" src="lib/icheck/jquery.icheck.min.js"></script>
+<script type="text/javascript" src="lib/My97DatePicker/WdatePicker.js"></script> 
+<script type="text/javascript" src="lib/datatables/1.10.0/jquery.dataTables.min.js"></script> 
+<script type="text/javascript" src="static/h-ui/js/H-ui.js"></script> 
+<script type="text/javascript" src="static/h-ui.admin/js/H-ui.admin.js"></script>
+<!--date-->
+<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="bootstrap-data/moment.min.js"></script>
+<script type="text/javascript" src="bootstrap-data/daterangepicker.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $.Huitab("#tab_demo .tabBar span","#tab_demo .tabCon","current","click","0");
+        $('.skin-minimal input').iCheck({
+            checkboxClass: 'icheckbox-blue',
+            radioClass: 'iradio-blue',
+            increaseArea: '20%'
+        });
+    });
+	/*受理*/
+    function product_start(obj,id){
+        layer.confirm('确认要审核并推送吗？',function(index){
+            //$(obj).remove();
+            var str="";
+            str+="<tr>";
+            str+=$("#FCMO_tablePending_tr").html()
+            str+="</tr>";
+            $("#FCMO_tablePay_tr").append(str);
+            $("#FCMO_tablePay_tr").find(".td-status").html('<a onClick="product_stop(this,10001)" class="label label-primary radius">确认支付</a>');
+            $("#FCMO_tablePay_tr").find(".td-state").html('<span class="label label-success radius">已审核</span>');
+            $("#FCMO_tablePending_tr").html("")
+            $("#FCMO_tablePay").find(".odd").remove();
+            $(".ttt0").attr("class","btn btn-default")
+            $(".ttt1").attr("class","btn btn-default current ttt1")
+            $("#tabOne").css("display","none");
+            $("#tabTwo").css("display","block");
+            layer.msg('已支付!',{icon: 6,time:1000});
+        });
+    }
+    function product_stop(obj,id){
+        layer.confirm('确认要结案吗？',function(index){
+            //$(obj).remove();
+            var str="";
+            str+="<tr>";
+            str+=$("#FCMO_tablePay_tr").html()
+            str+="</tr>";
+            $("#FCMO_tableEnd_tr").append(str);
+            $("#FCMO_tableEnd_tr").find(".td-status").html('<a  class="label label-default radius">重开</a>');
+            $("#FCMO_tableEnd_tr").find(".td-state").html('<span class="label label-primary radius">已支付</span>');
+            $("#FCMO_tablePay_tr").html("");
+            $("#FCMO_tableEnd").find(".odd").remove();
+            $(".ttt1").attr("class","btn btn-default")
+            $(".ttt2").attr("class","btn btn-default current")
+            $("#tabTwo").css("display","none");
+            $("#tabThree").css("display","block");
+            layer.msg('已结案!',{icon: 6,time:1000});
+        });
+    }
+	/*增加图文消息*/
+    function addPic(title,url,id,w,h){
+        layer_show(title,url,w,h);
+    }
+    function clearImg() {
+        document.getElementById('lableImg').setAttribute('src',
+            'temp/brand/2.jpg');
+    }
+	/*删除*/
+    function article_del(obj,id){
+        layer.confirm('确认要删除吗？',function(index){
+            $(obj).parents("tr").remove();
+            layer.msg('已删除!',{icon:1,time:1000});
+        });
+    }
+$('.table-sort').dataTable({
+	"aaSorting": [[ 0, "desc" ]],//默认第几个排序
+	"bStateSave": true,//状态保存
+	"aoColumnDefs": [
+	  //{"bVisible": false, "aTargets": [ 3 ]} //控制列的隐藏显示
+	  {"orderable":false,"aTargets":[]}// 制定列不参与排序
+	]
+});
+</script>
+
+
+</body>
+</html>

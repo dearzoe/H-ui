@@ -32,7 +32,7 @@
 <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 会员管理 <span class="c-gray en">&gt;</span> 会员卡续期处理 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
 <marquee behavior="" direction="" class="c-red">系统将于2016年10月10日18：00一2016年10月11日6：00维护升级，如有不便敬请谅解！！</marquee>
 <div class="page-container" style="padding: 0">
-	<form class="form form-horizontal demoform" style="margin-bottom: 15px" id="form-article-add">
+	<form class="form form-horizontal demoform" style="margin-bottom: 15px" id="MRP_form" method="post" action="Member-renewalProcess-1.html">
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-2">所属公司：</label>
 			<div class="formControls col-xs-8 col-sm-9">
@@ -49,26 +49,26 @@
 	<div class="Huialert Huialert-success text-r" style="height: 20px">
 		<div style="width: 200px;float: left">
 			<span style="font-weight: 800">当前会员总数：</span>
-			<span class="c-danger"> 8888 </span>
+			<span class="c-danger" name="MRP_memberAll"> 8888 </span>
 		</div>
 		<div style="width: 200px;float: left">
 			<span style="font-weight: 800">今日新增会员：</span>
-			<span class="c-danger"> 12 </span>
+			<span class="c-danger" name="MRP_memberTodayNew"> 12 </span>
 		</div>
 		<div style="width: 200px;float: left">
 			<span style="font-weight: 800">昨日新增会员：</span>
-			<span class="c-danger"> 12 </span>
+			<span class="c-danger" name="MRP_memberYesterdayNew"> 12 </span>
 		</div>
 		<div style="width: 200px;float: left">
 			<span style="font-weight: 800">待审核会员：</span>
-			<span class="c-danger"> 12 </span>
+			<span class="c-danger" name="MRP_memberPending"> 12 </span>
 		</div>
 	</div>
 	<div class="mt-20">
 		<div class="Huialert Huialert-success text-r">
 			<a style="text-decoration:none" class="btn btn-primary radius" onClick="saveAsExcel('tableid')" href="javascript:;" title="导出"> 导出Excel </a>
 		</div>
-		<table id="tableid1" class="table table-border table-bordered table-bg table-hover table-sort">
+		<table id="MRP_table" class="table table-border table-bordered table-bg table-hover table-sort">
 			<thead>
 			<tr class="text-c">
 				<th>会员号</th>
@@ -155,7 +155,7 @@
     }
     $(function () {
         $.Huitab("#tab_demo .tabBar span","#tab_demo .tabCon","current","click","0");
-    })
+    });
 
     /*推送*/
     function product_start(obj,id){
@@ -197,7 +197,7 @@ function long(width) {
 		}
         laydate({
             elem: '#demo'
-        })
+        });
         $("#tableCss")
         $("#province").ProvinceCity();
         $("#province").children("select").css("width","200");

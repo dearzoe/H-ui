@@ -32,7 +32,7 @@
 <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 会员管理 <span class="c-gray en">&gt;</span> 广告管理 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
 <marquee behavior="" direction="" class="c-red">系统将于2016年10月10日18：00一2016年10月11日6：00维护升级，如有不便敬请谅解！！</marquee>
 <div class="page-container">
-	<form class="form form-horizontal demoform" style="margin-bottom: 15px" id="form-article-add">
+	<form class="form form-horizontal demoform" style="margin-bottom: 15px" id="MADM_form">
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-2">所属公司：</label>
 			<div class="formControls col-xs-8 col-sm-9">
@@ -43,7 +43,7 @@
 			<label class="form-label col-xs-4 col-sm-2"> 归属选择： </label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
-					<select class="select" size="1" name="demo1">
+					<select class="select" size="1" name="MADM_area">
 						<option value="请选择" selected> 请选择 </option>
 						<option value="华东区域"> 华东区域 </option>
 						<option value="华南区域"> 华南区域 </option>
@@ -66,7 +66,7 @@
 			<label class="form-label col-xs-4 col-sm-2">归属公司：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
-					<select class="select" size="1" name="demo1">
+					<select class="select" size="1" name="MADM_company">
 						<option value="公司1" selected> 公司1 </option>
 						<option value="公司2" selected> 公司2 </option>
 						<option value="公司4" selected> 公司4 </option>
@@ -80,7 +80,7 @@
 			<label class="form-label col-xs-4 col-sm-2">归属部门：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
-					<select class="select" size="1" name="demo1">
+					<select class="select" size="1" name="MADM_department">
 						<option value="车商一部" selected> 车商一部 </option>
 						<option value="车商二部" selected> 车商二部 </option>
 						<option value="车商三部" selected> 车商三部 </option>
@@ -93,7 +93,7 @@
 			<label class="form-label col-xs-4 col-sm-2">汽车品牌：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
-					<select class="select" size="1" name="demo1">
+					<select class="select" size="1" name="MADM_brand">
 						<option value="品牌" selected> 品牌 </option>
 						<option value="所有" selected> 所有 </option>
 						<option value="奥迪" selected> 奥迪 </option>
@@ -108,7 +108,7 @@
 			<label class="form-label col-xs-4 col-sm-2">渠道类型：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
-					<select class="select" size="1" name="demo1">
+					<select class="select" size="1" name="MADM_channelType">
 						<option value="类型1" selected> 类型1 </option>
 						<option value="类型2" selected> 类型2 </option>
 						<option value="类型3" selected> 类型3 </option>
@@ -120,7 +120,7 @@
 			<label class="form-label col-xs-4 col-sm-2">渠道名称：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 600px">
-					<select class="select" size="1" name="demo1">
+					<select class="select" size="1" name="MADM_channelName">
 						<option value="渠道名称1" selected> 渠道名称1 </option>
 						<option value="渠道名称2" selected> 渠道名称2 </option>
 						<option value="渠道名称3" selected> 渠道名称3 </option>
@@ -137,8 +137,8 @@
 						<span>广告图一：</span>
 						<span class="btn-upload form-group" style="position: absolute;top: 0px;left: 305px;">
 											<span>链接地址：</span>
-  <input class="input-text upload-url" style="width: 150px;" type="text" name="uploadfile-1" id="uploadfile-1" readonly><a href="javascript:void();" class="btn btn-primary"><i class="Hui-iconfont">&#xe642;</i> 浏览 </a>
-  <input type="file" multiple name="file-1" class="input-file">
+  <input class="input-text upload-url" style="width: 150px;" type="text" name="uploadfile-1" id="MADM_img1" readonly><a href="javascript:void();" class="btn btn-primary"><i class="Hui-iconfont">&#xe642;</i> 浏览 </a>
+  <input type="file" multiple name="MADM_img1" class="input-file">
 </span>
 						<img src="" alt="" style="width: 200px;height: 30px">
 					</div>
@@ -147,8 +147,8 @@
 						<span>广告图二：</span>
 						<span class="btn-upload form-group" style="position: absolute;top: 0px;left: 305px;">
 											<span>链接地址：</span>
-  <input class="input-text upload-url" style="width: 150px;" type="text" name="uploadfile-1" id="uploadfile-1" readonly><a href="javascript:void();" class="btn btn-primary"><i class="Hui-iconfont">&#xe642;</i> 浏览 </a>
-  <input type="file" multiple name="file-1" class="input-file">
+  <input class="input-text upload-url" style="width: 150px;" type="text" name="uploadfile-1" id="MADM_img2" readonly><a href="javascript:void();" class="btn btn-primary"><i class="Hui-iconfont">&#xe642;</i> 浏览 </a>
+  <input type="file" multiple name="MADM_img2" class="input-file">
 </span>
 						<img src="" alt="" style="width: 200px;height: 30px">
 					</div>
@@ -157,8 +157,8 @@
 						<span>广告图三：</span>
 						<span class="btn-upload form-group" style="position: absolute;top: 0px;left: 305px;">
 											<span>链接地址：</span>
-  <input class="input-text upload-url" style="width: 150px;" type="text" name="uploadfile-1" id="uploadfile-1" readonly><a href="javascript:void();" class="btn btn-primary"><i class="Hui-iconfont">&#xe642;</i> 浏览 </a>
-  <input type="file" multiple name="file-1" class="input-file">
+  <input class="input-text upload-url" style="width: 150px;" type="text" name="uploadfile-1" id="MADM_img3" readonly><a href="javascript:void();" class="btn btn-primary"><i class="Hui-iconfont">&#xe642;</i> 浏览 </a>
+  <input type="file" multiple name="MADM_img3" class="input-file">
 </span>
 						<img src="" alt="" style="width: 200px;height: 30px">
 					</div>
@@ -167,8 +167,8 @@
 						<span>广告图四：</span>
 						<span class="btn-upload form-group" style="position: absolute;top: 0px;left: 305px;">
 											<span>链接地址：</span>
-  <input class="input-text upload-url" style="width: 150px;" type="text" name="uploadfile-1" id="uploadfile-1" readonly><a href="javascript:void();" class="btn btn-primary"><i class="Hui-iconfont">&#xe642;</i> 浏览 </a>
-  <input type="file" multiple name="file-1" class="input-file">
+  <input class="input-text upload-url" style="width: 150px;" type="text" name="uploadfile-1" id="MADM_img4" readonly><a href="javascript:void();" class="btn btn-primary"><i class="Hui-iconfont">&#xe642;</i> 浏览 </a>
+  <input type="file" multiple name="MADM_img4" class="input-file">
 </span>
 						<img src="" alt="" style="width: 200px;height: 30px">
 					</div>
@@ -177,8 +177,8 @@
 						<span>广告图五：</span>
 						<span class="btn-upload form-group" style="position: absolute;top: 0px;left: 305px;">
 											<span>链接地址：</span>
-  <input class="input-text upload-url" style="width: 150px;" type="text" name="uploadfile-1" id="uploadfile-1" readonly><a href="javascript:void();" class="btn btn-primary"><i class="Hui-iconfont">&#xe642;</i> 浏览 </a>
-  <input type="file" multiple name="file-1" class="input-file">
+  <input class="input-text upload-url" style="width: 150px;" type="text" name="uploadfile-1" id="MADM_img5" readonly><a href="javascript:void();" class="btn btn-primary"><i class="Hui-iconfont">&#xe642;</i> 浏览 </a>
+  <input type="file" multiple name="MADM_img5" class="input-file">
 </span>
 						<img src="" alt="" style="width: 200px;height: 30px">
 					</div>
@@ -189,7 +189,7 @@
 			<label class="form-label col-xs-4 col-sm-2"> 间隔时间设定： </label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<div class="select-box" style="width: 100px ">
-					<select class="select" size="1" name="demo1">
+					<select class="select" size="1" name="MADM_time">
 						<option value="0.5"> 0.5 </option>
 						<option value="1"> 1 </option>
 						<option value="1.5"> 1.5 </option>
@@ -209,7 +209,7 @@
 		<div class="row cl">
 			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2" style="position:
 relative">
-				<button onClick="article_save();" class="btn btn-primary radius" type="button"><i class="Hui-iconfont">&#xe632;</i> 确认提交 </button>
+				<input type="submit" class="btn btn-primary radius" name="button" value="确认提交" />
 				<button onClick="article_updata();" class="btn btn-primary radius" type="button"><i class="Hui-iconfont">&#xe632;</i> 更新会员资料 </button>
 				<div class="progress" id="updata" style="display: none;position: absolute;top: 10px;left:263px;"><div class="progress-bar" style="width: 351px"><span class="sr-only" id="updataSpan" style="width:0"></span></div></div>
 			</div>
@@ -250,6 +250,12 @@ relative">
         window.parent.location.reload();
     }
     $(function () {
+        $("#province").ProvinceCity();
+        $("#province").children("select").css("width","200");
+        $("#province").children("select").attr("class","input-text");
+        $("#province").find("select.input-text").eq(0).attr("name","MADM_city1");
+        $("#province").find("select.input-text").eq(1).attr("name","MADM_city2");
+        $("#province").find("select.input-text").eq(2).attr("name","MADM_city3");
         $.Huitab("#tab_demo .tabBar span","#tab_demo .tabCon","current","click","0");
         // 基于准备好的dom，初始化echarts图表
         var myChart = echarts.init(document.getElementById('main'));
@@ -356,9 +362,6 @@ function long(width) {
             elem: '#demo'
         })
         $("#tableCss")
-        $("#province").ProvinceCity();
-        $("#province").children("select").css("width","200");
-        $("#province").children("select").attr("class","input-text");
         $('.table-sort').dataTable({
             "aaSorting": [[ 0, "desc" ]],//默认第几个排序
             "bStateSave": true,//状态保存
@@ -367,7 +370,9 @@ function long(width) {
                 {"orderable":false,"aTargets":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]}// 制定列不参与排序
             ]
         });
+
     });
+
 	/*删除*/
     function article_del(obj,id){
         layer.confirm('确认要删除吗？',function(index){
