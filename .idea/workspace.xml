@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a3fc816-f8e1-4f66-86d1-326f0b8920f9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img_src.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Member-AD-management.html" afterPath="$PROJECT_DIR$/Member-AD-management.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -57,24 +57,45 @@
       <file leaf-file-name="Member-review.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Member-review.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1386">
+            <state relative-caret-position="22">
               <caret line="63" column="34" lean-forward="false" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Member-AD-management.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Member-AD-management.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Member-AD-management.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="256" column="39" lean-forward="false" selection-start-line="256" selection-start-column="39" selection-end-line="256" selection-end-column="39" />
+            <state relative-caret-position="202">
+              <caret line="180" column="29" lean-forward="false" selection-start-line="180" selection-start-column="21" selection-end-line="180" selection-end-column="29" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#8;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#8;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#8;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="img_src.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/img_src.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="watermark.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://E:/caj/cajkdhpdfzh/CAJUSE/CAJFonts/watermark.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -120,8 +141,8 @@
       <find>id=&quot;</find>
       <find>BIOM</find>
       <find>province</find>
-      <find>MADM_img1</find>
       <find>preview</find>
+      <find>MADM_img1</find>
     </findStrings>
     <replaceStrings>
       <replace>精选</replace>
@@ -162,7 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/form-add.html" />
         <option value="$PROJECT_DIR$/../A端（12.4)/frames/register/info.html" />
         <option value="$PROJECT_DIR$/../权限管理/Registration-channel.html" />
         <option value="$PROJECT_DIR$/../权限管理/Power-accountRightsAllocation.html" />
@@ -213,6 +233,7 @@
         <option value="$PROJECT_DIR$/Member-review.html" />
         <option value="$PROJECT_DIR$/Member-transferCard.html" />
         <option value="$PROJECT_DIR$/Member-AD-management.html" />
+        <option value="$PROJECT_DIR$/img_src.html" />
       </list>
     </option>
   </component>
@@ -279,6 +300,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="H-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="H-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="H-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="H-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="picture" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -286,7 +339,7 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/工快速启动具/node/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/caj/cajkdhpdfzh/CAJUSE/CAJFonts/watermark.jpg" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\工快速启动具\node\node.exe" />
@@ -420,7 +473,7 @@
       <workItem from="1484125723931" duration="3687000" />
       <workItem from="1484152765209" duration="5274000" />
       <workItem from="1484215143822" duration="3831000" />
-      <workItem from="1484309014748" duration="2225000" />
+      <workItem from="1484309014748" duration="4599000" />
     </task>
     <task id="LOCAL-00001" summary="copy">
       <created>1482912969066</created>
@@ -429,17 +482,24 @@
       <option name="project" value="LOCAL" />
       <updated>1482912969066</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="img—src">
+      <created>1484311354855</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1484311354855</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="277422000" />
+    <option name="totallyTimeSpent" value="279796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19940476" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12127976" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -483,7 +543,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="copy" />
-    <option name="LAST_COMMIT_MESSAGE" value="copy" />
+    <MESSAGE value="img—src" />
+    <option name="LAST_COMMIT_MESSAGE" value="img—src" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -492,34 +553,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Operate-moduleAnalysis.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../权限管理/Power-accountRightsAllocation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="274" column="4" lean-forward="false" selection-start-line="274" selection-start-column="4" selection-end-line="276" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flat-didiSynergism.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="34" column="6" lean-forward="false" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic-messageTemplateForDistribution.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../H-ui.admin_v2.5/picture-add.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -776,14 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Member-review.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="63" column="34" lean-forward="false" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Member-transferCard.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -802,14 +827,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Member-review.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="63" column="34" lean-forward="false" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/caj/cajkdhpdfzh/CAJUSE/CAJFonts/watermark.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/picture/throw.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/picture/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Member-AD-management.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="256" column="39" lean-forward="false" selection-start-line="256" selection-start-column="39" selection-end-line="256" selection-end-column="39" />
+        <state relative-caret-position="202">
+          <caret line="180" column="29" lean-forward="false" selection-start-line="180" selection-start-column="21" selection-end-line="180" selection-end-column="29" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#8;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#8;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#8;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img_src.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
