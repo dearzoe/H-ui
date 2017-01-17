@@ -12,7 +12,7 @@
     var status = "status"
     var curId,arrPL,selected
     var isStop,isLoop
-    arrPL = new Array()        //播放器列表
+    arrPL = new Array()  //播放器列表
     cur = 0
     curId = 0
     isStop = false
@@ -37,8 +37,7 @@
         document.getElementById(playid).controls.stop()
     }
     function showTimer(){
-        var cp=document.getElementById(playid).controls.currentPosition
-        var cps=document.getElementById(playid).controls.currentPositionString
+        var cp=document.getElementById(playid).controls.currentPosition        var cps=document.getElementById(playid).controls.currentPositionString
         var dur=document.getElementById(playid).currentMedia.duration;
         var durs=document.getElementById(playid).currentMedia.durationString;
         var s = document.getElementById(playid).playState
